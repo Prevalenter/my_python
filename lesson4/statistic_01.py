@@ -16,8 +16,7 @@ def statistic(txt,n):
     n_item.sort(reverse=True)
     item = [i[1] for i in n_item]
     #打印的前n个单词以及出现的频率
-    for i in range(n):
-        print(item[i])   
+    for i in range(n):print(item[i])   
 f=open('txt123.txt',encoding= 'utf-8')
 #read()对整个文本进行读取
 lines=f.read()
