@@ -1,0 +1,7 @@
+用循环/递归方法写一个斐波那契数列函数
+fib(4):
+return [1, 1, 2, 3]
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+对这个网页中出现的词进行词频统计，输出前十项
+# urllib

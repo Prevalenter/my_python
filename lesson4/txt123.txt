@@ -1,0 +1,4546 @@
+﻿Unofficial Windows Binaries for Python Extension Packages
+by Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine.
+This page provides 32- and 64-bit Windows binaries of many scientific open-source extension packages for the official CPython distribution of the Python programming language.
+The files are unofficial (meaning: informal, unrecognized, personal, unsupported, no warranty, no liability, provided "as is") and made available for testing and evaluation purposes.
+Most binaries are built from source code found on PyPI or in the projects public revision control systems. Source code changes, if any, have been submitted to the project maintainers or are included in the packages.
+Refer to the documentation of the individual packages for license restrictions and dependencies.
+If downloads fail, reload this page, enable JavaScript, disable download managers, disable proxies, clear cache, use Firefox, reduce number and frequency of downloads. Please only download files manually as needed.
+Use pip version 9 or newer to install the downloaded .whl files. This page is not a pip package index.
+Many binaries depend on numpy-1.13+mkl and the Microsoft Visual C++ 2008 (x64, x86, and SP1 for CPython 2.7), Visual C++ 2010 (x64, x86, for CPython 3.4), or the Visual C++ 2017 (x64 or x86 for CPython 3.5, 3.6, and 3.7) redistributable packages.
+Install numpy+mkl before other packages that depend on it.
+The binaries are compatible with the most recent official CPython distributions on Windows >=6.0. Chances are they do not work with custom Python distributions included with Blender, Maya, ArcGIS, OSGeo4W, ABAQUS, Cygwin, Pythonxy, Canopy, EPD, Anaconda, WinPython etc. Many binaries are not compatible with Windows XP or Wine.
+The packages are ZIP or 7z files, which allows for manual or scripted installation or repackaging of the content.
+The files are provided "as is" without warranty or support of any kind. The entire risk as to the quality and performance is with you.
+The opinions or statements expressed on this page should not be taken as a position or endorsement of the Laboratory for Fluorescence Dynamics or the University of California.
+Index by date: python-lz4 spyder jupyter pygit2 opencv sounddevice pymol aggdraw pylibtiff zstd bcolz line_profiler blosc numba llvmlite cobra swiglpk ruamel.yaml btrees zodbpickle pyfits zope.interface persistent cytoolz pyicu sqlalchemy fiona pywavelets scikit-learn scikit-image pyopengl pyopencl gdal mod_wsgi cx_oracle cx_freeze videocapture pygame netcdf4 pycuda pyproj basemap pyhdf pytables h5py pymatgen spglib boost.python spacy cupy fastrlock minepy fann2 pywin32 astropy psutil markupsafe pyzmq mistune lazy_object_proxy wrapt bottleneck cffi shapely gensim regex scipy numpy numexpr pandas pycurl tornado matplotlib pillow psycopg lxml cython yarl pyrsistent discretize bokeh pymongo aiohttp orange mercurial gpy rasterio moderngl tatsu quaternion ecos simplejson dipy pyldap xgboost python-snappy python-ldap llist tensorflow chaco enable pytiff enaml atom pgmagick iris holopy pyglet dulwich pycairo rpy2 mpi4py pycosat openimageio cellprofiler pyfm fastparquet coverage mahotas lightning indexed_gzip arctic pymvpa statsmodels multidict pyodbc obspy pyamg spectrum scikit-umfpack kiwisolver vlfd peewee pillow-simd openpiv tifffile scandir ode openexr pypmc twisted javabridge sfepy fastcache bsddb3 faulthandler debug-information-files babel czifile mkl-service scs veusz mysqlclient vtk fabio chompack cvxpy fastcluster quantlib yt wordcloud gr fisx gvar ad3 pulp entropy qutip sympy pygresql pylzma pycares pyemd py-lmdb logbook mayavi biopython zipline cchardet pyarrow pyflux scikit-misc gevent pycorrfit pyside netifaces vitables fdint hyperspy udunits kwant simpleitk vigra recordclass libsvm liblinear tinyarray grako kivy menpo pyfmi pyjnius imaged11 python-cjson triangle param meshpy thriftpy jcc lsqfit marisa-trie pyaudio trollius lru_dict zs py_gd liblas cartopy pythonnet cantera cairocffi scikit-fmm pymcubes salientdetect reportlab openbabel imread xxhash pyqpbo pystruct pycld2 pycifrw freeimagedll x86cpu fasttext scikits.odes transformations hddm nipy backports.lzma qimage2ndarray guiqwt qt_graph_helpers pyqwt pyqt4 multiprocess greenlet ets zarr iminuit apsw thrift jpype lp_solve libtfr pyswisseph rtree nitime pybox2d lfdfiles mathutils pyeda cvxopt pocketsphinx simpleaudio libsbml cvxcanon pyvrml97 ta-lib pythonmagick ujson yappi pyfltk pyfftw pyviennacl pyx pyephem planar akima vidsrc chebyfit psf fisher ffnet autopy slycot sparsesvd sasl twainmodule datrie cyordereddict cdecimal blz bigfloat aspell-python simpleparse milk setproctitle hmmlearn seqlearn jsonlib rtmidi-python heatmap scikits.vectorplot multineat py-earth mlpy pyminuit pymetis python-lzo python-levenshtein pystemmer ceodbc pymc pydde pycluster polygon cyassimp cyrasterize crc16 crcmod bsdiff4 blist bitarray assimulo flann winrandom pyhook pyspharm pyrxp natgrid noise nlopt pip sima pymca friture pycogent traits curses intbitset gmpy pymssql pyyaml msgpack pysqlite blaze scikits.audiolab la bazaar dynd genshi python-sundials glumpy pyamf libxml-python cellcognition pymcmc pyksvd python-igraph pybluez pygraphviz mxbase libpython re2 pymunk pygtk cgal-bindings bio_formats pysfml pyexiv2 pylibdeconv iocbio pymix umysql lazyflow mmlib cheetah scikits.timeseries casuarius wxpython ilastik quickfix pywcs scientificpython vpython nmoldyn mmtk pyalembic polymode scikits.delaunay cld py-fcm oursql zfec py2exe pymutt carray llvmpy cgkit pymedia scipy-cluster scikits.scattpy scikits.samplerate scikits.ann pyxml pytst delny mysql-python htseq pyusb-ftdi silvercity steps pysparse pyropes scikits.hydroclimpy sendkeys pydbg pyisapie
+ 
+AD3, Alternating Directions Dual Decomposition.
+ad3‑2.1‑cp27‑cp27m‑win32.whl
+ad3‑2.1‑cp27‑cp27m‑win_amd64.whl
+ad3‑2.1‑cp34‑cp34m‑win32.whl
+ad3‑2.1‑cp34‑cp34m‑win_amd64.whl
+ad3‑2.1‑cp35‑cp35m‑win32.whl
+ad3‑2.1‑cp35‑cp35m‑win_amd64.whl
+ad3‑2.1‑cp36‑cp36m‑win32.whl
+ad3‑2.1‑cp36‑cp36m‑win_amd64.whl
+Aggdraw, a high-quality graphics engine for PIL based on the Anti-Grain Geometry library.
+aggdraw‑1.2a3‑cp27‑cp27m‑win32.whl
+aggdraw‑1.2a3‑cp27‑cp27m‑win_amd64.whl
+aggdraw‑1.3‑cp27‑cp27m‑win32.whl
+aggdraw‑1.3‑cp27‑cp27m‑win_amd64.whl
+aggdraw‑1.3‑cp34‑cp34m‑win32.whl
+aggdraw‑1.3‑cp34‑cp34m‑win_amd64.whl
+aggdraw‑1.3‑cp35‑cp35m‑win32.whl
+aggdraw‑1.3‑cp35‑cp35m‑win_amd64.whl
+aggdraw‑1.3‑cp36‑cp36m‑win32.whl
+aggdraw‑1.3‑cp36‑cp36m‑win_amd64.whl
+aggdraw‑1.3‑cp37‑cp37m‑win32.whl
+aggdraw‑1.3‑cp37‑cp37m‑win_amd64.whl
+Aiohttp, a http client/server for asyncio.
+aiohttp‑2.3.6‑cp34‑cp34m‑win32.whl
+aiohttp‑2.3.6‑cp34‑cp34m‑win_amd64.whl
+aiohttp‑2.3.6‑cp35‑cp35m‑win32.whl
+aiohttp‑2.3.6‑cp35‑cp35m‑win_amd64.whl
+aiohttp‑2.3.6‑cp36‑cp36m‑win32.whl
+aiohttp‑2.3.6‑cp36‑cp36m‑win_amd64.whl
+Akima, interpolation of data points in a plane based on Akima's method.
+akima‑2015.1.29‑cp27‑none‑win32.whl
+akima‑2015.1.29‑cp27‑none‑win_amd64.whl
+akima‑2015.1.29‑cp34‑none‑win32.whl
+akima‑2015.1.29‑cp34‑none‑win_amd64.whl
+akima‑2015.1.29‑cp35‑none‑win32.whl
+akima‑2015.1.29‑cp35‑none‑win_amd64.whl
+akima‑2015.1.29‑cp36‑cp36m‑win32.whl
+akima‑2015.1.29‑cp36‑cp36m‑win_amd64.whl
+APSW, another Python SQLite wrapper.
+apsw‑3.16.2.post1‑cp27‑cp27m‑win32.whl
+apsw‑3.16.2.post1‑cp27‑cp27m‑win_amd64.whl
+apsw‑3.16.2.post1‑cp34‑cp34m‑win32.whl
+apsw‑3.16.2.post1‑cp34‑cp34m‑win_amd64.whl
+apsw‑3.16.2.post1‑cp35‑cp35m‑win32.whl
+apsw‑3.16.2.post1‑cp35‑cp35m‑win_amd64.whl
+apsw‑3.16.2.post1‑cp36‑cp36m‑win32.whl
+apsw‑3.16.2.post1‑cp36‑cp36m‑win_amd64.whl
+Arctic, a high performance datastore for time series and tick data.
+arctic‑1.55.0‑cp27‑cp27m‑win32.whl
+arctic‑1.55.0‑cp27‑cp27m‑win_amd64.whl
+arctic‑1.55.0‑cp34‑cp34m‑win32.whl
+arctic‑1.55.0‑cp34‑cp34m‑win_amd64.whl
+arctic‑1.55.0‑cp35‑cp35m‑win32.whl
+arctic‑1.55.0‑cp35‑cp35m‑win_amd64.whl
+arctic‑1.55.0‑cp36‑cp36m‑win32.whl
+arctic‑1.55.0‑cp36‑cp36m‑win_amd64.whl
+Aspell-python bindings for GNU Aspell.
+Using the LyX fork.
+aspell_python‑1.15‑cp27‑cp27m‑win32.whl
+aspell_python‑1.15‑cp27‑cp27m‑win_amd64.whl
+aspell_python‑1.15‑cp34‑cp34m‑win32.whl
+aspell_python‑1.15‑cp34‑cp34m‑win_amd64.whl
+aspell_python‑1.15‑cp35‑cp35m‑win32.whl
+aspell_python‑1.15‑cp35‑cp35m‑win_amd64.whl
+aspell_python‑1.15‑cp36‑cp36m‑win32.whl
+aspell_python‑1.15‑cp36‑cp36m‑win_amd64.whl
+Assimulo, a package for solving ordinary differential equations.
+Requires numpy+mkl.
+Assimulo‑2.9‑cp27‑cp27m‑win32.whl
+Assimulo‑2.9‑cp27‑cp27m‑win_amd64.whl
+Assimulo‑2.9‑cp34‑cp34m‑win32.whl
+Assimulo‑2.9‑cp34‑cp34m‑win_amd64.whl
+Assimulo‑2.9‑cp35‑cp35m‑win32.whl
+Assimulo‑2.9‑cp35‑cp35m‑win_amd64.whl
+Assimulo‑2.9‑cp36‑cp36m‑win32.whl
+Assimulo‑2.9‑cp36‑cp36m‑win_amd64.whl
+Astropy, a core package for astronomy.
+astropy‑2.0.3‑cp27‑cp27m‑win32.whl
+astropy‑2.0.3‑cp27‑cp27m‑win_amd64.whl
+astropy‑2.0.3‑cp34‑cp34m‑win32.whl
+astropy‑2.0.3‑cp34‑cp34m‑win_amd64.whl
+astropy‑2.0.3‑cp35‑cp35m‑win32.whl
+astropy‑2.0.3‑cp35‑cp35m‑win_amd64.whl
+astropy‑2.0.3‑cp36‑cp36m‑win32.whl
+astropy‑2.0.3‑cp36‑cp36m‑win_amd64.whl
+astropy‑2.0.3‑cp37‑cp37m‑win32.whl
+astropy‑2.0.3‑cp37‑cp37m‑win_amd64.whl
+Atom, memory efficient Python objects.
+This package conflicts with Google's gdata.
+atom‑0.4.0‑cp27‑cp27m‑win32.whl
+atom‑0.4.0‑cp27‑cp27m‑win_amd64.whl
+atom‑0.4.0‑cp34‑cp34m‑win32.whl
+atom‑0.4.0‑cp34‑cp34m‑win_amd64.whl
+atom‑0.4.0‑cp35‑cp35m‑win32.whl
+atom‑0.4.0‑cp35‑cp35m‑win_amd64.whl
+atom‑0.4.0‑cp36‑cp36m‑win32.whl
+atom‑0.4.0‑cp36‑cp36m‑win_amd64.whl
+AutoPy, a GUI automation toolkit.
+autopy‑0.51‑cp27‑cp27m‑win32.whl
+autopy‑0.51‑cp27‑cp27m‑win_amd64.whl
+autopy3‑0.51.1‑cp34‑cp34m‑win32.whl
+autopy3‑0.51.1‑cp34‑cp34m‑win_amd64.whl
+autopy3‑0.51.1‑cp35‑cp35m‑win32.whl
+autopy3‑0.51.1‑cp35‑cp35m‑win_amd64.whl
+autopy3‑0.51.1‑cp36‑cp36m‑win32.whl
+autopy3‑0.51.1‑cp36‑cp36m‑win_amd64.whl
+Babel, tools for internationalizing Python applications.
+Babel‑2.4.0‑py2‑none‑any.whl
+Babel‑2.4.0‑py3‑none‑any.whl
+Babel‑2.5.1‑py2‑none‑any.whl
+Babel‑2.5.1‑py3‑none‑any.whl
+Backports.lzma, a backport of Python 3.3's lzma module.
+backports.lzma‑0.0.8‑cp27‑cp27m‑win32.whl
+backports.lzma‑0.0.8‑cp27‑cp27m‑win_amd64.whl
+backports.lzma‑0.0.8‑cp34‑cp34m‑win32.whl
+backports.lzma‑0.0.8‑cp34‑cp34m‑win_amd64.whl
+backports.lzma‑0.0.8‑cp35‑cp35m‑win32.whl
+backports.lzma‑0.0.8‑cp35‑cp35m‑win_amd64.whl
+backports.lzma‑0.0.8‑cp36‑cp36m‑win32.whl
+backports.lzma‑0.0.8‑cp36‑cp36m‑win_amd64.whl
+Basemap, a matplotlib toolkit for plotting 2D data on maps based on GEOS.
+Requires pyproj.
+basemap‑1.1.0‑cp27‑cp27m‑win32.whl
+basemap‑1.1.0‑cp27‑cp27m‑win_amd64.whl
+basemap‑1.1.0‑cp34‑cp34m‑win32.whl
+basemap‑1.1.0‑cp34‑cp34m‑win_amd64.whl
+basemap‑1.1.0‑cp35‑cp35m‑win32.whl
+basemap‑1.1.0‑cp35‑cp35m‑win_amd64.whl
+basemap‑1.1.0‑cp36‑cp36m‑win32.whl
+basemap‑1.1.0‑cp36‑cp36m‑win_amd64.whl
+basemap‑1.1.0‑cp37‑cp37m‑win32.whl
+basemap‑1.1.0‑cp37‑cp37m‑win_amd64.whl
+Bazaar, a version control system.
+bzr‑2.7.0‑cp27‑cp27m‑win32.whl
+bzr‑2.7.0‑cp27‑cp27m‑win_amd64.whl
+Bcolz provides columnar and compressed data containers.
+bcolz‑1.1.2‑cp27‑cp27m‑win32.whl
+bcolz‑1.1.2‑cp27‑cp27m‑win_amd64.whl
+bcolz‑1.1.2‑cp34‑cp34m‑win32.whl
+bcolz‑1.1.2‑cp34‑cp34m‑win_amd64.whl
+bcolz‑1.1.2‑cp35‑cp35m‑win32.whl
+bcolz‑1.1.2‑cp35‑cp35m‑win_amd64.whl
+bcolz‑1.1.2‑cp36‑cp36m‑win32.whl
+bcolz‑1.1.2‑cp36‑cp36m‑win_amd64.whl
+bcolz‑1.1.2‑cp37‑cp37m‑win32.whl
+bcolz‑1.1.2‑cp37‑cp37m‑win_amd64.whl
+Bigfloat, arbitrary precision correctly-rounded floating point arithmetic, via MPFR.
+Superseded by gmpy2.
+bigfloat‑0.3.0‑cp27‑cp27m‑win32.whl
+bigfloat‑0.3.0‑cp27‑cp27m‑win_amd64.whl
+bigfloat‑0.3.0‑cp34‑cp34m‑win32.whl
+bigfloat‑0.3.0‑cp34‑cp34m‑win_amd64.whl
+bigfloat‑0.3.0‑cp35‑cp35m‑win32.whl
+bigfloat‑0.3.0‑cp35‑cp35m‑win_amd64.whl
+bigfloat‑0.3.0‑cp36‑cp36m‑win32.whl
+bigfloat‑0.3.0‑cp36‑cp36m‑win_amd64.whl
+Bio_formats (experimental), a JCC generated wrapper for the Bio-Formats and SCIFIO Java libraries.
+Requires Java SE 8 and JVM.DLL in the PATH.
+bio_formats‑4.4.12+jdk8‑cp27‑none‑win32.whl
+bio_formats‑4.4.12+jdk8‑cp27‑none‑win_amd64.whl
+Biopython, a set of tools for biological computation.
+biopython‑1.70‑cp27‑cp27m‑win32.whl
+biopython‑1.70‑cp27‑cp27m‑win_amd64.whl
+biopython‑1.70‑cp34‑cp34m‑win32.whl
+biopython‑1.70‑cp34‑cp34m‑win_amd64.whl
+biopython‑1.70‑cp35‑cp35m‑win32.whl
+biopython‑1.70‑cp35‑cp35m‑win_amd64.whl
+biopython‑1.70‑cp36‑cp36m‑win32.whl
+biopython‑1.70‑cp36‑cp36m‑win_amd64.whl
+Bitarray provides an object type which efficiently represents an array of booleans.
+bitarray‑0.8.1‑cp27‑cp27m‑win32.whl
+bitarray‑0.8.1‑cp27‑cp27m‑win_amd64.whl
+bitarray‑0.8.1‑cp34‑cp34m‑win32.whl
+bitarray‑0.8.1‑cp34‑cp34m‑win_amd64.whl
+bitarray‑0.8.1‑cp35‑cp35m‑win32.whl
+bitarray‑0.8.1‑cp35‑cp35m‑win_amd64.whl
+bitarray‑0.8.1‑cp36‑cp36m‑win32.whl
+bitarray‑0.8.1‑cp36‑cp36m‑win_amd64.whl
+Blaze translates NumPy/Pandas-like syntax to systems like databases.
+blaze‑0.10.1‑py2.py3‑none‑any.whl
+datashape‑0.5.2‑py2.py3‑none‑any.whl
+odo‑0.5.0‑py2.py3‑none‑any.whl
+Blist, a list-like type with better performance for large lists.
+blist‑1.3.6‑cp27‑cp27m‑win32.whl
+blist‑1.3.6‑cp27‑cp27m‑win_amd64.whl
+blist‑1.3.6‑cp34‑cp34m‑win32.whl
+blist‑1.3.6‑cp34‑cp34m‑win_amd64.whl
+blist‑1.3.6‑cp35‑cp35m‑win32.whl
+blist‑1.3.6‑cp35‑cp35m‑win_amd64.whl
+blist‑1.3.6‑cp36‑cp36m‑win32.whl
+blist‑1.3.6‑cp36‑cp36m‑win_amd64.whl
+Blosc, a high performance compressor optimized for binary data.
+blosc‑1.5.1‑cp27‑cp27m‑win32.whl
+blosc‑1.5.1‑cp27‑cp27m‑win_amd64.whl
+blosc‑1.5.1‑cp34‑cp34m‑win32.whl
+blosc‑1.5.1‑cp34‑cp34m‑win_amd64.whl
+blosc‑1.5.1‑cp35‑cp35m‑win32.whl
+blosc‑1.5.1‑cp35‑cp35m‑win_amd64.whl
+blosc‑1.5.1‑cp36‑cp36m‑win32.whl
+blosc‑1.5.1‑cp36‑cp36m‑win_amd64.whl
+blosc‑1.5.1‑cp37‑cp37m‑win32.whl
+blosc‑1.5.1‑cp37‑cp37m‑win_amd64.whl
+Blz, a chunked, compressed, data container (for memory and disk).
+blz‑0.6.2‑cp27‑cp27m‑win32.whl
+blz‑0.6.2‑cp27‑cp27m‑win_amd64.whl
+blz‑0.6.2‑cp34‑cp34m‑win32.whl
+blz‑0.6.2‑cp34‑cp34m‑win_amd64.whl
+blz‑0.6.2‑cp35‑cp35m‑win32.whl
+blz‑0.6.2‑cp35‑cp35m‑win_amd64.whl
+blz‑0.6.2‑cp36‑cp36m‑win32.whl
+blz‑0.6.2‑cp36‑cp36m‑win_amd64.whl
+Bokeh, an implementation of the Grammar of Graphics for output to the HTML5 Canvas.
+Requires many dependencies.
+bokeh‑0.12.13‑py2.py3‑none‑any.whl
+Boost.Python enables seamless interoperability between C++ and Python.
+boost_python‑1.65.1‑cp27‑cp27m‑win32.whl
+boost_python‑1.65.1‑cp27‑cp27m‑win_amd64.whl
+boost_python‑1.65.1‑cp34‑cp34m‑win32.whl
+boost_python‑1.65.1‑cp34‑cp34m‑win_amd64.whl
+boost_python‑1.65.1‑cp35‑cp35m‑win32.whl
+boost_python‑1.65.1‑cp35‑cp35m‑win_amd64.whl
+boost_python‑1.65.1‑cp36‑cp36m‑win32.whl
+boost_python‑1.65.1‑cp36‑cp36m‑win_amd64.whl
+boost_python‑1.65.1‑cp37‑cp37m‑win32.whl
+boost_python‑1.65.1‑cp37‑cp37m‑win_amd64.whl
+Bottleneck provides fast NumPy array functions written in Cython.
+Bottleneck‑1.2.1‑cp27‑cp27m‑win32.whl
+Bottleneck‑1.2.1‑cp27‑cp27m‑win_amd64.whl
+Bottleneck‑1.2.1‑cp34‑cp34m‑win32.whl
+Bottleneck‑1.2.1‑cp34‑cp34m‑win_amd64.whl
+Bottleneck‑1.2.1‑cp35‑cp35m‑win32.whl
+Bottleneck‑1.2.1‑cp35‑cp35m‑win_amd64.whl
+Bottleneck‑1.2.1‑cp36‑cp36m‑win32.whl
+Bottleneck‑1.2.1‑cp36‑cp36m‑win_amd64.whl
+Bottleneck‑1.2.1‑cp37‑cp37m‑win32.whl
+Bottleneck‑1.2.1‑cp37‑cp37m‑win_amd64.whl
+Bsddb3, bindings for the Oracle Berkeley DB database. Linked to db-5.3.28.
+bsddb3‑6.2.5‑cp27‑cp27m‑win32.whl
+bsddb3‑6.2.5‑cp27‑cp27m‑win_amd64.whl
+bsddb3‑6.2.5‑cp34‑cp34m‑win32.whl
+bsddb3‑6.2.5‑cp34‑cp34m‑win_amd64.whl
+bsddb3‑6.2.5‑cp35‑cp35m‑win32.whl
+bsddb3‑6.2.5‑cp35‑cp35m‑win_amd64.whl
+bsddb3‑6.2.5‑cp36‑cp36m‑win32.whl
+bsddb3‑6.2.5‑cp36‑cp36m‑win_amd64.whl
+Bsdiff4, binary diff and patch using the BSDIFF4-format.
+bsdiff4‑1.1.4‑cp27‑cp27m‑win32.whl
+bsdiff4‑1.1.4‑cp27‑cp27m‑win_amd64.whl
+bsdiff4‑1.1.4‑cp34‑cp34m‑win32.whl
+bsdiff4‑1.1.4‑cp34‑cp34m‑win_amd64.whl
+bsdiff4‑1.1.4‑cp35‑cp35m‑win32.whl
+bsdiff4‑1.1.4‑cp35‑cp35m‑win_amd64.whl
+bsdiff4‑1.1.4‑cp36‑cp36m‑win32.whl
+bsdiff4‑1.1.4‑cp36‑cp36m‑win_amd64.whl
+BTrees, scalable persistent object containers.
+BTrees‑4.4.1‑cp27‑cp27m‑win32.whl
+BTrees‑4.4.1‑cp27‑cp27m‑win_amd64.whl
+BTrees‑4.4.1‑cp34‑cp34m‑win32.whl
+BTrees‑4.4.1‑cp34‑cp34m‑win_amd64.whl
+BTrees‑4.4.1‑cp35‑cp35m‑win32.whl
+BTrees‑4.4.1‑cp35‑cp35m‑win_amd64.whl
+BTrees‑4.4.1‑cp36‑cp36m‑win32.whl
+BTrees‑4.4.1‑cp36‑cp36m‑win_amd64.whl
+BTrees‑4.4.1‑cp37‑cp37m‑win32.whl
+BTrees‑4.4.1‑cp37‑cp37m‑win_amd64.whl
+Cairocffi, CFFI-based bindings for the cairo graphics library.
+GDK-PixBuf is not supported by this distribution.
+cairocffi‑0.8.0‑cp27‑cp27m‑win32.whl
+cairocffi‑0.8.0‑cp27‑cp27m‑win_amd64.whl
+cairocffi‑0.8.0‑cp34‑cp34m‑win32.whl
+cairocffi‑0.8.0‑cp34‑cp34m‑win_amd64.whl
+cairocffi‑0.8.0‑cp35‑cp35m‑win32.whl
+cairocffi‑0.8.0‑cp35‑cp35m‑win_amd64.whl
+cairocffi‑0.8.0‑cp36‑cp36m‑win32.whl
+cairocffi‑0.8.0‑cp36‑cp36m‑win_amd64.whl
+Cantera, a tool suite for chemical kinetics, thermodynamics, and transport.
+Requires numpy+mkl.
+Cantera‑2.2.1‑cp27‑cp27m‑win32.whl
+Cantera‑2.2.1‑cp27‑cp27m‑win_amd64.whl
+Cantera‑2.2.1‑cp34‑cp34m‑win32.whl
+Cantera‑2.2.1‑cp34‑cp34m‑win_amd64.whl
+Cantera‑2.3.0‑cp35‑cp35m‑win32.whl
+Cantera‑2.3.0‑cp35‑cp35m‑win_amd64.whl
+Cantera‑2.3.0‑cp36‑cp36m‑win32.whl
+Cantera‑2.3.0‑cp36‑cp36m‑win_amd64.whl
+Carray, a chunked data container that can be compressed in-memory.
+carray‑0.5.1‑cp27‑none‑win32.whl
+carray‑0.5.1‑cp27‑none‑win_amd64.whl
+Cartopy, a library providing cartographic tools.
+Cartopy‑0.15.1‑cp27‑cp27m‑win32.whl
+Cartopy‑0.15.1‑cp27‑cp27m‑win_amd64.whl
+Cartopy‑0.15.1‑cp34‑cp34m‑win32.whl
+Cartopy‑0.15.1‑cp34‑cp34m‑win_amd64.whl
+Cartopy‑0.15.1‑cp35‑cp35m‑win32.whl
+Cartopy‑0.15.1‑cp35‑cp35m‑win_amd64.whl
+Cartopy‑0.15.1‑cp36‑cp36m‑win32.whl
+Cartopy‑0.15.1‑cp36‑cp36m‑win_amd64.whl
+Casuarius, bindings for the Cassowary constraint solving toolkit.
+casuarius‑1.1‑cp27‑none‑win32.whl
+casuarius‑1.1‑cp27‑none‑win_amd64.whl
+cChardet, a universal character encoding detector - binding to libcharsetdetect.
+cchardet‑2.1.1‑cp27‑cp27m‑win32.whl
+cchardet‑2.1.1‑cp27‑cp27m‑win_amd64.whl
+cchardet‑2.1.1‑cp34‑cp34m‑win32.whl
+cchardet‑2.1.1‑cp34‑cp34m‑win_amd64.whl
+cchardet‑2.1.1‑cp35‑cp35m‑win32.whl
+cchardet‑2.1.1‑cp35‑cp35m‑win_amd64.whl
+cchardet‑2.1.1‑cp36‑cp36m‑win32.whl
+cchardet‑2.1.1‑cp36‑cp36m‑win_amd64.whl
+Cdecimal, a package for correctly-rounded arbitrary precision decimal floating point arithmetic.
+cdecimal‑2.3‑cp27‑cp27m‑win32.whl
+cdecimal‑2.3‑cp27‑cp27m‑win_amd64.whl
+cdecimal‑2.3‑cp34‑cp34m‑win32.whl
+cdecimal‑2.3‑cp34‑cp34m‑win_amd64.whl
+cdecimal‑2.3‑cp35‑cp35m‑win32.whl
+cdecimal‑2.3‑cp35‑cp35m‑win_amd64.whl
+cdecimal‑2.3‑cp36‑cp36m‑win32.whl
+cdecimal‑2.3‑cp36‑cp36m‑win_amd64.whl
+CellCognition, an image analysis framework for fluorescence time-lapse microscopy.
+Requires numpy+mkl, scipy, matplotlib, pyqt4, libsvm, vigra, qimage2ndarray, h5py, pandas and scikit-learn.
+CellCognition‑1.5.2‑cp27‑none‑win32.whl
+CellCognition‑1.5.2‑cp27‑none‑win_amd64.whl
+cellh5‑1.2.0‑py2‑none‑any.whl
+cellh5‑1.3.0‑py2‑none‑any.whl
+CellProfiler is software for quantitative analysis of biological images.
+Requires numpy+mkl, scipy, matplotlib, wxpython, h5py, vigra, mysqldb, pillow, and whatnot.
+CellProfiler‑2.2.0‑py2‑none‑any.whl
+CellProfiler‑3.0.0‑py2‑none‑any.whl
+ceODBC enables access to databases using the ODBC API.
+ceODBC‑2.0.1‑cp27‑cp27m‑win32.whl
+ceODBC‑2.0.1‑cp27‑cp27m‑win_amd64.whl
+ceODBC‑2.0.1‑cp34‑cp34m‑win32.whl
+ceODBC‑2.0.1‑cp34‑cp34m‑win_amd64.whl
+ceODBC‑2.0.1‑cp35‑cp35m‑win32.whl
+ceODBC‑2.0.1‑cp35‑cp35m‑win_amd64.whl
+ceODBC‑2.0.1‑cp36‑cp36m‑win32.whl
+ceODBC‑2.0.1‑cp36‑cp36m‑win_amd64.whl
+Cffi, a Foreign Function Interface for calling C code.
+Requires pycparser.
+cffi‑1.11.2‑cp27‑cp27m‑win32.whl
+cffi‑1.11.2‑cp27‑cp27m‑win_amd64.whl
+cffi‑1.11.2‑cp34‑cp34m‑win32.whl
+cffi‑1.11.2‑cp34‑cp34m‑win_amd64.whl
+cffi‑1.11.2‑cp35‑cp35m‑win32.whl
+cffi‑1.11.2‑cp35‑cp35m‑win_amd64.whl
+cffi‑1.11.2‑cp36‑cp36m‑win32.whl
+cffi‑1.11.2‑cp36‑cp36m‑win_amd64.whl
+cffi‑1.11.2‑cp37‑cp37m‑win32.whl
+cffi‑1.11.2‑cp37‑cp37m‑win_amd64.whl
+CGAL-bindings, bindings for the Computational Geometry Algorithms Library.
+cgal_bindings‑4.4‑cp27‑none‑win32.whl
+cgal_bindings‑4.4‑cp27‑none‑win_amd64.whl
+cgal_bindings‑4.4‑cp34‑none‑win32.whl
+cgal_bindings‑4.4‑cp34‑none‑win_amd64.whl
+Cgkit, the Computer Graphics Kit, is useful for dealing with 3D data of any kind.
+cgkit‑2.0.0‑cp27‑none‑win32.whl
+cgkit‑2.0.0‑cp27‑none‑win_amd64.whl
+cgkit‑2.0.0‑cp34‑none‑win32.whl
+cgkit‑2.0.0‑cp34‑none‑win_amd64.whl
+Chaco, building interactive and custom 2-D plots.
+Part of the Enthought Tool Suite.
+chaco‑4.7.1‑cp27‑cp27m‑win32.whl
+chaco‑4.7.1‑cp27‑cp27m‑win_amd64.whl
+chaco‑4.7.1‑cp34‑cp34m‑win32.whl
+chaco‑4.7.1‑cp34‑cp34m‑win_amd64.whl
+chaco‑4.7.1‑cp35‑cp35m‑win32.whl
+chaco‑4.7.1‑cp35‑cp35m‑win_amd64.whl
+chaco‑4.7.1‑cp36‑cp36m‑win32.whl
+chaco‑4.7.1‑cp36‑cp36m‑win_amd64.whl
+Chebyfit, fit multiple exponential and harmonic functions using Chebyshev polynomials.
+chebyfit‑2015.3.19‑cp27‑none‑win32.whl
+chebyfit‑2015.3.19‑cp27‑none‑win_amd64.whl
+chebyfit‑2015.3.19‑cp34‑none‑win32.whl
+chebyfit‑2015.3.19‑cp34‑none‑win_amd64.whl
+chebyfit‑2015.3.19‑cp35‑none‑win32.whl
+chebyfit‑2015.3.19‑cp35‑none‑win_amd64.whl
+chebyfit‑2015.3.19‑cp36‑cp36m‑win32.whl
+chebyfit‑2015.3.19‑cp36‑cp36m‑win_amd64.whl
+Cheetah, a template engine and code generation tool.
+Cheetah‑2.4.4‑cp27‑none‑win32.whl
+Cheetah‑2.4.4‑cp27‑none‑win_amd64.whl
+Chompack, a library for chordal matrix computations.
+chompack‑2.3.2‑cp35‑cp35m‑win32.whl
+chompack‑2.3.2‑cp35‑cp35m‑win_amd64.whl
+chompack‑2.3.2‑cp36‑cp36m‑win32.whl
+chompack‑2.3.2‑cp36‑cp36m‑win_amd64.whl
+CLD wraps Chromium's Compact Language Detector library.
+cld‑0.31415‑cp27‑none‑win32.whl
+cld‑0.31415‑cp27‑none‑win_amd64.whl
+COBRA, a package for constraints-based modeling of biological networks.
+cobra‑0.10.1‑py2.py3‑none‑any.whl
+cobra‑0.9.1‑cp27‑cp27m‑win32.whl
+cobra‑0.9.1‑cp27‑cp27m‑win_amd64.whl
+cobra‑0.9.1‑cp34‑cp34m‑win32.whl
+cobra‑0.9.1‑cp34‑cp34m‑win_amd64.whl
+cobra‑0.9.1‑cp35‑cp35m‑win32.whl
+cobra‑0.9.1‑cp35‑cp35m‑win_amd64.whl
+cobra‑0.9.1‑cp36‑cp36m‑win32.whl
+cobra‑0.9.1‑cp36‑cp36m‑win_amd64.whl
+Coverage measures code coverage of programs during test execution.
+coverage‑4.4.2‑cp27‑cp27m‑win32.whl
+coverage‑4.4.2‑cp27‑cp27m‑win_amd64.whl
+coverage‑4.4.2‑cp34‑cp34m‑win32.whl
+coverage‑4.4.2‑cp34‑cp34m‑win_amd64.whl
+coverage‑4.4.2‑cp35‑cp35m‑win32.whl
+coverage‑4.4.2‑cp35‑cp35m‑win_amd64.whl
+coverage‑4.4.2‑cp36‑cp36m‑win32.whl
+coverage‑4.4.2‑cp36‑cp36m‑win_amd64.whl
+Crc16 calculates CRC16 (Cyclic Redundancy Check).
+crc16‑0.1.1‑cp27‑cp27m‑win32.whl
+crc16‑0.1.1‑cp27‑cp27m‑win_amd64.whl
+crc16‑0.1.1‑cp34‑cp34m‑win32.whl
+crc16‑0.1.1‑cp34‑cp34m‑win_amd64.whl
+crc16‑0.1.1‑cp35‑cp35m‑win32.whl
+crc16‑0.1.1‑cp35‑cp35m‑win_amd64.whl
+crc16‑0.1.1‑cp36‑cp36m‑win32.whl
+crc16‑0.1.1‑cp36‑cp36m‑win_amd64.whl
+Crcmod computes Cyclic Redundancy Checks (CRC).
+crcmod‑1.7‑cp27‑cp27m‑win32.whl
+crcmod‑1.7‑cp27‑cp27m‑win_amd64.whl
+crcmod‑1.7‑cp34‑cp34m‑win32.whl
+crcmod‑1.7‑cp34‑cp34m‑win_amd64.whl
+crcmod‑1.7‑cp35‑cp35m‑win32.whl
+crcmod‑1.7‑cp35‑cp35m‑win_amd64.whl
+crcmod‑1.7‑cp36‑cp36m‑win32.whl
+crcmod‑1.7‑cp36‑cp36m‑win_amd64.whl
+Cupy, a NumPy-like API accelerated with CUDA.
+Requires CUDA 9 and CUDNN.
+cupy‑2.2.0+cuda9185‑cp35‑cp35m‑win_amd64.whl
+cupy‑2.2.0+cuda9185‑cp36‑cp36m‑win_amd64.whl
+cupy‑2.2.0+cuda9185‑cp37‑cp37m‑win_amd64.whl
+Curses, an extension based on the PDCurses library.
+Unicode characters are not supported.
+curses‑2.2‑cp27‑none‑win32.whl
+curses‑2.2‑cp27‑none‑win_amd64.whl
+curses‑2.2‑cp34‑none‑win32.whl
+curses‑2.2‑cp34‑none‑win_amd64.whl
+curses‑2.2‑cp35‑none‑win32.whl
+curses‑2.2‑cp35‑none‑win_amd64.whl
+curses‑2.2‑cp36‑cp36m‑win32.whl
+curses‑2.2‑cp36‑cp36m‑win_amd64.whl
+curses‑2.2‑source.zip
+CVXcanon, common operations for convex optimization modeling tools.
+CVXcanon‑0.1.1‑cp27‑cp27m‑win32.whl
+CVXcanon‑0.1.1‑cp27‑cp27m‑win_amd64.whl
+CVXcanon‑0.1.1‑cp34‑cp34m‑win32.whl
+CVXcanon‑0.1.1‑cp34‑cp34m‑win_amd64.whl
+CVXcanon‑0.1.1‑cp35‑cp35m‑win32.whl
+CVXcanon‑0.1.1‑cp35‑cp35m‑win_amd64.whl
+CVXcanon‑0.1.1‑cp36‑cp36m‑win32.whl
+CVXcanon‑0.1.1‑cp36‑cp36m‑win_amd64.whl
+CVXOPT (experimental non-MKL icl build), a package for convex optimization.
+Includes GSL, FFTW, and GLPK w/ MPIR modules.
+Linked to numpy-atlas instead of MKL.
+Requires numpy+mkl.
+cvxopt‑1.1.9‑cp27‑cp27m‑win32.whl
+cvxopt‑1.1.9‑cp27‑cp27m‑win_amd64.whl
+cvxopt‑1.1.9‑cp34‑cp34m‑win32.whl
+cvxopt‑1.1.9‑cp34‑cp34m‑win_amd64.whl
+cvxopt‑1.1.9‑cp35‑cp35m‑win32.whl
+cvxopt‑1.1.9‑cp35‑cp35m‑win_amd64.whl
+cvxopt‑1.1.9‑cp36‑cp36m‑win32.whl
+cvxopt‑1.1.9‑cp36‑cp36m‑win_amd64.whl
+CVXPY, a modeling language for convex optimization problems.
+Requires numpy+mkl, scipy, cvxopt, scs, and ecos.
+cvxpy‑0.4.11‑py2‑none‑any.whl
+cvxpy‑0.4.11‑py3‑none‑any.whl
+cx_Freeze, a set of scripts and modules for freezing Python scripts into executable.
+cx_Freeze‑5.1.1‑cp27‑cp27m‑win32.whl
+cx_Freeze‑5.1.1‑cp27‑cp27m‑win_amd64.whl
+cx_Freeze‑5.1.1‑cp34‑cp34m‑win32.whl
+cx_Freeze‑5.1.1‑cp34‑cp34m‑win_amd64.whl
+cx_Freeze‑5.1.1‑cp35‑cp35m‑win32.whl
+cx_Freeze‑5.1.1‑cp35‑cp35m‑win_amd64.whl
+cx_Freeze‑5.1.1‑cp36‑cp36m‑win32.whl
+cx_Freeze‑5.1.1‑cp36‑cp36m‑win_amd64.whl
+cx_Freeze‑5.1.1‑cp37‑cp37m‑win32.whl
+cx_Freeze‑5.1.1‑cp37‑cp37m‑win_amd64.whl
+cx_Oracle, an interface to the Oracle Database conforming to the Python DB API 2.0 specification.
+cx_Oracle‑5.3+oci12c‑cp27‑cp27m‑win32.whl
+cx_Oracle‑5.3+oci12c‑cp27‑cp27m‑win_amd64.whl
+cx_Oracle‑5.3+oci12c‑cp34‑cp34m‑win32.whl
+cx_Oracle‑5.3+oci12c‑cp34‑cp34m‑win_amd64.whl
+cx_Oracle‑5.3+oci12c‑cp35‑cp35m‑win32.whl
+cx_Oracle‑5.3+oci12c‑cp35‑cp35m‑win_amd64.whl
+cx_Oracle‑5.3+oci12c‑cp36‑cp36m‑win32.whl
+cx_Oracle‑5.3+oci12c‑cp36‑cp36m‑win_amd64.whl
+cx_Oracle‑6.1‑cp27‑cp27m‑win32.whl
+cx_Oracle‑6.1‑cp27‑cp27m‑win_amd64.whl
+cx_Oracle‑6.1‑cp34‑cp34m‑win32.whl
+cx_Oracle‑6.1‑cp34‑cp34m‑win_amd64.whl
+cx_Oracle‑6.1‑cp35‑cp35m‑win32.whl
+cx_Oracle‑6.1‑cp35‑cp35m‑win_amd64.whl
+cx_Oracle‑6.1‑cp36‑cp36m‑win32.whl
+cx_Oracle‑6.1‑cp36‑cp36m‑win_amd64.whl
+cx_Oracle‑6.1‑cp37‑cp37m‑win32.whl
+cx_Oracle‑6.1‑cp37‑cp37m‑win_amd64.whl
+Cyassimp, bindings for the Open Assimp Import Library.
+cyassimp‑0.2.2‑cp27‑cp27m‑win32.whl
+cyassimp‑0.2.2‑cp27‑cp27m‑win_amd64.whl
+cyassimp‑0.2.2‑cp34‑cp34m‑win32.whl
+cyassimp‑0.2.2‑cp34‑cp34m‑win_amd64.whl
+cyassimp‑0.2.2‑cp35‑cp35m‑win32.whl
+cyassimp‑0.2.2‑cp35‑cp35m‑win_amd64.whl
+cyassimp‑0.2.2‑cp36‑cp36m‑win32.whl
+cyassimp‑0.2.2‑cp36‑cp36m‑win_amd64.whl
+Cyordereddict, a Cython implementation of OrderedDict.
+cyordereddict‑1.0.0‑cp27‑cp27m‑win32.whl
+cyordereddict‑1.0.0‑cp27‑cp27m‑win_amd64.whl
+cyordereddict‑1.0.0‑cp34‑cp34m‑win32.whl
+cyordereddict‑1.0.0‑cp34‑cp34m‑win_amd64.whl
+cyordereddict‑1.0.0‑cp35‑cp35m‑win32.whl
+cyordereddict‑1.0.0‑cp35‑cp35m‑win_amd64.whl
+cyordereddict‑1.0.0‑cp36‑cp36m‑win32.whl
+cyordereddict‑1.0.0‑cp36‑cp36m‑win_amd64.whl
+Cyrasterize, OpenGL offscreen rasterizing.
+cyrasterize‑0.3.2‑cp27‑cp27m‑win32.whl
+cyrasterize‑0.3.2‑cp27‑cp27m‑win_amd64.whl
+cyrasterize‑0.3.2‑cp34‑cp34m‑win32.whl
+cyrasterize‑0.3.2‑cp34‑cp34m‑win_amd64.whl
+cyrasterize‑0.3.2‑cp35‑cp35m‑win32.whl
+cyrasterize‑0.3.2‑cp35‑cp35m‑win_amd64.whl
+cyrasterize‑0.3.2‑cp36‑cp36m‑win32.whl
+cyrasterize‑0.3.2‑cp36‑cp36m‑win_amd64.whl
+Cython, a language for writing Python C extensions.
+Cython‑0.27.3‑cp27‑cp27m‑win32.whl
+Cython‑0.27.3‑cp27‑cp27m‑win_amd64.whl
+Cython‑0.27.3‑cp34‑cp34m‑win32.whl
+Cython‑0.27.3‑cp34‑cp34m‑win_amd64.whl
+Cython‑0.27.3‑cp35‑cp35m‑win32.whl
+Cython‑0.27.3‑cp35‑cp35m‑win_amd64.whl
+Cython‑0.27.3‑cp36‑cp36m‑win32.whl
+Cython‑0.27.3‑cp36‑cp36m‑win_amd64.whl
+Cython‑0.27.3‑cp37‑cp37m‑win32.whl
+Cython‑0.27.3‑cp37‑cp37m‑win_amd64.whl
+Cytoolz, high performance functional utilities.
+cytoolz‑0.9.0‑cp27‑cp27m‑win32.whl
+cytoolz‑0.9.0‑cp27‑cp27m‑win_amd64.whl
+cytoolz‑0.9.0‑cp34‑cp34m‑win32.whl
+cytoolz‑0.9.0‑cp34‑cp34m‑win_amd64.whl
+cytoolz‑0.9.0‑cp35‑cp35m‑win32.whl
+cytoolz‑0.9.0‑cp35‑cp35m‑win_amd64.whl
+cytoolz‑0.9.0‑cp36‑cp36m‑win32.whl
+cytoolz‑0.9.0‑cp36‑cp36m‑win_amd64.whl
+cytoolz‑0.9.0‑cp37‑cp37m‑win32.whl
+cytoolz‑0.9.0‑cp37‑cp37m‑win_amd64.whl
+Czifile, read image and metadata from Carl Zeiss(r) CZI files.
+czifile‑2017.7.13‑cp27‑cp27m‑win32.whl
+czifile‑2017.7.13‑cp27‑cp27m‑win_amd64.whl
+czifile‑2017.7.13‑cp34‑cp34m‑win32.whl
+czifile‑2017.7.13‑cp34‑cp34m‑win_amd64.whl
+czifile‑2017.7.13‑cp35‑cp35m‑win32.whl
+czifile‑2017.7.13‑cp35‑cp35m‑win_amd64.whl
+czifile‑2017.7.13‑cp36‑cp36m‑win32.whl
+czifile‑2017.7.13‑cp36‑cp36m‑win_amd64.whl
+czifile‑2017.9.12‑cp27‑cp27m‑win32.whl
+czifile‑2017.9.12‑cp27‑cp27m‑win_amd64.whl
+czifile‑2017.9.12‑cp34‑cp34m‑win32.whl
+czifile‑2017.9.12‑cp34‑cp34m‑win_amd64.whl
+czifile‑2017.9.12‑cp35‑cp35m‑win32.whl
+czifile‑2017.9.12‑cp35‑cp35m‑win_amd64.whl
+czifile‑2017.9.12‑cp36‑cp36m‑win32.whl
+czifile‑2017.9.12‑cp36‑cp36m‑win_amd64.whl
+Datrie efficiently stores Trie.
+datrie‑0.7.1‑cp27‑cp27m‑win32.whl
+datrie‑0.7.1‑cp27‑cp27m‑win_amd64.whl
+datrie‑0.7.1‑cp34‑cp34m‑win32.whl
+datrie‑0.7.1‑cp34‑cp34m‑win_amd64.whl
+datrie‑0.7.1‑cp35‑cp35m‑win32.whl
+datrie‑0.7.1‑cp35‑cp35m‑win_amd64.whl
+datrie‑0.7.1‑cp36‑cp36m‑win32.whl
+datrie‑0.7.1‑cp36‑cp36m‑win_amd64.whl
+Debug-information-files installs the Windows debug information files (*.PDB).
+debug_information_files‑2.7.14‑cp27‑cp27m‑win32.whl
+debug_information_files‑2.7.14‑cp27‑cp27m‑win_amd64.whl
+debug_information_files‑3.4.4‑cp34‑cp34m‑win32.whl
+debug_information_files‑3.4.4‑cp34‑cp34m‑win_amd64.whl
+Delny creates N-dimensional Delaunay triangulations using libqhull.
+Delny‑0.4.1‑cp27‑none‑win32.whl
+Delny‑0.4.1‑cp27‑none‑win_amd64.whl
+Dipy, a toolbox for analysis of MR diffusion imaging.
+dipy‑0.13.0‑cp27‑cp27m‑win32.whl
+dipy‑0.13.0‑cp27‑cp27m‑win_amd64.whl
+dipy‑0.13.0‑cp34‑cp34m‑win32.whl
+dipy‑0.13.0‑cp34‑cp34m‑win_amd64.whl
+dipy‑0.13.0‑cp35‑cp35m‑win32.whl
+dipy‑0.13.0‑cp35‑cp35m‑win_amd64.whl
+dipy‑0.13.0‑cp36‑cp36m‑win32.whl
+dipy‑0.13.0‑cp36‑cp36m‑win_amd64.whl
+Discretize, discretization tools for finite volume and inverse problems.
+discretize‑0.1.11‑cp27‑cp27m‑win32.whl
+discretize‑0.1.11‑cp27‑cp27m‑win_amd64.whl
+discretize‑0.1.11‑cp34‑cp34m‑win32.whl
+discretize‑0.1.11‑cp34‑cp34m‑win_amd64.whl
+discretize‑0.1.11‑cp35‑cp35m‑win32.whl
+discretize‑0.1.11‑cp35‑cp35m‑win_amd64.whl
+discretize‑0.1.11‑cp36‑cp36m‑win32.whl
+discretize‑0.1.11‑cp36‑cp36m‑win_amd64.whl
+Dulwich, a Git library.
+dulwich‑0.18.6‑cp27‑cp27m‑win32.whl
+dulwich‑0.18.6‑cp27‑cp27m‑win_amd64.whl
+dulwich‑0.18.6‑cp34‑cp34m‑win32.whl
+dulwich‑0.18.6‑cp34‑cp34m‑win_amd64.whl
+dulwich‑0.18.6‑cp35‑cp35m‑win32.whl
+dulwich‑0.18.6‑cp35‑cp35m‑win_amd64.whl
+dulwich‑0.18.6‑cp36‑cp36m‑win32.whl
+dulwich‑0.18.6‑cp36‑cp36m‑win_amd64.whl
+DyND (experimental), bindings to the libdynd C++ dynamic ndarray library.
+dynd‑0.6.6‑cp34‑none‑win32.whl
+dynd‑0.6.6‑cp34‑none‑win_amd64.whl
+dynd‑0.7.1‑cp35‑none‑win32.whl
+dynd‑0.7.1‑cp35‑none‑win_amd64.whl
+ECOS, Embedded Conic Solver.
+ecos‑2.0.5‑cp27‑cp27m‑win32.whl
+ecos‑2.0.5‑cp27‑cp27m‑win_amd64.whl
+ecos‑2.0.5‑cp34‑cp34m‑win32.whl
+ecos‑2.0.5‑cp34‑cp34m‑win_amd64.whl
+ecos‑2.0.5‑cp35‑cp35m‑win32.whl
+ecos‑2.0.5‑cp35‑cp35m‑win_amd64.whl
+ecos‑2.0.5‑cp36‑cp36m‑win32.whl
+ecos‑2.0.5‑cp36‑cp36m‑win_amd64.whl
+Enable, low-level drawing and interaction.
+Part of the Enthought Tool Suite.
+enable‑4.7.1‑cp27‑cp27m‑win32.whl
+enable‑4.7.1‑cp27‑cp27m‑win_amd64.whl
+enable‑4.7.1‑cp34‑cp34m‑win32.whl
+enable‑4.7.1‑cp34‑cp34m‑win_amd64.whl
+enable‑4.7.1‑cp35‑cp35m‑win32.whl
+enable‑4.7.1‑cp35‑cp35m‑win_amd64.whl
+enable‑4.7.1‑cp36‑cp36m‑win32.whl
+enable‑4.7.1‑cp36‑cp36m‑win_amd64.whl
+Enaml, a programming language and framework for creating user interfaces with minimal effort.
+Requires atom, kiwisolver, pyqt4, and PLY.
+enaml‑0.10.1‑cp27‑cp27m‑win32.whl
+enaml‑0.10.1‑cp27‑cp27m‑win_amd64.whl
+enaml‑0.10.1‑cp34‑cp34m‑win32.whl
+enaml‑0.10.1‑cp34‑cp34m‑win_amd64.whl
+enaml‑0.10.1‑cp35‑cp35m‑win32.whl
+enaml‑0.10.1‑cp35‑cp35m‑win_amd64.whl
+enaml‑0.10.1‑cp36‑cp36m‑win32.whl
+enaml‑0.10.1‑cp36‑cp36m‑win_amd64.whl
+Entropy, fast entropy calculation.
+entropy‑0.10‑cp27‑cp27m‑win32.whl
+entropy‑0.10‑cp27‑cp27m‑win_amd64.whl
+entropy‑0.10‑cp34‑cp34m‑win32.whl
+entropy‑0.10‑cp34‑cp34m‑win_amd64.whl
+entropy‑0.10‑cp35‑cp35m‑win32.whl
+entropy‑0.10‑cp35‑cp35m‑win_amd64.whl
+entropy‑0.10‑cp36‑cp36m‑win32.whl
+entropy‑0.10‑cp36‑cp36m‑win_amd64.whl
+ETS (Enthought Tool Suite), a collection of components for building scientific applications.
+Requires chaco, traits, enable, and mayavi.
+apptools‑4.4.0‑py2‑none‑any.whl
+apptools‑4.4.0‑py3‑none‑any.whl
+blockcanvas‑4.0.3‑cp27‑none‑win32.whl
+blockcanvas‑4.0.3‑cp27‑none‑win_amd64.whl
+codetools‑4.2.0‑py2‑none‑any.whl
+encore‑0.7.0‑py2.py3‑none‑any.whl
+envisage‑4.6.0‑py2‑none‑any.whl
+envisage‑4.6.0‑py3‑none‑any.whl
+ets‑4.4.4‑py2‑none‑any.whl
+etsdevtools‑4.0.2‑py2‑none‑any.whl
+etsproxy‑0.1.2‑py2‑none‑any.whl
+graphcanvas‑4.0.2‑py2‑none‑any.whl
+pyface‑5.1.0‑py2‑none‑any.whl
+pyface‑5.1.0‑py3‑none‑any.whl
+scimath‑4.1.2‑cp27‑none‑win32.whl
+scimath‑4.1.2‑cp27‑none‑win_amd64.whl
+traitsui‑5.1.0‑py2‑none‑any.whl
+traitsui‑5.1.0‑py3‑none‑any.whl
+FabIO, a IO library for images produced by 2D X-ray detector.
+fabio‑0.5.0‑cp27‑cp27m‑win32.whl
+fabio‑0.5.0‑cp27‑cp27m‑win_amd64.whl
+fabio‑0.5.0‑cp34‑cp34m‑win32.whl
+fabio‑0.5.0‑cp34‑cp34m‑win_amd64.whl
+fabio‑0.5.0‑cp35‑cp35m‑win32.whl
+fabio‑0.5.0‑cp35‑cp35m‑win_amd64.whl
+fabio‑0.5.0‑cp36‑cp36m‑win32.whl
+fabio‑0.5.0‑cp36‑cp36m‑win_amd64.whl
+Fann2 bindings for Fast Artificial Neural Networks Library.
+fann2‑1.1.2‑cp27‑cp27m‑win32.whl
+fann2‑1.1.2‑cp27‑cp27m‑win_amd64.whl
+fann2‑1.1.2‑cp34‑cp34m‑win32.whl
+fann2‑1.1.2‑cp34‑cp34m‑win_amd64.whl
+fann2‑1.1.2‑cp35‑cp35m‑win32.whl
+fann2‑1.1.2‑cp35‑cp35m‑win_amd64.whl
+fann2‑1.1.2‑cp36‑cp36m‑win32.whl
+fann2‑1.1.2‑cp36‑cp36m‑win_amd64.whl
+fann2‑1.1.2‑cp37‑cp37m‑win32.whl
+fann2‑1.1.2‑cp37‑cp37m‑win_amd64.whl
+Fastcache, a C implementation of the Python 3 lru_cache.
+fastcache‑1.0.2‑cp27‑cp27m‑win32.whl
+fastcache‑1.0.2‑cp27‑cp27m‑win_amd64.whl
+fastcache‑1.0.2‑cp34‑cp34m‑win32.whl
+fastcache‑1.0.2‑cp34‑cp34m‑win_amd64.whl
+fastcache‑1.0.2‑cp35‑cp35m‑win32.whl
+fastcache‑1.0.2‑cp35‑cp35m‑win_amd64.whl
+fastcache‑1.0.2‑cp36‑cp36m‑win32.whl
+fastcache‑1.0.2‑cp36‑cp36m‑win_amd64.whl
+Fastcluster provides fast hierarchical clustering routines.
+fastcluster‑1.1.24‑cp27‑cp27m‑win32.whl
+fastcluster‑1.1.24‑cp27‑cp27m‑win_amd64.whl
+fastcluster‑1.1.24‑cp34‑cp34m‑win32.whl
+fastcluster‑1.1.24‑cp34‑cp34m‑win_amd64.whl
+fastcluster‑1.1.24‑cp35‑cp35m‑win32.whl
+fastcluster‑1.1.24‑cp35‑cp35m‑win_amd64.whl
+fastcluster‑1.1.24‑cp36‑cp36m‑win32.whl
+fastcluster‑1.1.24‑cp36‑cp36m‑win_amd64.whl
+Fastparquet, a implementation of the parquet columnar file format.
+fastparquet‑0.1.3‑cp27‑cp27m‑win32.whl
+fastparquet‑0.1.3‑cp27‑cp27m‑win_amd64.whl
+fastparquet‑0.1.3‑cp34‑cp34m‑win32.whl
+fastparquet‑0.1.3‑cp34‑cp34m‑win_amd64.whl
+fastparquet‑0.1.3‑cp35‑cp35m‑win32.whl
+fastparquet‑0.1.3‑cp35‑cp35m‑win_amd64.whl
+fastparquet‑0.1.3‑cp36‑cp36m‑win32.whl
+fastparquet‑0.1.3‑cp36‑cp36m‑win_amd64.whl
+Fastrlock, a fast RLock implementation.
+fastrlock‑0.3‑cp27‑cp27m‑win32.whl
+fastrlock‑0.3‑cp27‑cp27m‑win_amd64.whl
+fastrlock‑0.3‑cp34‑cp34m‑win32.whl
+fastrlock‑0.3‑cp34‑cp34m‑win_amd64.whl
+fastrlock‑0.3‑cp35‑cp35m‑win32.whl
+fastrlock‑0.3‑cp35‑cp35m‑win_amd64.whl
+fastrlock‑0.3‑cp36‑cp36m‑win32.whl
+fastrlock‑0.3‑cp36‑cp36m‑win_amd64.whl
+fastrlock‑0.3‑cp37‑cp37m‑win32.whl
+fastrlock‑0.3‑cp37‑cp37m‑win_amd64.whl
+Fasttext, a interface for Facebook fastText.
+fasttext‑0.8.3‑cp35‑cp35m‑win32.whl
+fasttext‑0.8.3‑cp35‑cp35m‑win_amd64.whl
+fasttext‑0.8.3‑cp36‑cp36m‑win32.whl
+fasttext‑0.8.3‑cp36‑cp36m‑win_amd64.whl
+Faulthandler displays the Python traceback on a crash.
+faulthandler‑3.0‑cp27‑cp27m‑win32.whl
+faulthandler‑3.0‑cp27‑cp27m‑win_amd64.whl
+Fdint, Fermi-Dirac integrals of integer and half integer order.
+fdint‑2.0.2‑cp27‑cp27m‑win32.whl
+fdint‑2.0.2‑cp27‑cp27m‑win_amd64.whl
+fdint‑2.0.2‑cp34‑cp34m‑win32.whl
+fdint‑2.0.2‑cp34‑cp34m‑win_amd64.whl
+fdint‑2.0.2‑cp35‑cp35m‑win32.whl
+fdint‑2.0.2‑cp35‑cp35m‑win_amd64.whl
+fdint‑2.0.2‑cp36‑cp36m‑win32.whl
+fdint‑2.0.2‑cp36‑cp36m‑win_amd64.whl
+Ffnet, a feed-forward neural network.
+ffnet‑0.8.3‑cp27‑cp27m‑win32.whl
+ffnet‑0.8.3‑cp27‑cp27m‑win_amd64.whl
+ffnet‑0.8.3‑cp34‑cp34m‑win32.whl
+ffnet‑0.8.3‑cp34‑cp34m‑win_amd64.whl
+ffnet‑0.8.3‑cp35‑cp35m‑win32.whl
+ffnet‑0.8.3‑cp35‑cp35m‑win_amd64.whl
+ffnet‑0.8.3‑cp36‑cp36m‑win32.whl
+ffnet‑0.8.3‑cp36‑cp36m‑win_amd64.whl
+Fiona, OGR's neater API.
+Requires gdal.
+Fiona‑1.7.11‑cp27‑cp27m‑win32.whl
+Fiona‑1.7.11‑cp27‑cp27m‑win_amd64.whl
+Fiona‑1.7.11‑cp34‑cp34m‑win32.whl
+Fiona‑1.7.11‑cp34‑cp34m‑win_amd64.whl
+Fiona‑1.7.11‑cp35‑cp35m‑win32.whl
+Fiona‑1.7.11‑cp35‑cp35m‑win_amd64.whl
+Fiona‑1.7.11‑cp36‑cp36m‑win32.whl
+Fiona‑1.7.11‑cp36‑cp36m‑win_amd64.whl
+Fiona‑1.7.11‑cp37‑cp37m‑win32.whl
+Fiona‑1.7.11‑cp37‑cp37m‑win_amd64.whl
+Fisher, implements Fisher's exact test.
+fisher‑0.1.5‑cp27‑cp27m‑win32.whl
+fisher‑0.1.5‑cp27‑cp27m‑win_amd64.whl
+fisher‑0.1.5‑cp34‑cp34m‑win32.whl
+fisher‑0.1.5‑cp34‑cp34m‑win_amd64.whl
+fisher‑0.1.5‑cp35‑cp35m‑win32.whl
+fisher‑0.1.5‑cp35‑cp35m‑win_amd64.whl
+fisher‑0.1.5‑cp36‑cp36m‑win32.whl
+fisher‑0.1.5‑cp36‑cp36m‑win_amd64.whl
+Fisx, an enhanced C++ port of the Physics routines used by PyMca.
+fisx‑1.1.4‑cp27‑cp27m‑win32.whl
+fisx‑1.1.4‑cp27‑cp27m‑win_amd64.whl
+fisx‑1.1.4‑cp34‑cp34m‑win32.whl
+fisx‑1.1.4‑cp34‑cp34m‑win_amd64.whl
+fisx‑1.1.4‑cp35‑cp35m‑win32.whl
+fisx‑1.1.4‑cp35‑cp35m‑win_amd64.whl
+fisx‑1.1.4‑cp36‑cp36m‑win32.whl
+fisx‑1.1.4‑cp36‑cp36m‑win_amd64.whl
+FLANN, a library for performing fast approximate nearest neighbor searches in high dimensional spaces.
+flann‑1.9.1‑cp27‑cp27m‑win32.whl
+flann‑1.9.1‑cp27‑cp27m‑win_amd64.whl
+flann‑1.9.1‑cp34‑cp34m‑win32.whl
+flann‑1.9.1‑cp34‑cp34m‑win_amd64.whl
+flann‑1.9.1‑cp35‑cp35m‑win32.whl
+flann‑1.9.1‑cp35‑cp35m‑win_amd64.whl
+flann‑1.9.1‑cp36‑cp36m‑win32.whl
+flann‑1.9.1‑cp36‑cp36m‑win_amd64.whl
+FreeImageDLL, installs the FreeImage DLL to sys.prefix.
+freeimagedll‑3.17.0‑cp27‑cp27m‑win32.whl
+freeimagedll‑3.17.0‑cp27‑cp27m‑win_amd64.whl
+freeimagedll‑3.17.0‑cp34‑cp34m‑win32.whl
+freeimagedll‑3.17.0‑cp34‑cp34m‑win_amd64.whl
+freeimagedll‑3.17.0‑cp35‑cp35m‑win32.whl
+freeimagedll‑3.17.0‑cp35‑cp35m‑win_amd64.whl
+freeimagedll‑3.17.0‑cp36‑cp36m‑win32.whl
+freeimagedll‑3.17.0‑cp36‑cp36m‑win_amd64.whl
+Friture, a program designed to analyze audio input in real-time.
+Requires numpy, pyaudio, pyqt4, pyqwt, and pyopengl.
+friture‑0.14‑cp27‑none‑win32.whl
+friture‑0.14‑cp27‑none‑win_amd64.whl
+friture‑0.19‑cp27‑cp27m‑win32.whl
+friture‑0.19‑cp27‑cp27m‑win_amd64.whl
+GDAL (Geospatial Data Abstraction Library), a translator library for raster geospatial data formats.
+This distribution includes a complete GDAL installation. Do not use together with OSGeo4W or gdalwin32.
+Built with KML, HDF5, NetCDF, SpatiaLite, PostGIS, GEOS, PROJ.4 etc.
+The FileGDB plugin requires Esri's FileGDB API 1.3 or FileGDB 1.5 VS2015 or VS2010.
+Requires VCredist SP1 on Python 2.7.
+GDAL‑1.11.4‑cp27‑none‑win_amd64.whl
+GDAL‑2.2.3‑cp27‑cp27m‑win32.whl
+GDAL‑2.2.3‑cp27‑cp27m‑win_amd64.whl
+GDAL‑2.2.3‑cp34‑cp34m‑win32.whl
+GDAL‑2.2.3‑cp34‑cp34m‑win_amd64.whl
+GDAL‑2.2.3‑cp35‑cp35m‑win32.whl
+GDAL‑2.2.3‑cp35‑cp35m‑win_amd64.whl
+GDAL‑2.2.3‑cp36‑cp36m‑win32.whl
+GDAL‑2.2.3‑cp36‑cp36m‑win_amd64.whl
+GDAL‑2.2.3‑cp37‑cp37m‑win32.whl
+GDAL‑2.2.3‑cp37‑cp37m‑win_amd64.whl
+Genshi, a toolkit for generation of output for the web.
+Genshi‑0.7‑cp27‑none‑win32.whl
+Genshi‑0.7‑cp27‑none‑win_amd64.whl
+Genshi‑0.8.dev0‑cp27‑none‑win32.whl
+Genshi‑0.8.dev0‑cp27‑none‑win_amd64.whl
+Genshi‑0.8.dev0‑py3‑none‑any.whl
+Gensim, a framework for fast Vector Space Modelling.
+gensim‑3.2.0‑cp27‑cp27m‑win32.whl
+gensim‑3.2.0‑cp27‑cp27m‑win_amd64.whl
+gensim‑3.2.0‑cp34‑cp34m‑win32.whl
+gensim‑3.2.0‑cp34‑cp34m‑win_amd64.whl
+gensim‑3.2.0‑cp35‑cp35m‑win32.whl
+gensim‑3.2.0‑cp35‑cp35m‑win_amd64.whl
+gensim‑3.2.0‑cp36‑cp36m‑win32.whl
+gensim‑3.2.0‑cp36‑cp36m‑win_amd64.whl
+gensim‑3.2.0‑cp37‑cp37m‑win32.whl
+gensim‑3.2.0‑cp37‑cp37m‑win_amd64.whl
+Gevent, a coroutine-based networking library based on greenlet and libev.
+Requires greenlet.
+gevent‑1.2.2‑cp27‑cp27m‑win32.whl
+gevent‑1.2.2‑cp27‑cp27m‑win_amd64.whl
+gevent‑1.2.2‑cp34‑cp34m‑win32.whl
+gevent‑1.2.2‑cp34‑cp34m‑win_amd64.whl
+gevent‑1.2.2‑cp35‑cp35m‑win32.whl
+gevent‑1.2.2‑cp35‑cp35m‑win_amd64.whl
+gevent‑1.2.2‑cp36‑cp36m‑win32.whl
+gevent‑1.2.2‑cp36‑cp36m‑win_amd64.whl
+Glumpy, a natural interface between numpy and modern OpenGL.
+Requires numpy, triangle and pyopengl.
+glumpy‑1.0.6‑cp27‑none‑win32.whl
+GMPY supports fast multiple-precision arithmetic.
+Wraps the MPIR, MPFR, and MPC libraries.
+gmpy‑1.17‑cp27‑none‑win32.whl
+gmpy‑1.17‑cp27‑none‑win_amd64.whl
+gmpy‑1.17‑cp34‑none‑win32.whl
+gmpy‑1.17‑cp34‑none‑win_amd64.whl
+gmpy2‑2.0.8‑cp27‑cp27m‑win32.whl
+gmpy2‑2.0.8‑cp27‑cp27m‑win_amd64.whl
+gmpy2‑2.0.8‑cp34‑cp34m‑win32.whl
+gmpy2‑2.0.8‑cp34‑cp34m‑win_amd64.whl
+gmpy2‑2.0.8‑cp35‑cp35m‑win32.whl
+gmpy2‑2.0.8‑cp35‑cp35m‑win_amd64.whl
+gmpy2‑2.0.8‑cp36‑cp36m‑win32.whl
+gmpy2‑2.0.8‑cp36‑cp36m‑win_amd64.whl
+GPy, a Gaussian processes framework.
+GPy‑1.8.5‑cp27‑cp27m‑win32.whl
+GPy‑1.8.5‑cp27‑cp27m‑win_amd64.whl
+GPy‑1.8.5‑cp34‑cp34m‑win32.whl
+GPy‑1.8.5‑cp34‑cp34m‑win_amd64.whl
+GPy‑1.8.5‑cp35‑cp35m‑win32.whl
+GPy‑1.8.5‑cp35‑cp35m‑win_amd64.whl
+GPy‑1.8.5‑cp36‑cp36m‑win32.whl
+GPy‑1.8.5‑cp36‑cp36m‑win_amd64.whl
+GR, a universal framework for cross-platform visualization applications.
+gr‑0.26.0‑cp27‑cp27m‑win32.whl
+gr‑0.26.0‑cp27‑cp27m‑win_amd64.whl
+gr‑0.26.0‑cp34‑cp34m‑win32.whl
+gr‑0.26.0‑cp34‑cp34m‑win_amd64.whl
+gr‑0.26.0‑cp35‑cp35m‑win32.whl
+gr‑0.26.0‑cp35‑cp35m‑win_amd64.whl
+gr‑0.26.0‑cp36‑cp36m‑win32.whl
+gr‑0.26.0‑cp36‑cp36m‑win_amd64.whl
+Grako, a generator of PEG/Packrat parsers from EBNF grammars.
+Superseded by TatSu.
+grako‑3.99.9‑cp27‑cp27m‑win32.whl
+grako‑3.99.9‑cp27‑cp27m‑win_amd64.whl
+grako‑3.99.9‑cp34‑cp34m‑win32.whl
+grako‑3.99.9‑cp34‑cp34m‑win_amd64.whl
+grako‑3.99.9‑cp35‑cp35m‑win32.whl
+grako‑3.99.9‑cp35‑cp35m‑win_amd64.whl
+grako‑3.99.9‑cp36‑cp36m‑win32.whl
+grako‑3.99.9‑cp36‑cp36m‑win_amd64.whl
+Greenlet allows lightweight in-process concurrent programming.
+greenlet‑0.4.12‑cp27‑cp27m‑win32.whl
+greenlet‑0.4.12‑cp27‑cp27m‑win_amd64.whl
+greenlet‑0.4.12‑cp34‑cp34m‑win32.whl
+greenlet‑0.4.12‑cp34‑cp34m‑win_amd64.whl
+greenlet‑0.4.12‑cp35‑cp35m‑win32.whl
+greenlet‑0.4.12‑cp35‑cp35m‑win_amd64.whl
+greenlet‑0.4.12‑cp36‑cp36m‑win32.whl
+greenlet‑0.4.12‑cp36‑cp36m‑win_amd64.whl
+GuiQwt, an efficient 2D plotting library.
+GuiQwt 2.x requires pyqwt and guidata 1.6.
+GuiQwt 3.x requires pythonqwt and guidata 1.7.
+guidata‑1.6.2‑py2.py3‑none‑any.whl
+guidata‑1.7.6‑py2.py3‑none‑any.whl
+guiqwt‑2.3.2‑cp27‑cp27m‑win32.whl
+guiqwt‑2.3.2‑cp27‑cp27m‑win_amd64.whl
+guiqwt‑2.3.2‑cp34‑cp34m‑win32.whl
+guiqwt‑2.3.2‑cp34‑cp34m‑win_amd64.whl
+guiqwt‑2.3.2‑cp35‑cp35m‑win32.whl
+guiqwt‑2.3.2‑cp35‑cp35m‑win_amd64.whl
+guiqwt‑2.3.2‑cp36‑cp36m‑win32.whl
+guiqwt‑2.3.2‑cp36‑cp36m‑win_amd64.whl
+guiqwt‑3.0.3‑cp27‑cp27m‑win32.whl
+guiqwt‑3.0.3‑cp27‑cp27m‑win_amd64.whl
+guiqwt‑3.0.3‑cp34‑cp34m‑win32.whl
+guiqwt‑3.0.3‑cp34‑cp34m‑win_amd64.whl
+guiqwt‑3.0.3‑cp35‑cp35m‑win32.whl
+guiqwt‑3.0.3‑cp35‑cp35m‑win_amd64.whl
+guiqwt‑3.0.3‑cp36‑cp36m‑win32.whl
+guiqwt‑3.0.3‑cp36‑cp36m‑win_amd64.whl
+Gvar, utilities for manipulating correlated Gaussian random variables.
+gvar‑8.3.3‑cp27‑cp27m‑win32.whl
+gvar‑8.3.3‑cp27‑cp27m‑win_amd64.whl
+gvar‑8.3.3‑cp34‑cp34m‑win32.whl
+gvar‑8.3.3‑cp34‑cp34m‑win_amd64.whl
+gvar‑8.3.3‑cp35‑cp35m‑win32.whl
+gvar‑8.3.3‑cp35‑cp35m‑win_amd64.whl
+gvar‑8.3.3‑cp36‑cp36m‑win32.whl
+gvar‑8.3.3‑cp36‑cp36m‑win_amd64.whl
+H5py, a general-purpose interface to the HDF5 library.
+h5py‑2.7.1‑cp27‑cp27m‑win32.whl
+h5py‑2.7.1‑cp27‑cp27m‑win_amd64.whl
+h5py‑2.7.1‑cp34‑cp34m‑win32.whl
+h5py‑2.7.1‑cp34‑cp34m‑win_amd64.whl
+h5py‑2.7.1‑cp35‑cp35m‑win32.whl
+h5py‑2.7.1‑cp35‑cp35m‑win_amd64.whl
+h5py‑2.7.1‑cp36‑cp36m‑win32.whl
+h5py‑2.7.1‑cp36‑cp36m‑win_amd64.whl
+h5py‑2.7.1‑cp37‑cp37m‑win32.whl
+h5py‑2.7.1‑cp37‑cp37m‑win_amd64.whl
+HDDM implements Hierarchical Bayesian estimation of Drift Diffusion Models.
+HDDM‑0.6.1‑cp27‑cp27m‑win32.whl
+HDDM‑0.6.1‑cp27‑cp27m‑win_amd64.whl
+HDDM‑0.6.1‑cp34‑cp34m‑win32.whl
+HDDM‑0.6.1‑cp34‑cp34m‑win_amd64.whl
+HDDM‑0.6.1‑cp35‑cp35m‑win32.whl
+HDDM‑0.6.1‑cp35‑cp35m‑win_amd64.whl
+HDDM‑0.6.1‑cp36‑cp36m‑win32.whl
+HDDM‑0.6.1‑cp36‑cp36m‑win_amd64.whl
+Heatmap, create heatmaps.
+heatmap‑2.2.1‑cp27‑cp27m‑win32.whl
+heatmap‑2.2.1‑cp27‑cp27m‑win_amd64.whl
+heatmap‑2.2.1‑cp34‑cp34m‑win32.whl
+heatmap‑2.2.1‑cp34‑cp34m‑win_amd64.whl
+heatmap‑2.2.1‑cp35‑cp35m‑win32.whl
+heatmap‑2.2.1‑cp35‑cp35m‑win_amd64.whl
+heatmap‑2.2.1‑cp36‑cp36m‑win32.whl
+heatmap‑2.2.1‑cp36‑cp36m‑win_amd64.whl
+Hmmlearn, aglorithms and models to learn HMMs (hidden markov models).
+hmmlearn‑0.2.1‑cp27‑cp27m‑win32.whl
+hmmlearn‑0.2.1‑cp27‑cp27m‑win_amd64.whl
+hmmlearn‑0.2.1‑cp34‑cp34m‑win32.whl
+hmmlearn‑0.2.1‑cp34‑cp34m‑win_amd64.whl
+hmmlearn‑0.2.1‑cp35‑cp35m‑win32.whl
+hmmlearn‑0.2.1‑cp35‑cp35m‑win_amd64.whl
+hmmlearn‑0.2.1‑cp36‑cp36m‑win32.whl
+hmmlearn‑0.2.1‑cp36‑cp36m‑win_amd64.whl
+HoloPy (unstable), a tool for working with digital holograms and light scattering.
+HoloPy‑2.0.0‑cp27‑none‑win32.whl
+HoloPy‑3.1.2‑cp34‑cp34m‑win32.whl
+HoloPy‑3.1.2‑cp34‑cp34m‑win_amd64.whl
+HoloPy‑3.1.2‑cp35‑cp35m‑win32.whl
+HoloPy‑3.1.2‑cp35‑cp35m‑win_amd64.whl
+HoloPy‑3.1.2‑cp36‑cp36m‑win32.whl
+HoloPy‑3.1.2‑cp36‑cp36m‑win_amd64.whl
+HTSeq provides infrastructure to process data from high-throughput sequencing assays.
+HTSeq‑0.6.1‑cp27‑none‑win32.whl
+HTSeq‑0.6.1‑cp27‑none‑win_amd64.whl
+HyperSpy, multidimensional data analysis.
+hyperspy‑0.8.3‑py2‑none‑any.whl
+hyperspy‑1.3‑cp34‑cp34m‑win32.whl
+hyperspy‑1.3‑cp34‑cp34m‑win_amd64.whl
+hyperspy‑1.3‑cp35‑cp35m‑win32.whl
+hyperspy‑1.3‑cp35‑cp35m‑win_amd64.whl
+hyperspy‑1.3‑cp36‑cp36m‑win32.whl
+hyperspy‑1.3‑cp36‑cp36m‑win_amd64.whl
+Ilastik, an interactive learning and segmentation toolkit.
+ilastik‑0.5.12‑py2‑none‑any.whl
+ImageD11, a software package for the analysis of 2D diffraction images.
+ImageD11‑1.7.0‑cp27‑cp27m‑win32.whl
+ImageD11‑1.7.0‑cp27‑cp27m‑win_amd64.whl
+xfab‑0.0.2‑py2‑none‑any.whl
+Iminuit, an interactive mimizer based on MINUIT.
+iminuit‑1.2‑cp27‑cp27m‑win32.whl
+iminuit‑1.2‑cp27‑cp27m‑win_amd64.whl
+iminuit‑1.2‑cp34‑cp34m‑win32.whl
+iminuit‑1.2‑cp34‑cp34m‑win_amd64.whl
+iminuit‑1.2‑cp35‑cp35m‑win32.whl
+iminuit‑1.2‑cp35‑cp35m‑win_amd64.whl
+iminuit‑1.2‑cp36‑cp36m‑win32.whl
+iminuit‑1.2‑cp36‑cp36m‑win_amd64.whl
+Imread reads images into numpy arrays.
+imread‑0.6‑cp27‑cp27m‑win32.whl
+imread‑0.6‑cp27‑cp27m‑win_amd64.whl
+imread‑0.6‑cp34‑cp34m‑win32.whl
+imread‑0.6‑cp34‑cp34m‑win_amd64.whl
+imread‑0.6‑cp35‑cp35m‑win32.whl
+imread‑0.6‑cp35‑cp35m‑win_amd64.whl
+imread‑0.6‑cp36‑cp36m‑win32.whl
+imread‑0.6‑cp36‑cp36m‑win_amd64.whl
+Indexed_gzip, fast random access of gzip files.
+indexed_gzip‑0.7.0‑cp27‑cp27m‑win32.whl
+indexed_gzip‑0.7.0‑cp27‑cp27m‑win_amd64.whl
+indexed_gzip‑0.7.0‑cp34‑cp34m‑win32.whl
+indexed_gzip‑0.7.0‑cp34‑cp34m‑win_amd64.whl
+indexed_gzip‑0.7.0‑cp35‑cp35m‑win32.whl
+indexed_gzip‑0.7.0‑cp35‑cp35m‑win_amd64.whl
+indexed_gzip‑0.7.0‑cp36‑cp36m‑win32.whl
+indexed_gzip‑0.7.0‑cp36‑cp36m‑win_amd64.whl
+Intbitset provides an intbitset data object.
+intbitset‑2.3.0‑cp27‑cp27m‑win32.whl
+intbitset‑2.3.0‑cp27‑cp27m‑win_amd64.whl
+intbitset‑2.3.0‑cp34‑cp34m‑win32.whl
+intbitset‑2.3.0‑cp34‑cp34m‑win_amd64.whl
+intbitset‑2.3.0‑cp35‑cp35m‑win32.whl
+intbitset‑2.3.0‑cp35‑cp35m‑win_amd64.whl
+intbitset‑2.3.0‑cp36‑cp36m‑win32.whl
+intbitset‑2.3.0‑cp36‑cp36m‑win_amd64.whl
+IOCBio, open-source software from the Laboratory of Systems Biology.
+Requires numpy+mkl.
+iocbio‑1.3.0.dev359‑cp27‑none‑win32.whl
+iocbio‑1.3.0.dev359‑cp27‑none‑win_amd64.whl
+Iris, a library for analysing and visualising meteorological and oceanographic data sets
+Requires scipy, netcdf4-python, cartopy, shapely, udunits2 and other dependencies.
+cf_units‑1.1.3‑py2.py3‑none‑any.whl
+emcee‑2.2.1‑py2.py3‑none‑any.whl
+Iris‑1.13.0‑py2‑none‑any.whl
+Iris‑1.13.0‑py3‑none‑any.whl
+nc_time_axis‑1.0.2‑py2.py3‑none‑any.whl
+pyke‑1.1.1‑py2‑none‑any.whl
+pyke‑1.1.1‑py3‑none‑any.whl
+Javabridge, a wrapper for the Java Native Interface.
+javabridge‑1.0.15‑cp27‑cp27m‑win32.whl
+javabridge‑1.0.15‑cp27‑cp27m‑win_amd64.whl
+javabridge‑1.0.15‑cp34‑cp34m‑win32.whl
+javabridge‑1.0.15‑cp34‑cp34m‑win_amd64.whl
+javabridge‑1.0.15‑cp35‑cp35m‑win32.whl
+javabridge‑1.0.15‑cp35‑cp35m‑win_amd64.whl
+javabridge‑1.0.15‑cp36‑cp36m‑win32.whl
+javabridge‑1.0.15‑cp36‑cp36m‑win_amd64.whl
+JCC, a C++ code generator that produces a C++ object interface wrapping a Java library via Java's Native Interface (JNI).
+Users must adjust "jcc\config.py" for the target system.
+JCC‑2.23‑cp27‑cp27m‑win32.whl
+JCC‑2.23‑cp27‑cp27m‑win_amd64.whl
+JCC‑3.0‑cp27‑cp27m‑win32.whl
+JCC‑3.0‑cp27‑cp27m‑win_amd64.whl
+JCC‑3.0‑cp34‑cp34m‑win32.whl
+JCC‑3.0‑cp34‑cp34m‑win_amd64.whl
+JCC‑3.0‑cp35‑cp35m‑win32.whl
+JCC‑3.0‑cp35‑cp35m‑win_amd64.whl
+JCC‑3.0‑cp36‑cp36m‑win32.whl
+JCC‑3.0‑cp36‑cp36m‑win_amd64.whl
+JPype allows full access to Java class libraries.
+JPype1‑0.6.2‑cp27‑cp27m‑win32.whl
+JPype1‑0.6.2‑cp27‑cp27m‑win_amd64.whl
+JPype1‑0.6.2‑cp34‑cp34m‑win32.whl
+JPype1‑0.6.2‑cp34‑cp34m‑win_amd64.whl
+JPype1‑0.6.2‑cp35‑cp35m‑win32.whl
+JPype1‑0.6.2‑cp35‑cp35m‑win_amd64.whl
+JPype1‑0.6.2‑cp36‑cp36m‑win32.whl
+JPype1‑0.6.2‑cp36‑cp36m‑win_amd64.whl
+Jsonlib, a JSON serializer/deserializer.
+jsonlib‑1.6.1‑cp27‑cp27m‑win32.whl
+jsonlib‑1.6.1‑cp27‑cp27m‑win_amd64.whl
+jsonlib_python3‑1.6.1‑cp34‑cp34m‑win32.whl
+jsonlib_python3‑1.6.1‑cp34‑cp34m‑win_amd64.whl
+jsonlib_python3‑1.6.1‑cp35‑cp35m‑win32.whl
+jsonlib_python3‑1.6.1‑cp35‑cp35m‑win_amd64.whl
+jsonlib_python3‑1.6.1‑cp36‑cp36m‑win32.whl
+jsonlib_python3‑1.6.1‑cp36‑cp36m‑win_amd64.whl
+Jupyter, an interactive computing environment.
+Some functions require setuptools, pyzmq, tornado, pygments, markupsafe, jinja2, mistune, rpy2, pycairo, matplotlib, pyqt4 or pyside, pandoc, and whatnot.
+ipykernel‑4.7.0‑py2.py3‑none‑any.whl
+ipyparallel‑6.0.2‑py2.py3‑none‑any.whl
+ipython‑5.4.1‑py2‑none‑any.whl
+ipython‑6.2.1‑py3‑none‑any.whl
+ipython_genutils‑0.2.0‑py2.py3‑none‑any.whl
+ipywidgets‑7.0.5‑py2.py3‑none‑any.whl
+jupyter‑1.0.0‑py2.py3‑none‑any.whl
+jupyter_client‑5.2.0‑py2.py3‑none‑any.whl
+jupyter_console‑5.2.0‑py2.py3‑none‑any.whl
+jupyter_core‑4.4.0‑py2.py3‑none‑any.whl
+jupyterlab‑0.30.6‑py2.py3‑none‑any.whl
+jupyterlab_launcher‑0.9.1‑py2.py3‑none‑any.whl
+nbconvert‑5.3.1‑py2.py3‑none‑any.whl
+nbformat‑4.4.0‑py2.py3‑none‑any.whl
+notebook‑5.2.2‑py2.py3‑none‑any.whl
+qtconsole‑4.3.1‑py2.py3‑none‑any.whl
+traitlets‑4.3.2‑py2.py3‑none‑any.whl
+widgetsnbextension‑2.0.1‑py2.py3‑none‑any.whl
+widgetsnbextension‑3.0.8‑py2.py3‑none‑any.whl
+Kivy, a library for developing multi-touch applications.
+Kivy‑1.10.0‑cp27‑cp27m‑win32.whl
+Kivy‑1.10.0‑cp27‑cp27m‑win_amd64.whl
+Kivy‑1.10.0‑cp34‑cp34m‑win32.whl
+Kivy‑1.10.0‑cp34‑cp34m‑win_amd64.whl
+Kivy‑1.10.0‑cp35‑cp35m‑win32.whl
+Kivy‑1.10.0‑cp35‑cp35m‑win_amd64.whl
+Kivy‑1.10.0‑cp36‑cp36m‑win32.whl
+Kivy‑1.10.0‑cp36‑cp36m‑win_amd64.whl
+Kiwisolver, an efficient implementation of the Cassowary constraint solving algorithm.
+kiwisolver‑1.0.1‑cp27‑cp27m‑win32.whl
+kiwisolver‑1.0.1‑cp27‑cp27m‑win_amd64.whl
+kiwisolver‑1.0.1‑cp34‑cp34m‑win32.whl
+kiwisolver‑1.0.1‑cp34‑cp34m‑win_amd64.whl
+kiwisolver‑1.0.1‑cp35‑cp35m‑win32.whl
+kiwisolver‑1.0.1‑cp35‑cp35m‑win_amd64.whl
+kiwisolver‑1.0.1‑cp36‑cp36m‑win32.whl
+kiwisolver‑1.0.1‑cp36‑cp36m‑win_amd64.whl
+Kwant, quantum transport simulations made easy.
+Requires numpy+mkl and tinyarray.
+kwant‑1.0.5‑cp27‑none‑win32.whl
+kwant‑1.0.5‑cp27‑none‑win_amd64.whl
+kwant‑1.1.3‑cp27‑cp27m‑win32.whl
+kwant‑1.1.3‑cp27‑cp27m‑win_amd64.whl
+kwant‑1.3.1‑cp34‑cp34m‑win32.whl
+kwant‑1.3.1‑cp34‑cp34m‑win_amd64.whl
+kwant‑1.3.1‑cp35‑cp35m‑win32.whl
+kwant‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+kwant‑1.3.1‑cp36‑cp36m‑win32.whl
+kwant‑1.3.1‑cp36‑cp36m‑win_amd64.whl
+La aka larry, the labeled numpy array.
+la‑0.7.0.dev0‑cp27‑cp27m‑win32.whl
+la‑0.7.0.dev0‑cp27‑cp27m‑win_amd64.whl
+la‑0.7.0.dev0‑cp34‑cp34m‑win32.whl
+la‑0.7.0.dev0‑cp34‑cp34m‑win_amd64.whl
+la‑0.7.0.dev0‑cp35‑cp35m‑win32.whl
+la‑0.7.0.dev0‑cp35‑cp35m‑win_amd64.whl
+Lazy_object_proxy, a fast and thorough lazy object proxy.
+lazy_object_proxy‑1.3.1‑cp27‑cp27m‑win32.whl
+lazy_object_proxy‑1.3.1‑cp27‑cp27m‑win_amd64.whl
+lazy_object_proxy‑1.3.1‑cp34‑cp34m‑win32.whl
+lazy_object_proxy‑1.3.1‑cp34‑cp34m‑win_amd64.whl
+lazy_object_proxy‑1.3.1‑cp35‑cp35m‑win32.whl
+lazy_object_proxy‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+lazy_object_proxy‑1.3.1‑cp36‑cp36m‑win32.whl
+lazy_object_proxy‑1.3.1‑cp36‑cp36m‑win_amd64.whl
+lazy_object_proxy‑1.3.1‑cp37‑cp37m‑win32.whl
+lazy_object_proxy‑1.3.1‑cp37‑cp37m‑win_amd64.whl
+Lazyflow, graph based lazy numpy data flows.
+lazyflow‑0.1‑cp27‑none‑win32.whl
+lazyflow‑0.1‑cp27‑none‑win_amd64.whl
+Lfdfiles, Rread Laboratory for Fluorescence Dynamics (LFD) file formats.
+lfdfiles‑2016.3.29‑cp27‑cp27m‑win32.whl
+lfdfiles‑2016.3.29‑cp27‑cp27m‑win_amd64.whl
+lfdfiles‑2016.3.29‑cp34‑cp34m‑win32.whl
+lfdfiles‑2016.3.29‑cp34‑cp34m‑win_amd64.whl
+lfdfiles‑2016.3.29‑cp35‑cp35m‑win32.whl
+lfdfiles‑2016.3.29‑cp35‑cp35m‑win_amd64.whl
+lfdfiles‑2016.3.29‑cp36‑cp36m‑win32.whl
+lfdfiles‑2016.3.29‑cp36‑cp36m‑win_amd64.whl
+LibLAS reads and writes the LiDAR (Light Detection And Ranging) format.
+libLAS‑1.8.1‑cp27‑cp27m‑win32.whl
+libLAS‑1.8.1‑cp27‑cp27m‑win_amd64.whl
+libLAS‑1.8.1‑cp34‑cp34m‑win32.whl
+libLAS‑1.8.1‑cp34‑cp34m‑win_amd64.whl
+libLAS‑1.8.1‑cp35‑cp35m‑win32.whl
+libLAS‑1.8.1‑cp35‑cp35m‑win_amd64.whl
+libLAS‑1.8.1‑cp36‑cp36m‑win32.whl
+libLAS‑1.8.1‑cp36‑cp36m‑win_amd64.whl
+LIBLINEAR, a library for large linear classification.
+Requires numpy+mkl.
+liblinear‑2.11‑cp27‑cp27m‑win32.whl
+liblinear‑2.11‑cp27‑cp27m‑win_amd64.whl
+liblinear‑2.11‑cp34‑cp34m‑win32.whl
+liblinear‑2.11‑cp34‑cp34m‑win_amd64.whl
+liblinear‑2.11‑cp35‑cp35m‑win32.whl
+liblinear‑2.11‑cp35‑cp35m‑win_amd64.whl
+liblinear‑2.11‑cp36‑cp36m‑win32.whl
+liblinear‑2.11‑cp36‑cp36m‑win_amd64.whl
+Libpython installs the libpython??.a libraries to sys.prefix\libs.
+For use with mingwpy.
+libpython‑2.7.10‑cp27‑none‑win32.whl
+libpython‑2.7.10‑cp27‑none‑win_amd64.whl
+libpython‑3.4.3‑cp34‑none‑win32.whl
+libpython‑3.4.3‑cp34‑none‑win_amd64.whl
+libSBML reads, writes, manipulates, translates, and validates SBML (Systems Biology Markup Language) files and data streams.
+python_libsbml‑5.13.0‑cp27‑cp27m‑win32.whl
+python_libsbml‑5.13.0‑cp27‑cp27m‑win_amd64.whl
+python_libsbml‑5.13.0‑cp34‑cp34m‑win32.whl
+python_libsbml‑5.13.0‑cp34‑cp34m‑win_amd64.whl
+python_libsbml‑5.13.0‑cp35‑cp35m‑win32.whl
+python_libsbml‑5.13.0‑cp35‑cp35m‑win_amd64.whl
+python_libsbml‑5.13.0‑cp36‑cp36m‑win32.whl
+python_libsbml‑5.13.0‑cp36‑cp36m‑win_amd64.whl
+LIBSVM, a library for Support Vector Machines.
+libsvm‑3.22‑cp27‑cp27m‑win32.whl
+libsvm‑3.22‑cp27‑cp27m‑win_amd64.whl
+libsvm‑3.22‑cp34‑cp34m‑win32.whl
+libsvm‑3.22‑cp34‑cp34m‑win_amd64.whl
+libsvm‑3.22‑cp35‑cp35m‑win32.whl
+libsvm‑3.22‑cp35‑cp35m‑win_amd64.whl
+libsvm‑3.22‑cp36‑cp36m‑win32.whl
+libsvm‑3.22‑cp36‑cp36m‑win_amd64.whl
+Libtfr (experimental non-MKL icl build) calculates multi-taper windowed and time-frequency reassignment spectrograms.
+Requires numpy+mkl.
+libtfr‑1.0.6‑cp27‑cp27m‑win32.whl
+libtfr‑1.0.6‑cp27‑cp27m‑win_amd64.whl
+libtfr‑2.0.1‑cp27‑cp27m‑win32.whl
+libtfr‑2.0.1‑cp27‑cp27m‑win_amd64.whl
+libtfr‑2.0.1‑cp34‑cp34m‑win32.whl
+libtfr‑2.0.1‑cp34‑cp34m‑win_amd64.whl
+Libxml-python are bindings for the libxml2 and libxslt libraries.
+libxml2_python‑2.9.3‑cp27‑none‑win32.whl
+libxml2_python‑2.9.3‑cp27‑none‑win_amd64.whl
+Lightning, large-scale linear classification, regression and ranking.
+sklearn_contrib_lightning‑0.5.0‑cp27‑cp27m‑win32.whl
+sklearn_contrib_lightning‑0.5.0‑cp27‑cp27m‑win_amd64.whl
+sklearn_contrib_lightning‑0.5.0‑cp34‑cp34m‑win32.whl
+sklearn_contrib_lightning‑0.5.0‑cp34‑cp34m‑win_amd64.whl
+sklearn_contrib_lightning‑0.5.0‑cp35‑cp35m‑win32.whl
+sklearn_contrib_lightning‑0.5.0‑cp35‑cp35m‑win_amd64.whl
+sklearn_contrib_lightning‑0.5.0‑cp36‑cp36m‑win32.whl
+sklearn_contrib_lightning‑0.5.0‑cp36‑cp36m‑win_amd64.whl
+Line_profiler, a line-by-line profiler.
+line_profiler‑2.1.2‑cp27‑cp27m‑win32.whl
+line_profiler‑2.1.2‑cp27‑cp27m‑win_amd64.whl
+line_profiler‑2.1.2‑cp34‑cp34m‑win32.whl
+line_profiler‑2.1.2‑cp34‑cp34m‑win_amd64.whl
+line_profiler‑2.1.2‑cp35‑cp35m‑win32.whl
+line_profiler‑2.1.2‑cp35‑cp35m‑win_amd64.whl
+line_profiler‑2.1.2‑cp36‑cp36m‑win32.whl
+line_profiler‑2.1.2‑cp36‑cp36m‑win_amd64.whl
+line_profiler‑2.1.2‑cp37‑cp37m‑win32.whl
+line_profiler‑2.1.2‑cp37‑cp37m‑win_amd64.whl
+Llist provides linked list data structures.
+llist‑0.5‑cp27‑cp27m‑win32.whl
+llist‑0.5‑cp27‑cp27m‑win_amd64.whl
+llist‑0.5‑cp34‑cp34m‑win32.whl
+llist‑0.5‑cp34‑cp34m‑win_amd64.whl
+llist‑0.5‑cp35‑cp35m‑win32.whl
+llist‑0.5‑cp35‑cp35m‑win_amd64.whl
+llist‑0.5‑cp36‑cp36m‑win32.whl
+llist‑0.5‑cp36‑cp36m‑win_amd64.whl
+Llvmlite, a lightweight LLVM binding for writing JIT compilers.
+Requires the Visual C++ Redistributable Packages for Visual Studio 2017.
+llvmlite‑0.21.0‑cp27‑cp27m‑win32.whl
+llvmlite‑0.21.0‑cp27‑cp27m‑win_amd64.whl
+llvmlite‑0.21.0‑cp34‑cp34m‑win32.whl
+llvmlite‑0.21.0‑cp34‑cp34m‑win_amd64.whl
+llvmlite‑0.21.0‑cp35‑cp35m‑win32.whl
+llvmlite‑0.21.0‑cp35‑cp35m‑win_amd64.whl
+llvmlite‑0.21.0‑cp36‑cp36m‑win32.whl
+llvmlite‑0.21.0‑cp36‑cp36m‑win_amd64.whl
+llvmlite‑0.21.0‑cp37‑cp37m‑win32.whl
+llvmlite‑0.21.0‑cp37‑cp37m‑win_amd64.whl
+LLVMPy, a wrapper around the LLVM compiler library.
+llvmpy‑0.12.7‑cp27‑none‑win32.whl
+llvmpy‑0.12.7‑cp27‑none‑win_amd64.whl
+llvmpy‑0.12.7‑cp34‑none‑win32.whl
+llvmpy‑0.12.7‑cp34‑none‑win_amd64.whl
+Logbook, a logging replacement.
+Logbook‑1.1.0‑cp27‑cp27m‑win32.whl
+Logbook‑1.1.0‑cp27‑cp27m‑win_amd64.whl
+Logbook‑1.1.0‑cp34‑cp34m‑win32.whl
+Logbook‑1.1.0‑cp34‑cp34m‑win_amd64.whl
+Logbook‑1.1.0‑cp35‑cp35m‑win32.whl
+Logbook‑1.1.0‑cp35‑cp35m‑win_amd64.whl
+Logbook‑1.1.0‑cp36‑cp36m‑win32.whl
+Logbook‑1.1.0‑cp36‑cp36m‑win_amd64.whl
+lp_solve, a Mixed Integer Linear Programming (MILP) solver.
+lpsolve55‑5.5.2.5‑cp27‑cp27m‑win32.whl
+lpsolve55‑5.5.2.5‑cp27‑cp27m‑win_amd64.whl
+lpsolve55‑5.5.2.5‑cp34‑cp34m‑win32.whl
+lpsolve55‑5.5.2.5‑cp34‑cp34m‑win_amd64.whl
+lpsolve55‑5.5.2.5‑cp35‑cp35m‑win32.whl
+lpsolve55‑5.5.2.5‑cp35‑cp35m‑win_amd64.whl
+lpsolve55‑5.5.2.5‑cp36‑cp36m‑win32.whl
+lpsolve55‑5.5.2.5‑cp36‑cp36m‑win_amd64.whl
+Lru_dict, a fast and memory efficient LRU cache.
+lru_dict‑1.1.6‑cp27‑cp27m‑win32.whl
+lru_dict‑1.1.6‑cp27‑cp27m‑win_amd64.whl
+lru_dict‑1.1.6‑cp34‑cp34m‑win32.whl
+lru_dict‑1.1.6‑cp34‑cp34m‑win_amd64.whl
+lru_dict‑1.1.6‑cp35‑cp35m‑win32.whl
+lru_dict‑1.1.6‑cp35‑cp35m‑win_amd64.whl
+lru_dict‑1.1.6‑cp36‑cp36m‑win32.whl
+lru_dict‑1.1.6‑cp36‑cp36m‑win_amd64.whl
+Lsqfit, utilities for nonlinear least-squares fits.
+Requires gvar.
+lsqfit‑9.1.3‑cp27‑cp27m‑win32.whl
+lsqfit‑9.1.3‑cp27‑cp27m‑win_amd64.whl
+lsqfit‑9.1.3‑cp34‑cp34m‑win32.whl
+lsqfit‑9.1.3‑cp34‑cp34m‑win_amd64.whl
+lsqfit‑9.1.3‑cp35‑cp35m‑win32.whl
+lsqfit‑9.1.3‑cp35‑cp35m‑win_amd64.whl
+lsqfit‑9.1.3‑cp36‑cp36m‑win32.whl
+lsqfit‑9.1.3‑cp36‑cp36m‑win_amd64.whl
+Lxml, a binding for the libxml2 and libxslt libraries.
+lxml‑4.1.1‑cp27‑cp27m‑win32.whl
+lxml‑4.1.1‑cp27‑cp27m‑win_amd64.whl
+lxml‑4.1.1‑cp34‑cp34m‑win32.whl
+lxml‑4.1.1‑cp34‑cp34m‑win_amd64.whl
+lxml‑4.1.1‑cp35‑cp35m‑win32.whl
+lxml‑4.1.1‑cp35‑cp35m‑win_amd64.whl
+lxml‑4.1.1‑cp36‑cp36m‑win32.whl
+lxml‑4.1.1‑cp36‑cp36m‑win_amd64.whl
+lxml‑4.1.1‑cp37‑cp37m‑win32.whl
+lxml‑4.1.1‑cp37‑cp37m‑win_amd64.whl
+Mahotas, a set of functions for image processing.
+mahotas‑1.4.4‑cp27‑cp27m‑win32.whl
+mahotas‑1.4.4‑cp27‑cp27m‑win_amd64.whl
+mahotas‑1.4.4‑cp34‑cp34m‑win32.whl
+mahotas‑1.4.4‑cp34‑cp34m‑win_amd64.whl
+mahotas‑1.4.4‑cp35‑cp35m‑win32.whl
+mahotas‑1.4.4‑cp35‑cp35m‑win_amd64.whl
+mahotas‑1.4.4‑cp36‑cp36m‑win32.whl
+mahotas‑1.4.4‑cp36‑cp36m‑win_amd64.whl
+Marisa-trie provides static memory-efficient Trie-like structures.
+marisa_trie‑0.7.4‑cp27‑cp27m‑win32.whl
+marisa_trie‑0.7.4‑cp27‑cp27m‑win_amd64.whl
+marisa_trie‑0.7.4‑cp34‑cp34m‑win32.whl
+marisa_trie‑0.7.4‑cp34‑cp34m‑win_amd64.whl
+marisa_trie‑0.7.4‑cp35‑cp35m‑win32.whl
+marisa_trie‑0.7.4‑cp35‑cp35m‑win_amd64.whl
+marisa_trie‑0.7.4‑cp36‑cp36m‑win32.whl
+marisa_trie‑0.7.4‑cp36‑cp36m‑win_amd64.whl
+MarkupSafe implements a XML/HTML/XHTML Markup safe string.
+MarkupSafe‑1.0‑cp27‑cp27m‑win32.whl
+MarkupSafe‑1.0‑cp27‑cp27m‑win_amd64.whl
+MarkupSafe‑1.0‑cp34‑cp34m‑win32.whl
+MarkupSafe‑1.0‑cp34‑cp34m‑win_amd64.whl
+MarkupSafe‑1.0‑cp35‑cp35m‑win32.whl
+MarkupSafe‑1.0‑cp35‑cp35m‑win_amd64.whl
+MarkupSafe‑1.0‑cp36‑cp36m‑win32.whl
+MarkupSafe‑1.0‑cp36‑cp36m‑win_amd64.whl
+MarkupSafe‑1.0‑cp37‑cp37m‑win32.whl
+MarkupSafe‑1.0‑cp37‑cp37m‑win_amd64.whl
+Mathutils provide access to matrices, Eulers, quaternions and vectors.
+mathutils‑2.78‑cp35‑cp35m‑win32.whl
+mathutils‑2.78‑cp35‑cp35m‑win_amd64.whl
+mathutils‑2.78‑cp36‑cp36m‑win32.whl
+mathutils‑2.78‑cp36‑cp36m‑win_amd64.whl
+Matplotlib, a 2D plotting library.
+Requires numpy, dateutil, pytz, pyparsing, cycler, setuptools, and optionally pillow, pycairo, tornado, wxpython, pyside, pyqt4, ghostscript, miktex, ffmpeg, mencoder, avconv, or imagemagick.
+matplotlib‑2.1.1‑cp27‑cp27m‑win32.whl
+matplotlib‑2.1.1‑cp27‑cp27m‑win_amd64.whl
+matplotlib‑2.1.1‑cp34‑cp34m‑win32.whl
+matplotlib‑2.1.1‑cp34‑cp34m‑win_amd64.whl
+matplotlib‑2.1.1‑cp35‑cp35m‑win32.whl
+matplotlib‑2.1.1‑cp35‑cp35m‑win_amd64.whl
+matplotlib‑2.1.1‑cp36‑cp36m‑win32.whl
+matplotlib‑2.1.1‑cp36‑cp36m‑win_amd64.whl
+matplotlib‑2.1.1‑cp37‑cp37m‑win32.whl
+matplotlib‑2.1.1‑cp37‑cp37m‑win_amd64.whl
+matplotlib‑2.1.1.chm
+matplotlib‑2.x‑windows‑link‑libraries.zip
+matplotlib_tests‑2.1.1‑py2.py3‑none‑any.whl
+Mayavi, 3D visualization of scientific data.
+Part of the Enthought Tool Suite.
+Requires VTK.
+mayavi‑4.3.1+vtk510‑cp27‑none‑win32.whl
+mayavi‑4.3.1+vtk510‑cp27‑none‑win_amd64.whl
+mayavi‑4.5.0+vtk71‑cp27‑cp27m‑win32.whl
+mayavi‑4.5.0+vtk71‑cp27‑cp27m‑win_amd64.whl
+mayavi‑4.5.0+vtk71‑cp34‑cp34m‑win32.whl
+mayavi‑4.5.0+vtk71‑cp34‑cp34m‑win_amd64.whl
+mayavi‑4.5.0+vtk71‑cp35‑cp35m‑win32.whl
+mayavi‑4.5.0+vtk71‑cp35‑cp35m‑win_amd64.whl
+mayavi‑4.5.0+vtk71‑cp36‑cp36m‑win32.whl
+mayavi‑4.5.0+vtk71‑cp36‑cp36m‑win_amd64.whl
+Menpo, a framework for manipulating annotated data.
+menpo‑0.8.1‑cp27‑cp27m‑win32.whl
+menpo‑0.8.1‑cp27‑cp27m‑win_amd64.whl
+menpo‑0.8.1‑cp34‑cp34m‑win32.whl
+menpo‑0.8.1‑cp34‑cp34m‑win_amd64.whl
+menpo‑0.8.1‑cp35‑cp35m‑win32.whl
+menpo‑0.8.1‑cp35‑cp35m‑win_amd64.whl
+menpo‑0.8.1‑cp36‑cp36m‑win32.whl
+menpo‑0.8.1‑cp36‑cp36m‑win_amd64.whl
+Mercurial, a fast scalable distributed SCM (revision control, version control) system.
+mercurial‑4.4.2‑cp27‑cp27m‑win32.whl
+mercurial‑4.4.2‑cp27‑cp27m‑win_amd64.whl
+MeshPy offers quality triangular and tetrahedral mesh generation.
+MeshPy‑2016.1.2‑cp27‑cp27m‑win32.whl
+MeshPy‑2016.1.2‑cp27‑cp27m‑win_amd64.whl
+MeshPy‑2016.1.2‑cp34‑cp34m‑win32.whl
+MeshPy‑2016.1.2‑cp34‑cp34m‑win_amd64.whl
+MeshPy‑2016.1.2‑cp35‑cp35m‑win32.whl
+MeshPy‑2016.1.2‑cp35‑cp35m‑win_amd64.whl
+MeshPy‑2016.1.2‑cp36‑cp36m‑win32.whl
+MeshPy‑2016.1.2‑cp36‑cp36m‑win_amd64.whl
+Milk, a machine learning toolkit.
+milk‑0.6.1‑cp27‑cp27m‑win32.whl
+milk‑0.6.1‑cp27‑cp27m‑win_amd64.whl
+milk‑0.6.1‑cp34‑cp34m‑win32.whl
+milk‑0.6.1‑cp34‑cp34m‑win_amd64.whl
+milk‑0.6.1‑cp35‑cp35m‑win32.whl
+milk‑0.6.1‑cp35‑cp35m‑win_amd64.whl
+milk‑0.6.1‑cp36‑cp36m‑win32.whl
+milk‑0.6.1‑cp36‑cp36m‑win_amd64.whl
+milksets‑0.2‑py2.py3‑none‑any.whl
+Minepy, maximal information-based nonparametric exploration.
+minepy‑1.2.2‑cp27‑cp27m‑win32.whl
+minepy‑1.2.2‑cp27‑cp27m‑win_amd64.whl
+minepy‑1.2.2‑cp34‑cp34m‑win32.whl
+minepy‑1.2.2‑cp34‑cp34m‑win_amd64.whl
+minepy‑1.2.2‑cp35‑cp35m‑win32.whl
+minepy‑1.2.2‑cp35‑cp35m‑win_amd64.whl
+minepy‑1.2.2‑cp36‑cp36m‑win32.whl
+minepy‑1.2.2‑cp36‑cp36m‑win_amd64.whl
+minepy‑1.2.2‑cp37‑cp37m‑win32.whl
+minepy‑1.2.2‑cp37‑cp37m‑win_amd64.whl
+Mistune, the fastest markdown parser in pure Python.
+mistune‑0.8.3‑cp27‑cp27m‑win32.whl
+mistune‑0.8.3‑cp27‑cp27m‑win_amd64.whl
+mistune‑0.8.3‑cp34‑cp34m‑win32.whl
+mistune‑0.8.3‑cp34‑cp34m‑win_amd64.whl
+mistune‑0.8.3‑cp35‑cp35m‑win32.whl
+mistune‑0.8.3‑cp35‑cp35m‑win_amd64.whl
+mistune‑0.8.3‑cp36‑cp36m‑win32.whl
+mistune‑0.8.3‑cp36‑cp36m‑win_amd64.whl
+mistune‑0.8.3‑cp37‑cp37m‑win32.whl
+mistune‑0.8.3‑cp37‑cp37m‑win_amd64.whl
+MKL-service, bindings to some MKL service functions.
+Requires numpy+mkl.
+mkl_service‑1.1.2‑cp34‑cp34m‑win32.whl
+mkl_service‑1.1.2‑cp34‑cp34m‑win_amd64.whl
+mkl_service‑1.1.2‑cp35‑cp35m‑win32.whl
+mkl_service‑1.1.2‑cp35‑cp35m‑win_amd64.whl
+mkl_service‑1.1.2‑cp36‑cp36m‑win32.whl
+mkl_service‑1.1.2‑cp36‑cp36m‑win_amd64.whl
+Mlpy, a module for machine learning.
+mlpy‑3.5.0‑cp27‑cp27m‑win32.whl
+mlpy‑3.5.0‑cp27‑cp27m‑win_amd64.whl
+mlpy‑3.5.0‑cp34‑cp34m‑win32.whl
+mlpy‑3.5.0‑cp34‑cp34m‑win_amd64.whl
+mlpy‑3.5.0‑cp35‑cp35m‑win32.whl
+mlpy‑3.5.0‑cp35‑cp35m‑win_amd64.whl
+mlpy‑3.5.0‑cp36‑cp36m‑win32.whl
+mlpy‑3.5.0‑cp36‑cp36m‑win_amd64.whl
+mmLib, the Python Macromolecular Library.
+pymmlib‑1.2.1‑cp27‑none‑win32.whl
+pymmlib‑1.2.1‑cp27‑none‑win_amd64.whl
+MMTK (Molecular Modelling Toolkit), a library for molecular simulation applications.
+MMTK‑2.7.9‑cp27‑none‑win32.whl
+MMTK‑2.7.9‑cp27‑none‑win_amd64.whl
+Mod_wsgi, a WSGI adapter module for the Apache HTTP Server 2.x.
+Linked against the VC10, and VC14 binaries from Apache Lounge and VC9 binaries from Apache House.
+See Running mod_wsgi on Windows for version (in)compatibilities.
+mod_wsgi‑4.5.24+ap24vc10‑cp34‑cp34m‑win32.whl
+mod_wsgi‑4.5.24+ap24vc10‑cp34‑cp34m‑win_amd64.whl
+mod_wsgi‑4.5.24+ap24vc14‑cp35‑cp35m‑win32.whl
+mod_wsgi‑4.5.24+ap24vc14‑cp35‑cp35m‑win_amd64.whl
+mod_wsgi‑4.5.24+ap24vc14‑cp36‑cp36m‑win32.whl
+mod_wsgi‑4.5.24+ap24vc14‑cp36‑cp36m‑win_amd64.whl
+mod_wsgi‑4.5.24+ap24vc14‑cp37‑cp37m‑win32.whl
+mod_wsgi‑4.5.24+ap24vc14‑cp37‑cp37m‑win_amd64.whl
+mod_wsgi‑4.5.24+ap24vc9‑cp27‑cp27m‑win32.whl
+mod_wsgi‑4.5.24+ap24vc9‑cp27‑cp27m‑win_amd64.whl
+ModernGL, modern OpenGL bindings.
+ModernGL‑4.2.1‑cp34‑cp34m‑win32.whl
+ModernGL‑4.2.1‑cp34‑cp34m‑win_amd64.whl
+ModernGL‑4.2.1‑cp35‑cp35m‑win32.whl
+ModernGL‑4.2.1‑cp35‑cp35m‑win_amd64.whl
+ModernGL‑4.2.1‑cp36‑cp36m‑win32.whl
+ModernGL‑4.2.1‑cp36‑cp36m‑win_amd64.whl
+Mpi4py provides bindings of the Message Passing Interface (MPI) standard.
+Requires Microsoft MPI v8.1.
+mpi4py‑3.0.0‑cp27‑cp27m‑win32.whl
+mpi4py‑3.0.0‑cp27‑cp27m‑win_amd64.whl
+mpi4py‑3.0.0‑cp34‑cp34m‑win32.whl
+mpi4py‑3.0.0‑cp34‑cp34m‑win_amd64.whl
+mpi4py‑3.0.0‑cp35‑cp35m‑win32.whl
+mpi4py‑3.0.0‑cp35‑cp35m‑win_amd64.whl
+mpi4py‑3.0.0‑cp36‑cp36m‑win32.whl
+mpi4py‑3.0.0‑cp36‑cp36m‑win_amd64.whl
+Msgpack, MessagePack, an efficient binary serialization format.
+msgpack_python‑0.4.8‑cp27‑cp27m‑win32.whl
+msgpack_python‑0.4.8‑cp27‑cp27m‑win_amd64.whl
+msgpack_python‑0.4.8‑cp34‑cp34m‑win32.whl
+msgpack_python‑0.4.8‑cp34‑cp34m‑win_amd64.whl
+msgpack_python‑0.4.8‑cp35‑cp35m‑win32.whl
+msgpack_python‑0.4.8‑cp35‑cp35m‑win_amd64.whl
+msgpack_python‑0.4.8‑cp36‑cp36m‑win32.whl
+msgpack_python‑0.4.8‑cp36‑cp36m‑win_amd64.whl
+Multidict, a dict that may have several values for the same key.
+multidict‑3.3.2‑cp27‑cp27m‑win32.whl
+multidict‑3.3.2‑cp27‑cp27m‑win_amd64.whl
+multidict‑3.3.2‑cp34‑cp34m‑win32.whl
+multidict‑3.3.2‑cp34‑cp34m‑win_amd64.whl
+multidict‑3.3.2‑cp35‑cp35m‑win32.whl
+multidict‑3.3.2‑cp35‑cp35m‑win_amd64.whl
+multidict‑3.3.2‑cp36‑cp36m‑win32.whl
+multidict‑3.3.2‑cp36‑cp36m‑win_amd64.whl
+MultiNEAT, a portable neuroevolution library.
+MultiNEAT‑0.3‑cp27‑cp27m‑win32.whl
+MultiNEAT‑0.3‑cp27‑cp27m‑win_amd64.whl
+MultiNEAT‑0.3‑cp34‑cp34m‑win32.whl
+MultiNEAT‑0.3‑cp34‑cp34m‑win_amd64.whl
+MultiNEAT‑0.3‑cp35‑cp35m‑win32.whl
+MultiNEAT‑0.3‑cp35‑cp35m‑win_amd64.whl
+MultiNEAT‑0.3‑cp36‑cp36m‑win32.whl
+MultiNEAT‑0.3‑cp36‑cp36m‑win_amd64.whl
+Multiprocess, better multiprocessing and multithreading.
+multiprocess‑0.70.5‑cp27‑cp27m‑win32.whl
+multiprocess‑0.70.5‑cp27‑cp27m‑win_amd64.whl
+multiprocess‑0.70.5‑cp34‑cp34m‑win32.whl
+multiprocess‑0.70.5‑cp34‑cp34m‑win_amd64.whl
+multiprocess‑0.70.5‑cp35‑cp35m‑win32.whl
+multiprocess‑0.70.5‑cp35‑cp35m‑win_amd64.whl
+multiprocess‑0.70.5‑cp36‑cp36m‑win32.whl
+multiprocess‑0.70.5‑cp36‑cp36m‑win_amd64.whl
+mxBase contains packages such as mxDateTime, mxTextTools, mxTools, etc.
+egenix_mx_base‑3.2.9‑cp27‑none‑win32.whl
+egenix_mx_base‑3.2.9‑cp27‑none‑win_amd64.whl
+MySQL-python, a Python database API 2.0 interface for the MySQL database
+Consider mysqlclient, a Python 3 compatible fork of MySQL-python.
+MySQL_python‑1.2.5‑cp27‑none‑win32.whl
+MySQL_python‑1.2.5‑cp27‑none‑win_amd64.whl
+Mysqlclient, a fork of the MySQL-python interface for the MySQL database.
+mysqlclient‑1.3.12‑cp27‑cp27m‑win32.whl
+mysqlclient‑1.3.12‑cp27‑cp27m‑win_amd64.whl
+mysqlclient‑1.3.12‑cp34‑cp34m‑win32.whl
+mysqlclient‑1.3.12‑cp34‑cp34m‑win_amd64.whl
+mysqlclient‑1.3.12‑cp35‑cp35m‑win32.whl
+mysqlclient‑1.3.12‑cp35‑cp35m‑win_amd64.whl
+mysqlclient‑1.3.12‑cp36‑cp36m‑win32.whl
+mysqlclient‑1.3.12‑cp36‑cp36m‑win_amd64.whl
+Natgrid, an interface to the natgrid C library for gridding irregularly spaced data.
+natgrid‑0.2.1‑cp27‑cp27m‑win32.whl
+natgrid‑0.2.1‑cp27‑cp27m‑win_amd64.whl
+natgrid‑0.2.1‑cp34‑cp34m‑win32.whl
+natgrid‑0.2.1‑cp34‑cp34m‑win_amd64.whl
+natgrid‑0.2.1‑cp35‑cp35m‑win32.whl
+natgrid‑0.2.1‑cp35‑cp35m‑win_amd64.whl
+natgrid‑0.2.1‑cp36‑cp36m‑win32.whl
+natgrid‑0.2.1‑cp36‑cp36m‑win_amd64.whl
+NetCDF4 reads and writes NetCDF and HDF5 files.
+netCDF4‑1.1.7+numpy16‑cp27‑none‑win32.whl
+netCDF4‑1.1.7+numpy16‑cp27‑none‑win_amd64.whl
+netCDF4‑1.3.1‑cp27‑cp27m‑win32.whl
+netCDF4‑1.3.1‑cp27‑cp27m‑win_amd64.whl
+netCDF4‑1.3.1‑cp34‑cp34m‑win32.whl
+netCDF4‑1.3.1‑cp34‑cp34m‑win_amd64.whl
+netCDF4‑1.3.1‑cp35‑cp35m‑win32.whl
+netCDF4‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+netCDF4‑1.3.1‑cp36‑cp36m‑win32.whl
+netCDF4‑1.3.1‑cp36‑cp36m‑win_amd64.whl
+netCDF4‑1.3.1‑cp37‑cp37m‑win32.whl
+netCDF4‑1.3.1‑cp37‑cp37m‑win_amd64.whl
+Netifaces, portable network interface information.
+netifaces‑0.10.6‑cp27‑cp27m‑win32.whl
+netifaces‑0.10.6‑cp27‑cp27m‑win_amd64.whl
+netifaces‑0.10.6‑cp34‑cp34m‑win32.whl
+netifaces‑0.10.6‑cp34‑cp34m‑win_amd64.whl
+netifaces‑0.10.6‑cp35‑cp35m‑win32.whl
+netifaces‑0.10.6‑cp35‑cp35m‑win_amd64.whl
+netifaces‑0.10.6‑cp36‑cp36m‑win32.whl
+netifaces‑0.10.6‑cp36‑cp36m‑win_amd64.whl
+NIPY is for analysis of structural and functional neuroimaging data.
+Requires numpy+mkl.
+nipy‑0.4.1‑cp27‑cp27m‑win32.whl
+nipy‑0.4.1‑cp27‑cp27m‑win_amd64.whl
+nipy‑0.4.1‑cp34‑cp34m‑win32.whl
+nipy‑0.4.1‑cp34‑cp34m‑win_amd64.whl
+nipy‑0.4.1‑cp35‑cp35m‑win32.whl
+nipy‑0.4.1‑cp35‑cp35m‑win_amd64.whl
+nipy‑0.4.1‑cp36‑cp36m‑win32.whl
+nipy‑0.4.1‑cp36‑cp36m‑win_amd64.whl
+NiTime, a library for time-series analysis of data from neuroscience experiments.
+nitime‑0.7‑cp27‑cp27m‑win32.whl
+nitime‑0.7‑cp27‑cp27m‑win_amd64.whl
+nitime‑0.7‑cp34‑cp34m‑win32.whl
+nitime‑0.7‑cp34‑cp34m‑win_amd64.whl
+nitime‑0.7‑cp35‑cp35m‑win32.whl
+nitime‑0.7‑cp35‑cp35m‑win_amd64.whl
+nitime‑0.7‑cp36‑cp36m‑win32.whl
+nitime‑0.7‑cp36‑cp36m‑win_amd64.whl
+NLopt, a library for nonlinear optimization.
+NLopt‑2.4.2‑cp27‑cp27m‑win32.whl
+NLopt‑2.4.2‑cp27‑cp27m‑win_amd64.whl
+NLopt‑2.4.2‑cp34‑cp34m‑win32.whl
+NLopt‑2.4.2‑cp34‑cp34m‑win_amd64.whl
+NLopt‑2.4.2‑cp35‑cp35m‑win32.whl
+NLopt‑2.4.2‑cp35‑cp35m‑win_amd64.whl
+NLopt‑2.4.2‑cp36‑cp36m‑win32.whl
+NLopt‑2.4.2‑cp36‑cp36m‑win_amd64.whl
+nMOLDYN, an interactive analysis program for Molecular Dynamics simulations.
+nMOLDYN‑3.0.10‑cp27‑none‑win32.whl
+nMOLDYN‑3.0.10‑cp27‑none‑win_amd64.whl
+Noise generates Perlin/simplex noise.
+noise‑1.2.2‑cp27‑none‑win32.whl
+noise‑1.2.2‑cp27‑none‑win_amd64.whl
+noise‑1.2.2‑cp34‑none‑win32.whl
+noise‑1.2.2‑cp34‑none‑win_amd64.whl
+noise‑1.2.2‑cp35‑none‑win32.whl
+noise‑1.2.2‑cp35‑none‑win_amd64.whl
+noise‑1.2.2‑cp36‑cp36m‑win32.whl
+noise‑1.2.2‑cp36‑cp36m‑win_amd64.whl
+Numba, a NumPy aware dynamic compiler.
+Requires numpy+mkl and llvmlite.
+numba‑0.36.2+tbb‑cp35‑cp35m‑win_amd64.whl
+numba‑0.36.2+tbb‑cp36‑cp36m‑win_amd64.whl
+numba‑0.36.2‑cp27‑cp27m‑win32.whl
+numba‑0.36.2‑cp27‑cp27m‑win_amd64.whl
+numba‑0.36.2‑cp34‑cp34m‑win32.whl
+numba‑0.36.2‑cp34‑cp34m‑win_amd64.whl
+numba‑0.36.2‑cp35‑cp35m‑win32.whl
+numba‑0.36.2‑cp35‑cp35m‑win_amd64.whl
+numba‑0.36.2‑cp36‑cp36m‑win32.whl
+numba‑0.36.2‑cp36‑cp36m‑win_amd64.whl
+Numexpr, a fast numerical array expression evaluator.
+Requires numpy+mkl.
+numexpr‑2.6.4‑cp27‑cp27m‑win32.whl
+numexpr‑2.6.4‑cp27‑cp27m‑win_amd64.whl
+numexpr‑2.6.4‑cp34‑cp34m‑win32.whl
+numexpr‑2.6.4‑cp34‑cp34m‑win_amd64.whl
+numexpr‑2.6.4‑cp35‑cp35m‑win32.whl
+numexpr‑2.6.4‑cp35‑cp35m‑win_amd64.whl
+numexpr‑2.6.4‑cp36‑cp36m‑win32.whl
+numexpr‑2.6.4‑cp36‑cp36m‑win_amd64.whl
+numexpr‑2.6.4‑cp37‑cp37m‑win32.whl
+numexpr‑2.6.4‑cp37‑cp37m‑win_amd64.whl
+NumPy, a fundamental package needed for scientific computing with Python.
+Numpy+MKL is linked to the Intel® Math Kernel Library and includes required DLLs in the numpy.core directory.
+numpy‑1.13.3+mkl‑cp27‑cp27m‑win32.whl
+numpy‑1.13.3+mkl‑cp27‑cp27m‑win_amd64.whl
+numpy‑1.13.3+mkl‑cp34‑cp34m‑win32.whl
+numpy‑1.13.3+mkl‑cp34‑cp34m‑win_amd64.whl
+numpy‑1.13.3+mkl‑cp35‑cp35m‑win32.whl
+numpy‑1.13.3+mkl‑cp35‑cp35m‑win_amd64.whl
+numpy‑1.13.3+mkl‑cp36‑cp36m‑win32.whl
+numpy‑1.13.3+mkl‑cp36‑cp36m‑win_amd64.whl
+numpy‑1.13.3+mkl‑cp37‑cp37m‑win32.whl
+numpy‑1.13.3+mkl‑cp37‑cp37m‑win_amd64.whl
+numpy‑1.14.0rc1+mkl‑cp27‑cp27m‑win32.whl
+numpy‑1.14.0rc1+mkl‑cp27‑cp27m‑win_amd64.whl
+numpy‑1.14.0rc1+mkl‑cp34‑cp34m‑win32.whl
+numpy‑1.14.0rc1+mkl‑cp34‑cp34m‑win_amd64.whl
+numpy‑1.14.0rc1+mkl‑cp35‑cp35m‑win32.whl
+numpy‑1.14.0rc1+mkl‑cp35‑cp35m‑win_amd64.whl
+numpy‑1.14.0rc1+mkl‑cp36‑cp36m‑win32.whl
+numpy‑1.14.0rc1+mkl‑cp36‑cp36m‑win_amd64.whl
+numpy‑1.14.0rc1+mkl‑cp37‑cp37m‑win32.whl
+numpy‑1.14.0rc1+mkl‑cp37‑cp37m‑win_amd64.whl
+ObsPy, a framework for processing seismological data.
+obspy‑1.1.0‑cp27‑cp27m‑win32.whl
+obspy‑1.1.0‑cp27‑cp27m‑win_amd64.whl
+obspy‑1.1.0‑cp34‑cp34m‑win32.whl
+obspy‑1.1.0‑cp34‑cp34m‑win_amd64.whl
+obspy‑1.1.0‑cp35‑cp35m‑win32.whl
+obspy‑1.1.0‑cp35‑cp35m‑win_amd64.whl
+obspy‑1.1.0‑cp36‑cp36m‑win32.whl
+obspy‑1.1.0‑cp36‑cp36m‑win_amd64.whl
+ODE, the Open Dynamics Engine, a high performance library for simulating rigid body dynamics.
+ode‑0.15.2‑cp27‑cp27m‑win32.whl
+ode‑0.15.2‑cp27‑cp27m‑win_amd64.whl
+ode‑0.15.2‑cp34‑cp34m‑win_amd64.whl
+ode‑0.15.2‑cp35‑cp35m‑win32.whl
+ode‑0.15.2‑cp35‑cp35m‑win_amd64.whl
+ode‑0.15.2‑cp36‑cp36m‑win32.whl
+ode‑0.15.2‑cp36‑cp36m‑win_amd64.whl
+OpenBabel, the open source chemistry toolbox.
+openbabel‑2.4.1‑cp27‑cp27m‑win32.whl
+openbabel‑2.4.1‑cp27‑cp27m‑win_amd64.whl
+openbabel‑2.4.1‑cp34‑cp34m‑win32.whl
+openbabel‑2.4.1‑cp34‑cp34m‑win_amd64.whl
+openbabel‑2.4.1‑cp35‑cp35m‑win32.whl
+openbabel‑2.4.1‑cp35‑cp35m‑win_amd64.whl
+openbabel‑2.4.1‑cp36‑cp36m‑win32.whl
+openbabel‑2.4.1‑cp36‑cp36m‑win_amd64.whl
+OpenCV, a real time computer vision library.
+opencv_python‑2.4.13.2‑cp27‑cp27m‑win32.whl
+opencv_python‑2.4.13.2‑cp27‑cp27m‑win_amd64.whl
+opencv_python‑3.1.0‑cp27‑cp27m‑win32.whl
+opencv_python‑3.1.0‑cp27‑cp27m‑win_amd64.whl
+opencv_python‑3.1.0‑cp34‑cp34m‑win32.whl
+opencv_python‑3.1.0‑cp34‑cp34m‑win_amd64.whl
+opencv_python‑3.3.1+contrib‑cp35‑cp35m‑win32.whl
+opencv_python‑3.3.1+contrib‑cp35‑cp35m‑win_amd64.whl
+opencv_python‑3.3.1+contrib‑cp36‑cp36m‑win32.whl
+opencv_python‑3.3.1+contrib‑cp36‑cp36m‑win_amd64.whl
+opencv_python‑3.4.0‑cp35‑cp35m‑win32.whl
+opencv_python‑3.4.0‑cp35‑cp35m‑win_amd64.whl
+opencv_python‑3.4.0‑cp36‑cp36m‑win32.whl
+opencv_python‑3.4.0‑cp36‑cp36m‑win_amd64.whl
+opencv_python‑3.4.0‑cp37‑cp37m‑win32.whl
+opencv_python‑3.4.0‑cp37‑cp37m‑win_amd64.whl
+OpenEXR are bindings for ILM's OpenEXR image file format.
+OpenEXR‑1.2.0‑cp27‑none‑win32.whl
+OpenEXR‑1.2.0‑cp27‑none‑win_amd64.whl
+OpenEXR‑1.3.0‑cp27‑cp27m‑win32.whl
+OpenEXR‑1.3.0‑cp27‑cp27m‑win_amd64.whl
+OpenEXR‑1.3.0‑cp34‑cp34m‑win32.whl
+OpenEXR‑1.3.0‑cp34‑cp34m‑win_amd64.whl
+OpenEXR‑1.3.0‑cp35‑cp35m‑win32.whl
+OpenEXR‑1.3.0‑cp35‑cp35m‑win_amd64.whl
+OpenEXR‑1.3.0‑cp36‑cp36m‑win32.whl
+OpenEXR‑1.3.0‑cp36‑cp36m‑win_amd64.whl
+OpenImageIO, a library for reading and writing images with emphasis on animation and visual effects.
+Includes OpenColorIO.
+OpenImageIO‑1.5.22‑bin‑vc9‑x64.zip
+OpenImageIO‑1.5.22‑cp27‑none‑win32.whl
+OpenImageIO‑1.5.22‑cp27‑none‑win_amd64.whl
+OpenImageIO‑1.6.18‑bin‑vc9‑x64.zip
+OpenImageIO‑1.6.18‑cp27‑cp27m‑win32.whl
+OpenImageIO‑1.6.18‑cp27‑cp27m‑win_amd64.whl
+OpenImageIO‑1.8.6‑cp36‑cp36m‑win32.whl
+OpenImageIO‑1.8.6‑cp36‑cp36m‑win_amd64.whl
+OpenPIV, a package for Particle Image Velocimetry (PIV).
+OpenPIV‑0.20.8‑cp27‑cp27m‑win32.whl
+OpenPIV‑0.20.8‑cp27‑cp27m‑win_amd64.whl
+OpenPIV‑0.20.8‑cp34‑cp34m‑win32.whl
+OpenPIV‑0.20.8‑cp34‑cp34m‑win_amd64.whl
+OpenPIV‑0.20.8‑cp35‑cp35m‑win32.whl
+OpenPIV‑0.20.8‑cp35‑cp35m‑win_amd64.whl
+OpenPIV‑0.20.8‑cp36‑cp36m‑win32.whl
+OpenPIV‑0.20.8‑cp36‑cp36m‑win_amd64.whl
+Orange, a machine learning and interactive data mining toolbox.
+Requires pyqt4, pyqwt, and networkx.
+Orange‑2.7.8‑cp27‑cp27m‑win32.whl
+Orange‑2.7.8‑cp27‑cp27m‑win_amd64.whl
+Orange3‑3.8.0‑cp34‑cp34m‑win32.whl
+Orange3‑3.8.0‑cp34‑cp34m‑win_amd64.whl
+Orange3‑3.8.0‑cp35‑cp35m‑win32.whl
+Orange3‑3.8.0‑cp35‑cp35m‑win_amd64.whl
+Orange3‑3.8.0‑cp36‑cp36m‑win32.whl
+Orange3‑3.8.0‑cp36‑cp36m‑win_amd64.whl
+Orange3_Timeseries‑0.3.2‑py3‑none‑any.whl
+Orange_Text‑1.2a1‑cp27‑none‑win32.whl
+Orange_Text‑1.2a1‑cp27‑none‑win_amd64.whl
+Oursql, a set of bindings for the MySQL database.
+oursql‑0.9.3.1‑cp27‑none‑win32.whl
+oursql‑0.9.3.1‑cp27‑none‑win_amd64.whl
+oursql‑0.9.4‑cp34‑none‑win32.whl
+oursql‑0.9.4‑cp34‑none‑win_amd64.whl
+Pandas, a cross-section and time series data analysis toolkit.
+Requires numpy, dateutil, pytz, setuptools, and optionally numexpr, bottleneck, scipy, matplotlib, pytables, lxml, xarray, blosc, backports.lzma, statsmodels, sqlalchemy and other dependencies.
+pandas‑0.21.1‑cp27‑cp27m‑win32.whl
+pandas‑0.21.1‑cp27‑cp27m‑win_amd64.whl
+pandas‑0.21.1‑cp34‑cp34m‑win32.whl
+pandas‑0.21.1‑cp34‑cp34m‑win_amd64.whl
+pandas‑0.21.1‑cp35‑cp35m‑win32.whl
+pandas‑0.21.1‑cp35‑cp35m‑win_amd64.whl
+pandas‑0.21.1‑cp36‑cp36m‑win32.whl
+pandas‑0.21.1‑cp36‑cp36m‑win_amd64.whl
+pandas‑0.21.1‑cp37‑cp37m‑win32.whl
+pandas‑0.21.1‑cp37‑cp37m‑win_amd64.whl
+Param provides Parameters.
+param‑1.5.1‑cp27‑cp27m‑win32.whl
+param‑1.5.1‑cp27‑cp27m‑win_amd64.whl
+param‑1.5.1‑cp34‑cp34m‑win32.whl
+param‑1.5.1‑cp34‑cp34m‑win_amd64.whl
+param‑1.5.1‑cp35‑cp35m‑win32.whl
+param‑1.5.1‑cp35‑cp35m‑win_amd64.whl
+param‑1.5.1‑cp36‑cp36m‑win32.whl
+param‑1.5.1‑cp36‑cp36m‑win_amd64.whl
+Peewee, a small, expressive ORM.
+peewee‑2.10.2‑cp27‑cp27m‑win32.whl
+peewee‑2.10.2‑cp27‑cp27m‑win_amd64.whl
+peewee‑2.10.2‑cp34‑cp34m‑win32.whl
+peewee‑2.10.2‑cp34‑cp34m‑win_amd64.whl
+peewee‑2.10.2‑cp35‑cp35m‑win32.whl
+peewee‑2.10.2‑cp35‑cp35m‑win_amd64.whl
+peewee‑2.10.2‑cp36‑cp36m‑win32.whl
+peewee‑2.10.2‑cp36‑cp36m‑win_amd64.whl
+Persistent, translucent persistent objects.
+persistent‑4.2.4.1‑cp27‑cp27m‑win32.whl
+persistent‑4.2.4.1‑cp27‑cp27m‑win_amd64.whl
+persistent‑4.2.4.1‑cp34‑cp34m‑win32.whl
+persistent‑4.2.4.1‑cp34‑cp34m‑win_amd64.whl
+persistent‑4.2.4.1‑cp35‑cp35m‑win32.whl
+persistent‑4.2.4.1‑cp35‑cp35m‑win_amd64.whl
+persistent‑4.2.4.1‑cp36‑cp36m‑win32.whl
+persistent‑4.2.4.1‑cp36‑cp36m‑win_amd64.whl
+persistent‑4.2.4.2‑cp37‑cp37m‑win32.whl
+persistent‑4.2.4.2‑cp37‑cp37m‑win_amd64.whl
+Pgmagick is yet another wrapper for GraphicsMagick.
+pgmagick‑0.7.2‑cp27‑cp27m‑win32.whl
+pgmagick‑0.7.2‑cp27‑cp27m‑win_amd64.whl
+pgmagick‑0.7.2‑cp34‑cp34m‑win32.whl
+pgmagick‑0.7.2‑cp34‑cp34m‑win_amd64.whl
+pgmagick‑0.7.2‑cp35‑cp35m‑win32.whl
+pgmagick‑0.7.2‑cp35‑cp35m‑win_amd64.whl
+pgmagick‑0.7.2‑cp36‑cp36m‑win32.whl
+pgmagick‑0.7.2‑cp36‑cp36m‑win_amd64.whl
+Pillow, a replacement for PIL, the Python Image Library, which provides image processing functionality and supports many file formats.
+Use `from PIL import Image` instead of `import Image`.
+PIL‑2.0+dummy‑py2.py3‑none‑any.whl
+Pillow‑3.4.2‑cp36‑cp36m‑win32.whl
+Pillow‑3.4.2‑cp36‑cp36m‑win_amd64.whl
+Pillow‑4.3.0‑cp27‑cp27m‑win32.whl
+Pillow‑4.3.0‑cp27‑cp27m‑win_amd64.whl
+Pillow‑4.3.0‑cp34‑cp34m‑win32.whl
+Pillow‑4.3.0‑cp34‑cp34m‑win_amd64.whl
+Pillow‑4.3.0‑cp35‑cp35m‑win32.whl
+Pillow‑4.3.0‑cp35‑cp35m‑win_amd64.whl
+Pillow‑4.3.0‑cp36‑cp36m‑win32.whl
+Pillow‑4.3.0‑cp36‑cp36m‑win_amd64.whl
+Pillow‑4.3.0‑cp37‑cp37m‑win32.whl
+Pillow‑4.3.0‑cp37‑cp37m‑win_amd64.whl
+Pillow‑4.3.0‑pp258‑pypy_41‑win32.whl
+Pillow-SIMD, a fork of Pillow with SIMD optimizations.
+Pillow_SIMD‑4.3.0.post0‑cp35‑cp35m‑win32.whl
+Pillow_SIMD‑4.3.0.post0‑cp35‑cp35m‑win_amd64.whl
+Pillow_SIMD‑4.3.0.post0‑cp36‑cp36m‑win32.whl
+Pillow_SIMD‑4.3.0.post0‑cp36‑cp36m‑win_amd64.whl
+Pip is the recommended tool for installing Python packages.
+Pip and setuptools are included with Python >=3.4 and >=2.7.9.
+To bootstrap pip on installations without pip, use the get-pip.py script or run
+python.exe pip-9.0.1-py2.py3-none-any.whl/pip install pip-9.0.1-py2.py3-none-any.whl.
+pip‑9.0.1‑py2.py3‑none‑any.whl
+Planar, a 2D planar geometry library.
+planar‑0.4‑cp27‑cp27m‑win32.whl
+planar‑0.4‑cp27‑cp27m‑win_amd64.whl
+planar‑0.4‑cp34‑cp34m‑win32.whl
+planar‑0.4‑cp34‑cp34m‑win_amd64.whl
+planar‑0.4‑cp35‑cp35m‑win32.whl
+planar‑0.4‑cp35‑cp35m‑win_amd64.whl
+planar‑0.4‑cp36‑cp36m‑win32.whl
+planar‑0.4‑cp36‑cp36m‑win_amd64.whl
+Pocketsphinx, an interface to the CMU SphinxBase and PocketSphinx libraries.
+pocketsphinx‑0.1.3‑cp27‑cp27m‑win32.whl
+pocketsphinx‑0.1.3‑cp27‑cp27m‑win_amd64.whl
+pocketsphinx‑0.1.3‑cp34‑cp34m‑win32.whl
+pocketsphinx‑0.1.3‑cp34‑cp34m‑win_amd64.whl
+pocketsphinx‑0.1.3‑cp35‑cp35m‑win32.whl
+pocketsphinx‑0.1.3‑cp35‑cp35m‑win_amd64.whl
+pocketsphinx‑0.1.3‑cp36‑cp36m‑win32.whl
+pocketsphinx‑0.1.3‑cp36‑cp36m‑win_amd64.whl
+Polygon handles polygonal shapes in 2D.
+This library is free for non-commercial use only.
+Polygon2‑2.0.8‑cp27‑cp27m‑win32.whl
+Polygon2‑2.0.8‑cp27‑cp27m‑win_amd64.whl
+Polygon3‑3.0.8‑cp34‑cp34m‑win32.whl
+Polygon3‑3.0.8‑cp34‑cp34m‑win_amd64.whl
+Polygon3‑3.0.8‑cp35‑cp35m‑win32.whl
+Polygon3‑3.0.8‑cp35‑cp35m‑win_amd64.whl
+Polygon3‑3.0.8‑cp36‑cp36m‑win32.whl
+Polygon3‑3.0.8‑cp36‑cp36m‑win_amd64.whl
+Polymode performs modal analysis of microstructured optical fibers.
+Requires numpy+mkl.
+Polymode‑0.1.2‑cp27‑none‑win32.whl
+Polymode‑0.1.2‑cp27‑none‑win_amd64.whl
+Psf, point spread function (PSF) calculations for fluorescence microscopy.
+psf‑2015.3.19‑cp27‑none‑win32.whl
+psf‑2015.3.19‑cp27‑none‑win_amd64.whl
+psf‑2015.3.19‑cp34‑none‑win32.whl
+psf‑2015.3.19‑cp34‑none‑win_amd64.whl
+psf‑2015.3.19‑cp35‑none‑win32.whl
+psf‑2015.3.19‑cp35‑none‑win_amd64.whl
+psf‑2015.3.19‑cp36‑cp36m‑win32.whl
+psf‑2015.3.19‑cp36‑cp36m‑win_amd64.whl
+Psutil provides information on running processes and system utilization.
+psutil‑5.4.2‑cp27‑cp27m‑win32.whl
+psutil‑5.4.2‑cp27‑cp27m‑win_amd64.whl
+psutil‑5.4.2‑cp34‑cp34m‑win32.whl
+psutil‑5.4.2‑cp34‑cp34m‑win_amd64.whl
+psutil‑5.4.2‑cp35‑cp35m‑win32.whl
+psutil‑5.4.2‑cp35‑cp35m‑win_amd64.whl
+psutil‑5.4.2‑cp36‑cp36m‑win32.whl
+psutil‑5.4.2‑cp36‑cp36m‑win_amd64.whl
+psutil‑5.4.2‑cp37‑cp37m‑win32.whl
+psutil‑5.4.2‑cp37‑cp37m‑win_amd64.whl
+Psycopg, a PostgreSQL database adapter.
+psycopg2‑2.7.3.2‑cp27‑cp27m‑win32.whl
+psycopg2‑2.7.3.2‑cp27‑cp27m‑win_amd64.whl
+psycopg2‑2.7.3.2‑cp34‑cp34m‑win32.whl
+psycopg2‑2.7.3.2‑cp34‑cp34m‑win_amd64.whl
+psycopg2‑2.7.3.2‑cp35‑cp35m‑win32.whl
+psycopg2‑2.7.3.2‑cp35‑cp35m‑win_amd64.whl
+psycopg2‑2.7.3.2‑cp36‑cp36m‑win32.whl
+psycopg2‑2.7.3.2‑cp36‑cp36m‑win_amd64.whl
+psycopg2‑2.7.3.2‑cp37‑cp37m‑win32.whl
+psycopg2‑2.7.3.2‑cp37‑cp37m‑win_amd64.whl
+PuLP, an LP modeler using the CoinMP library.
+Requires pyparsing.
+PuLP‑1.6.8‑cp27‑cp27m‑win32.whl
+PuLP‑1.6.8‑cp27‑cp27m‑win_amd64.whl
+PuLP‑1.6.8‑cp34‑cp34m‑win32.whl
+PuLP‑1.6.8‑cp34‑cp34m‑win_amd64.whl
+PuLP‑1.6.8‑cp35‑cp35m‑win32.whl
+PuLP‑1.6.8‑cp35‑cp35m‑win_amd64.whl
+PuLP‑1.6.8‑cp36‑cp36m‑win32.whl
+PuLP‑1.6.8‑cp36‑cp36m‑win_amd64.whl
+Py-earth, an implementation of Jerome Friedman's multivariate adaptive regression splines.
+py_earth‑0.1.0‑cp27‑cp27m‑win32.whl
+py_earth‑0.1.0‑cp27‑cp27m‑win_amd64.whl
+py_earth‑0.1.0‑cp34‑cp34m‑win32.whl
+py_earth‑0.1.0‑cp34‑cp34m‑win_amd64.whl
+py_earth‑0.1.0‑cp35‑cp35m‑win32.whl
+py_earth‑0.1.0‑cp35‑cp35m‑win_amd64.whl
+py_earth‑0.1.0‑cp36‑cp36m‑win32.whl
+py_earth‑0.1.0‑cp36‑cp36m‑win_amd64.whl
+Py-fcm, a library for flow cytometry.
+fcm‑0.9.6‑cp27‑none‑win32.whl
+fcm‑0.9.6‑cp27‑none‑win_amd64.whl
+Py-lmdb, binding for the LMDB Lightning Database.
+lmdb‑0.93‑cp27‑cp27m‑win32.whl
+lmdb‑0.93‑cp27‑cp27m‑win_amd64.whl
+lmdb‑0.93‑cp34‑cp34m‑win32.whl
+lmdb‑0.93‑cp34‑cp34m‑win_amd64.whl
+lmdb‑0.93‑cp35‑cp35m‑win32.whl
+lmdb‑0.93‑cp35‑cp35m‑win_amd64.whl
+lmdb‑0.93‑cp36‑cp36m‑win32.whl
+lmdb‑0.93‑cp36‑cp36m‑win_amd64.whl
+Py2exe converts Python scripts into executable Windows programs.
+py2exe‑0.6.10a1‑cp27‑none‑win32.whl
+py2exe‑0.6.10a1‑cp27‑none‑win_amd64.whl
+py2exe‑0.9.2.2‑cp34‑none‑win32.whl
+py2exe‑0.9.2.2‑cp34‑none‑win_amd64.whl
+Py_gd, a wrapper for the libgd graphics drawing library.
+py_gd‑0.1.5‑cp27‑cp27m‑win32.whl
+py_gd‑0.1.5‑cp27‑cp27m‑win_amd64.whl
+py_gd‑0.1.7.1‑cp27‑cp27m‑win32.whl
+py_gd‑0.1.7.1‑cp27‑cp27m‑win_amd64.whl
+PyAlembic provides bindings for the Alembic computer graphics interchange framework.
+Includes OpenEXR PyIlmBase.
+abcview‑1.0.8‑py2‑none‑any.whl
+PyAlembic‑1.5.7‑cp27‑none‑win32.whl
+PyAlembic‑1.5.7‑cp27‑none‑win_amd64.whl
+PyAMF provides Action Message Format (AMF) support.
+PyAMF‑0.8.0‑cp27‑none‑win32.whl
+PyAMF‑0.8.0‑cp27‑none‑win_amd64.whl
+PyAMG, a library of Algebraic Multigrid (AMG) solvers.
+pyamg‑3.3.2‑cp27‑cp27m‑win32.whl
+pyamg‑3.3.2‑cp27‑cp27m‑win_amd64.whl
+pyamg‑3.3.2‑cp34‑cp34m‑win32.whl
+pyamg‑3.3.2‑cp34‑cp34m‑win_amd64.whl
+pyamg‑3.3.2‑cp35‑cp35m‑win32.whl
+pyamg‑3.3.2‑cp35‑cp35m‑win_amd64.whl
+pyamg‑3.3.2‑cp36‑cp36m‑win32.whl
+pyamg‑3.3.2‑cp36‑cp36m‑win_amd64.whl
+PyArrow, a columnar in-memory analytics layer designed to accelerate big data.
+pyarrow‑0.4.1‑cp36‑cp36m‑win_amd64.whl
+PyAudio provides bindings for the PortAudio library.
+Includes ASIO, DS, WMME, WASAPI, WDMKS support.
+PyAudio‑0.2.11‑cp27‑cp27m‑win32.whl
+PyAudio‑0.2.11‑cp27‑cp27m‑win_amd64.whl
+PyAudio‑0.2.11‑cp34‑cp34m‑win32.whl
+PyAudio‑0.2.11‑cp34‑cp34m‑win_amd64.whl
+PyAudio‑0.2.11‑cp35‑cp35m‑win32.whl
+PyAudio‑0.2.11‑cp35‑cp35m‑win_amd64.whl
+PyAudio‑0.2.11‑cp36‑cp36m‑win32.whl
+PyAudio‑0.2.11‑cp36‑cp36m‑win_amd64.whl
+PyBluez, a wrapper around system Bluetooth resources.
+PyBluez‑0.22‑cp27‑none‑win32.whl
+PyBluez‑0.22‑cp27‑none‑win_amd64.whl
+PyBluez‑0.22‑cp34‑none‑win32.whl
+PyBluez‑0.22‑cp34‑none‑win_amd64.whl
+PyBluez‑0.22‑cp35‑none‑win32.whl
+PyBluez‑0.22‑cp35‑none‑win_amd64.whl
+PyBox2D, a 2D physics library based on Box2D.
+Box2D‑2.3.2‑cp27‑cp27m‑win32.whl
+Box2D‑2.3.2‑cp27‑cp27m‑win_amd64.whl
+Box2D‑2.3.2‑cp34‑cp34m‑win32.whl
+Box2D‑2.3.2‑cp34‑cp34m‑win_amd64.whl
+Box2D‑2.3.2‑cp35‑cp35m‑win32.whl
+Box2D‑2.3.2‑cp35‑cp35m‑win_amd64.whl
+Box2D‑2.3.2‑cp36‑cp36m‑win32.whl
+Box2D‑2.3.2‑cp36‑cp36m‑win_amd64.whl
+Pycairo, a set of bindings for the cairo graphics library.
+These builds are not compatible with PyGTK and wxPython.
+pycairo‑1.15.4‑cp27‑cp27m‑win32.whl
+pycairo‑1.15.4‑cp27‑cp27m‑win_amd64.whl
+pycairo‑1.15.4‑cp34‑cp34m‑win32.whl
+pycairo‑1.15.4‑cp34‑cp34m‑win_amd64.whl
+pycairo‑1.15.4‑cp35‑cp35m‑win32.whl
+pycairo‑1.15.4‑cp35‑cp35m‑win_amd64.whl
+pycairo‑1.15.4‑cp36‑cp36m‑win32.whl
+pycairo‑1.15.4‑cp36‑cp36m‑win_amd64.whl
+Pycares provides an interface to c-ares.
+pycares‑2.3.0‑cp27‑cp27m‑win32.whl
+pycares‑2.3.0‑cp27‑cp27m‑win_amd64.whl
+pycares‑2.3.0‑cp34‑cp34m‑win32.whl
+pycares‑2.3.0‑cp34‑cp34m‑win_amd64.whl
+pycares‑2.3.0‑cp35‑cp35m‑win32.whl
+pycares‑2.3.0‑cp35‑cp35m‑win_amd64.whl
+pycares‑2.3.0‑cp36‑cp36m‑win32.whl
+pycares‑2.3.0‑cp36‑cp36m‑win_amd64.whl
+PyCifRW provides support for reading and writing CIF files.
+PyCifRW‑3.6.2‑cp27‑none‑win32.whl
+PyCifRW‑3.6.2‑cp27‑none‑win_amd64.whl
+PyCifRW‑4.3‑cp27‑cp27m‑win32.whl
+PyCifRW‑4.3‑cp27‑cp27m‑win_amd64.whl
+PyCifRW‑4.3‑cp34‑cp34m‑win32.whl
+PyCifRW‑4.3‑cp34‑cp34m‑win_amd64.whl
+PyCifRW‑4.3‑cp35‑cp35m‑win32.whl
+PyCifRW‑4.3‑cp35‑cp35m‑win_amd64.whl
+PyCifRW‑4.3‑cp36‑cp36m‑win32.whl
+PyCifRW‑4.3‑cp36‑cp36m‑win_amd64.whl
+PyCLD2, bindings for the Compact Language Detector 2.
+pycld2‑0.31‑cp27‑cp27m‑win32.whl
+pycld2‑0.31‑cp27‑cp27m‑win_amd64.whl
+pycld2‑0.31‑cp34‑cp34m‑win32.whl
+pycld2‑0.31‑cp34‑cp34m‑win_amd64.whl
+pycld2‑0.31‑cp35‑cp35m‑win32.whl
+pycld2‑0.31‑cp35‑cp35m‑win_amd64.whl
+pycld2‑0.31‑cp36‑cp36m‑win32.whl
+pycld2‑0.31‑cp36‑cp36m‑win_amd64.whl
+PyCluster implements clustering methods for gene expression data analysis.
+Pycluster‑1.52‑cp27‑cp27m‑win32.whl
+Pycluster‑1.52‑cp27‑cp27m‑win_amd64.whl
+Pycluster‑1.52‑cp34‑cp34m‑win32.whl
+Pycluster‑1.52‑cp34‑cp34m‑win_amd64.whl
+Pycluster‑1.52‑cp35‑cp35m‑win32.whl
+Pycluster‑1.52‑cp35‑cp35m‑win_amd64.whl
+Pycluster‑1.52‑cp36‑cp36m‑win32.whl
+Pycluster‑1.52‑cp36‑cp36m‑win_amd64.whl
+PyCogent, a software library for genomic biology.
+cogent‑1.9‑cp27‑cp27m‑win32.whl
+cogent‑1.9‑cp27‑cp27m‑win_amd64.whl
+PyCorrFit, a versatile tool for FCS data analysis.
+pycorrfit‑1.0.0‑cp27‑cp27m‑win32.whl
+pycorrfit‑1.0.0‑cp27‑cp27m‑win_amd64.whl
+Pycosat, bindings to the PicoSAT SAT solver.
+pycosat‑0.6.3‑cp27‑cp27m‑win32.whl
+pycosat‑0.6.3‑cp27‑cp27m‑win_amd64.whl
+pycosat‑0.6.3‑cp34‑cp34m‑win32.whl
+pycosat‑0.6.3‑cp34‑cp34m‑win_amd64.whl
+pycosat‑0.6.3‑cp35‑cp35m‑win32.whl
+pycosat‑0.6.3‑cp35‑cp35m‑win_amd64.whl
+pycosat‑0.6.3‑cp36‑cp36m‑win32.whl
+pycosat‑0.6.3‑cp36‑cp36m‑win_amd64.whl
+PyCUDA gives access to Nvidia's parallel computing API.
+Requires pytools, matching CUDA Toolkit, compatible Nvidia driver, and MSVC compiler.
+pycuda‑2014.1+cuda6514‑cp27‑none‑win32.whl
+pycuda‑2014.1+cuda6514‑cp27‑none‑win_amd64.whl
+pycuda‑2014.1+cuda6514‑cp34‑none‑win32.whl
+pycuda‑2014.1+cuda6514‑cp34‑none‑win_amd64.whl
+pycuda‑2016.1.2+cuda7518‑cp27‑cp27m‑win32.whl
+pycuda‑2016.1.2+cuda7518‑cp27‑cp27m‑win_amd64.whl
+pycuda‑2016.1.2+cuda7518‑cp34‑cp34m‑win32.whl
+pycuda‑2016.1.2+cuda7518‑cp34‑cp34m‑win_amd64.whl
+pycuda‑2016.1.2+cuda7518‑cp35‑cp35m‑win32.whl
+pycuda‑2016.1.2+cuda7518‑cp35‑cp35m‑win_amd64.whl
+pycuda‑2017.1.1+cuda8061‑cp27‑cp27m‑win32.whl
+pycuda‑2017.1.1+cuda8061‑cp27‑cp27m‑win_amd64.whl
+pycuda‑2017.1.1+cuda8061‑cp34‑cp34m‑win32.whl
+pycuda‑2017.1.1+cuda8061‑cp34‑cp34m‑win_amd64.whl
+pycuda‑2017.1.1+cuda8061‑cp35‑cp35m‑win32.whl
+pycuda‑2017.1.1+cuda8061‑cp35‑cp35m‑win_amd64.whl
+pycuda‑2017.1.1+cuda8061‑cp36‑cp36m‑win32.whl
+pycuda‑2017.1.1+cuda8061‑cp36‑cp36m‑win_amd64.whl
+pycuda‑2017.1.1+cuda9185‑cp27‑cp27m‑win32.whl
+pycuda‑2017.1.1+cuda9185‑cp27‑cp27m‑win_amd64.whl
+pycuda‑2017.1.1+cuda9185‑cp34‑cp34m‑win32.whl
+pycuda‑2017.1.1+cuda9185‑cp34‑cp34m‑win_amd64.whl
+pycuda‑2017.1.1+cuda9185‑cp35‑cp35m‑win32.whl
+pycuda‑2017.1.1+cuda9185‑cp35‑cp35m‑win_amd64.whl
+pycuda‑2017.1.1+cuda9185‑cp36‑cp36m‑win32.whl
+pycuda‑2017.1.1+cuda9185‑cp36‑cp36m‑win_amd64.whl
+pycuda‑2017.1.1+cuda9185‑cp37‑cp37m‑win32.whl
+pycuda‑2017.1.1+cuda9185‑cp37‑cp37m‑win_amd64.whl
+PycURL, a interface to the libcurl library.
+pycurl‑7.43.1‑cp27‑cp27m‑win32.whl
+pycurl‑7.43.1‑cp27‑cp27m‑win_amd64.whl
+pycurl‑7.43.1‑cp34‑cp34m‑win32.whl
+pycurl‑7.43.1‑cp34‑cp34m‑win_amd64.whl
+pycurl‑7.43.1‑cp35‑cp35m‑win32.whl
+pycurl‑7.43.1‑cp35‑cp35m‑win_amd64.whl
+pycurl‑7.43.1‑cp36‑cp36m‑win32.whl
+pycurl‑7.43.1‑cp36‑cp36m‑win_amd64.whl
+pycurl‑7.43.1‑cp37‑cp37m‑win32.whl
+pycurl‑7.43.1‑cp37‑cp37m‑win_amd64.whl
+PyDbg, a Win32 debugger interface.
+Includes the pydasm disassembly library.
+pydbg‑1.2‑cp27‑none‑win32.whl
+pydbg‑1.2‑cp27‑none‑win_amd64.whl
+PyDDE, a numerical solver for systems of delay differential equations (DDEs).
+PyDDE‑0.2.2‑cp27‑cp27m‑win32.whl
+PyDDE‑0.2.2‑cp27‑cp27m‑win_amd64.whl
+PyDDE‑0.2.2‑cp34‑cp34m‑win32.whl
+PyDDE‑0.2.2‑cp34‑cp34m‑win_amd64.whl
+PyDDE‑0.2.2‑cp35‑cp35m‑win32.whl
+PyDDE‑0.2.2‑cp35‑cp35m‑win_amd64.whl
+PyDDE‑0.2.2‑cp36‑cp36m‑win32.whl
+PyDDE‑0.2.2‑cp36‑cp36m‑win_amd64.whl
+PyEDA, a library for electronic design automation.
+pyeda‑0.28.0‑cp35‑cp35m‑win32.whl
+pyeda‑0.28.0‑cp35‑cp35m‑win_amd64.whl
+pyeda‑0.28.0‑cp36‑cp36m‑win32.whl
+pyeda‑0.28.0‑cp36‑cp36m‑win_amd64.whl
+PyEMD implements the Earth Mover's Distance.
+pyemd‑0.4.4‑cp27‑cp27m‑win32.whl
+pyemd‑0.4.4‑cp27‑cp27m‑win_amd64.whl
+pyemd‑0.4.4‑cp34‑cp34m‑win32.whl
+pyemd‑0.4.4‑cp34‑cp34m‑win_amd64.whl
+pyemd‑0.4.4‑cp35‑cp35m‑win32.whl
+pyemd‑0.4.4‑cp35‑cp35m‑win_amd64.whl
+pyemd‑0.4.4‑cp36‑cp36m‑win32.whl
+pyemd‑0.4.4‑cp36‑cp36m‑win_amd64.whl
+PyEphem provides scientific-grade astronomical computations.
+ephem‑3.7.6.0‑cp27‑cp27m‑win32.whl
+ephem‑3.7.6.0‑cp27‑cp27m‑win_amd64.whl
+ephem‑3.7.6.0‑cp34‑cp34m‑win32.whl
+ephem‑3.7.6.0‑cp34‑cp34m‑win_amd64.whl
+ephem‑3.7.6.0‑cp35‑cp35m‑win32.whl
+ephem‑3.7.6.0‑cp35‑cp35m‑win_amd64.whl
+ephem‑3.7.6.0‑cp36‑cp36m‑win32.whl
+ephem‑3.7.6.0‑cp36‑cp36m‑win_amd64.whl
+Pyexiv2 provides bindings to the exiv2 library for image metadata.
+pyexiv2‑0.3.2‑cp27‑none‑win32.whl
+pyexiv2‑0.3.2‑cp27‑none‑win_amd64.whl
+PyFFTW, a wrapper around the FFTW C library.
+pyFFTW‑0.10.4‑cp27‑cp27m‑win32.whl
+pyFFTW‑0.10.4‑cp27‑cp27m‑win_amd64.whl
+pyFFTW‑0.10.4‑cp34‑cp34m‑win32.whl
+pyFFTW‑0.10.4‑cp34‑cp34m‑win_amd64.whl
+pyFFTW‑0.10.4‑cp35‑cp35m‑win32.whl
+pyFFTW‑0.10.4‑cp35‑cp35m‑win_amd64.whl
+pyFFTW‑0.10.4‑cp36‑cp36m‑win32.whl
+pyFFTW‑0.10.4‑cp36‑cp36m‑win_amd64.whl
+PyFITS provides an interface to FITS formatted files.
+This package is now part of astropy.
+pyfits‑3.5‑cp34‑cp34m‑win32.whl
+pyfits‑3.5‑cp35‑cp35m‑win32.whl
+pyfits‑3.5‑cp35‑cp35m‑win_amd64.whl
+pyfits‑3.5‑cp36‑cp36m‑win32.whl
+pyfits‑3.5‑cp36‑cp36m‑win_amd64.whl
+pyfits‑3.5‑cp37‑cp37m‑win32.whl
+pyfits‑3.5‑cp37‑cp37m‑win_amd64.whl
+pyFLTK, a wrapper for the Fast Light Tool Kit cross-platform graphical user-interface library.
+pyFltk‑1.3.3.1‑cp27‑cp27m‑win32.whl
+pyFltk‑1.3.3.1‑cp27‑cp27m‑win_amd64.whl
+pyFltk‑1.3.3.1‑cp34‑cp34m‑win32.whl
+pyFltk‑1.3.3.1‑cp34‑cp34m‑win_amd64.whl
+pyFltk‑1.3.3.1‑cp35‑cp35m‑win32.whl
+pyFltk‑1.3.3.1‑cp35‑cp35m‑win_amd64.whl
+pyFltk‑1.3.3.1‑cp36‑cp36m‑win32.whl
+pyFltk‑1.3.3.1‑cp36‑cp36m‑win_amd64.whl
+PyFlux, a time series library.
+pyflux‑0.4.15‑cp27‑cp27m‑win32.whl
+pyflux‑0.4.15‑cp27‑cp27m‑win_amd64.whl
+pyflux‑0.4.15‑cp34‑cp34m‑win32.whl
+pyflux‑0.4.15‑cp34‑cp34m‑win_amd64.whl
+pyflux‑0.4.15‑cp35‑cp35m‑win32.whl
+pyflux‑0.4.15‑cp35‑cp35m‑win_amd64.whl
+pyflux‑0.4.15‑cp36‑cp36m‑win32.whl
+pyflux‑0.4.15‑cp36‑cp36m‑win_amd64.whl
+pyFM, Factorization Machines.
+pyfm‑2016.2.10‑cp27‑cp27m‑win32.whl
+pyfm‑2016.2.10‑cp27‑cp27m‑win_amd64.whl
+pyfm‑2016.2.10‑cp34‑cp34m‑win32.whl
+pyfm‑2016.2.10‑cp34‑cp34m‑win_amd64.whl
+pyfm‑2016.2.10‑cp35‑cp35m‑win32.whl
+pyfm‑2016.2.10‑cp35‑cp35m‑win_amd64.whl
+pyfm‑2016.2.10‑cp36‑cp36m‑win32.whl
+pyfm‑2016.2.10‑cp36‑cp36m‑win_amd64.whl
+PyFMI enables loading and interacting with Functional Mock-Up Units (FMUs).
+Requires numpy+mkl, assimulo, lxml and scipy.
+PyFMI‑1.5‑cp27‑none‑win32.whl
+PyFMI‑1.5‑cp27‑none‑win_amd64.whl
+PyFMI‑2.4‑cp27‑cp27m‑win32.whl
+PyFMI‑2.4‑cp27‑cp27m‑win_amd64.whl
+PyFMI‑2.4‑cp34‑cp34m‑win32.whl
+PyFMI‑2.4‑cp34‑cp34m‑win_amd64.whl
+PyFMI‑2.4‑cp35‑cp35m‑win32.whl
+PyFMI‑2.4‑cp35‑cp35m‑win_amd64.whl
+PyFMI‑2.4‑cp36‑cp36m‑win32.whl
+PyFMI‑2.4‑cp36‑cp36m‑win_amd64.whl
+Pygame, a library for writing games based on the SDL library.
+pygame‑1.9.3‑cp27‑cp27m‑win32.whl
+pygame‑1.9.3‑cp27‑cp27m‑win_amd64.whl
+pygame‑1.9.3‑cp34‑cp34m‑win32.whl
+pygame‑1.9.3‑cp34‑cp34m‑win_amd64.whl
+pygame‑1.9.3‑cp35‑cp35m‑win32.whl
+pygame‑1.9.3‑cp35‑cp35m‑win_amd64.whl
+pygame‑1.9.3‑cp36‑cp36m‑win32.whl
+pygame‑1.9.3‑cp36‑cp36m‑win_amd64.whl
+pygame‑1.9.3‑cp37‑cp37m‑win32.whl
+pygame‑1.9.3‑cp37‑cp37m‑win_amd64.whl
+Pygit2, a set of bindings to the libgit2 shared library.
+pygit2‑0.26.3‑cp27‑cp27m‑win32.whl
+pygit2‑0.26.3‑cp27‑cp27m‑win_amd64.whl
+pygit2‑0.26.3‑cp34‑cp34m‑win32.whl
+pygit2‑0.26.3‑cp34‑cp34m‑win_amd64.whl
+pygit2‑0.26.3‑cp35‑cp35m‑win32.whl
+pygit2‑0.26.3‑cp35‑cp35m‑win_amd64.whl
+pygit2‑0.26.3‑cp36‑cp36m‑win32.whl
+pygit2‑0.26.3‑cp36‑cp36m‑win_amd64.whl
+pygit2‑0.26.3‑cp37‑cp37m‑win32.whl
+pygit2‑0.26.3‑cp37‑cp37m‑win_amd64.whl
+Pyglet, a cross-platform windowing and multimedia library using AVbin.
+pyglet‑1.3.0‑py2‑none‑any.whl
+pyglet‑1.3.0‑py3‑none‑any.whl
+PyGraphviz, an interface to the Graphviz graph layout and visualization package.
+Requires graphviz-2.38.msi.
+pygraphviz‑1.3.1‑cp27‑none‑win32.whl
+pygraphviz‑1.3.1‑cp27‑none‑win_amd64.whl
+pygraphviz‑1.3.1‑cp34‑none‑win32.whl
+pygraphviz‑1.3.1‑cp34‑none‑win_amd64.whl
+PyGreSQL interfaces to a PostgreSQL database.
+PyGreSQL‑5.0.4‑cp27‑cp27m‑win32.whl
+PyGreSQL‑5.0.4‑cp27‑cp27m‑win_amd64.whl
+PyGreSQL‑5.0.4‑cp34‑cp34m‑win32.whl
+PyGreSQL‑5.0.4‑cp34‑cp34m‑win_amd64.whl
+PyGreSQL‑5.0.4‑cp35‑cp35m‑win32.whl
+PyGreSQL‑5.0.4‑cp35‑cp35m‑win_amd64.whl
+PyGreSQL‑5.0.4‑cp36‑cp36m‑win32.whl
+PyGreSQL‑5.0.4‑cp36‑cp36m‑win_amd64.whl
+PyGTK, a wrapper for the GTK+ library.
+Requires the GTK+ 2.22 runtime.
+The pycairo module was moved to gtk.cairo.
+pycairo_gtk‑1.10.0‑cp27‑none‑win32.whl
+pycairo_gtk‑1.10.0‑cp27‑none‑win_amd64.whl
+pygobject‑2.28.6‑cp27‑none‑win32.whl
+pygobject‑2.28.6‑cp27‑none‑win_amd64.whl
+pygtk‑2.22.0‑cp27‑none‑win32.whl
+pygtk‑2.22.0‑cp27‑none‑win_amd64.whl
+PyHDF, an interface to the NCSA HDF4 library.
+python_hdf4‑0.9‑cp27‑cp27m‑win32.whl
+python_hdf4‑0.9‑cp27‑cp27m‑win_amd64.whl
+python_hdf4‑0.9‑cp34‑cp34m‑win32.whl
+python_hdf4‑0.9‑cp34‑cp34m‑win_amd64.whl
+python_hdf4‑0.9‑cp35‑cp35m‑win32.whl
+python_hdf4‑0.9‑cp35‑cp35m‑win_amd64.whl
+python_hdf4‑0.9‑cp36‑cp36m‑win32.whl
+python_hdf4‑0.9‑cp36‑cp36m‑win_amd64.whl
+python_hdf4‑0.9‑cp37‑cp37m‑win32.whl
+python_hdf4‑0.9‑cp37‑cp37m‑win_amd64.whl
+PyHook, a wrapper for global input hooks in Windows.
+pyHook‑1.5.1‑cp27‑cp27m‑win32.whl
+pyHook‑1.5.1‑cp27‑cp27m‑win_amd64.whl
+pyHook‑1.5.1‑cp34‑cp34m‑win32.whl
+pyHook‑1.5.1‑cp34‑cp34m‑win_amd64.whl
+pyHook‑1.5.1‑cp35‑cp35m‑win32.whl
+pyHook‑1.5.1‑cp35‑cp35m‑win_amd64.whl
+pyHook‑1.5.1‑cp36‑cp36m‑win32.whl
+pyHook‑1.5.1‑cp36‑cp36m‑win_amd64.whl
+PyICU wraps the ICU (International Components for Unicode) library.
+PyICU‑1.9.8‑cp27‑cp27m‑win32.whl
+PyICU‑1.9.8‑cp27‑cp27m‑win_amd64.whl
+PyICU‑1.9.8‑cp34‑cp34m‑win32.whl
+PyICU‑1.9.8‑cp34‑cp34m‑win_amd64.whl
+PyICU‑1.9.8‑cp35‑cp35m‑win32.whl
+PyICU‑1.9.8‑cp35‑cp35m‑win_amd64.whl
+PyICU‑1.9.8‑cp36‑cp36m‑win32.whl
+PyICU‑1.9.8‑cp36‑cp36m‑win_amd64.whl
+PyICU‑1.9.8‑cp37‑cp37m‑win32.whl
+PyICU‑1.9.8‑cp37‑cp37m‑win_amd64.whl
+PyISAPIe, an ISAPI extension for IIS.
+PyISAPIe‑1.1.0‑r201‑Py2.7.zip
+PyJNIus, access Java classes as Python classes using JNI.
+pyjnius‑1.1.1‑cp27‑cp27m‑win32.whl
+pyjnius‑1.1.1‑cp27‑cp27m‑win_amd64.whl
+pyjnius‑1.1.1‑cp34‑cp34m‑win32.whl
+pyjnius‑1.1.1‑cp34‑cp34m‑win_amd64.whl
+pyjnius‑1.1.1‑cp35‑cp35m‑win32.whl
+pyjnius‑1.1.1‑cp35‑cp35m‑win_amd64.whl
+pyjnius‑1.1.1‑cp36‑cp36m‑win32.whl
+pyjnius‑1.1.1‑cp36‑cp36m‑win_amd64.whl
+PyKSVD, a highly optimized, parallel implementation of the Batch-OMP version of the KSVD learning algorithm.
+pyksvd‑0.1‑cp27‑none‑win32.whl
+pyksvd‑0.1‑cp27‑none‑win_amd64.whl
+Pyldap a fork of python-ldap, which provides an object-oriented API to access LDAP directory servers via OpenLDAP.
+pyldap‑2.4.45‑cp27‑cp27m‑win32.whl
+pyldap‑2.4.45‑cp27‑cp27m‑win_amd64.whl
+pyldap‑2.4.45‑cp34‑cp34m‑win32.whl
+pyldap‑2.4.45‑cp34‑cp34m‑win_amd64.whl
+pyldap‑2.4.45‑cp35‑cp35m‑win32.whl
+pyldap‑2.4.45‑cp35‑cp35m‑win_amd64.whl
+pyldap‑2.4.45‑cp36‑cp36m‑win32.whl
+pyldap‑2.4.45‑cp36‑cp36m‑win_amd64.whl
+PyLibDeconv, a wrapper for the deconv library.
+Requires numpy+mkl.
+pylibdeconv‑1.0.0.dev0‑cp27‑none‑win32.whl
+pylibdeconv‑1.0.0.dev0‑cp27‑none‑win_amd64.whl
+PyLibTiff, a package for reading and writing TIFF and LSM files.
+libtiff‑0.4.2‑cp27‑cp27m‑win32.whl
+libtiff‑0.4.2‑cp27‑cp27m‑win_amd64.whl
+libtiff‑0.4.2‑cp34‑cp34m‑win32.whl
+libtiff‑0.4.2‑cp34‑cp34m‑win_amd64.whl
+libtiff‑0.4.2‑cp35‑cp35m‑win32.whl
+libtiff‑0.4.2‑cp35‑cp35m‑win_amd64.whl
+libtiff‑0.4.2‑cp36‑cp36m‑win32.whl
+libtiff‑0.4.2‑cp36‑cp36m‑win_amd64.whl
+libtiff‑0.4.2‑cp37‑cp37m‑win32.whl
+libtiff‑0.4.2‑cp37‑cp37m‑win_amd64.whl
+PyLZMA, bindings for the LZMA compression library.
+pylzma‑0.4.9‑cp27‑cp27m‑win32.whl
+pylzma‑0.4.9‑cp27‑cp27m‑win_amd64.whl
+pylzma‑0.4.9‑cp34‑cp34m‑win32.whl
+pylzma‑0.4.9‑cp34‑cp34m‑win_amd64.whl
+pylzma‑0.4.9‑cp35‑cp35m‑win32.whl
+pylzma‑0.4.9‑cp35‑cp35m‑win_amd64.whl
+pylzma‑0.4.9‑cp36‑cp36m‑win32.whl
+pylzma‑0.4.9‑cp36‑cp36m‑win_amd64.whl
+Pymatgen, a library for materials analysis.
+pymatgen‑2017.12.15‑cp27‑cp27m‑win32.whl
+pymatgen‑2017.12.15‑cp27‑cp27m‑win_amd64.whl
+pymatgen‑2017.12.15‑cp34‑cp34m‑win32.whl
+pymatgen‑2017.12.15‑cp34‑cp34m‑win_amd64.whl
+pymatgen‑2017.12.15‑cp35‑cp35m‑win32.whl
+pymatgen‑2017.12.15‑cp35‑cp35m‑win_amd64.whl
+pymatgen‑2017.12.15‑cp36‑cp36m‑win32.whl
+pymatgen‑2017.12.15‑cp36‑cp36m‑win_amd64.whl
+pymatgen‑2017.12.15‑cp37‑cp37m‑win32.whl
+pymatgen‑2017.12.15‑cp37‑cp37m‑win_amd64.whl
+PyMC, a Markov chain Monte Carlo.
+Requires numpy+mkl.
+pymc‑2.3.6‑cp27‑cp27m‑win32.whl
+pymc‑2.3.6‑cp27‑cp27m‑win_amd64.whl
+pymc‑2.3.6‑cp34‑cp34m‑win32.whl
+pymc‑2.3.6‑cp34‑cp34m‑win_amd64.whl
+pymc‑2.3.6‑cp35‑cp35m‑win32.whl
+pymc‑2.3.6‑cp35‑cp35m‑win_amd64.whl
+pymc‑2.3.6‑cp36‑cp36m‑win32.whl
+pymc‑2.3.6‑cp36‑cp36m‑win_amd64.whl
+PyMca, a toolkit for X-ray fluorescence data analysis.
+PyMca‑4.7.4‑cp27‑none‑win32.whl
+PyMca‑4.7.4‑cp27‑none‑win_amd64.whl
+pymca‑5.1.2‑py2.py3‑none‑any.whl
+PyMca5‑5.1.2‑cp27‑cp27m‑win32.whl
+PyMca5‑5.1.2‑cp27‑cp27m‑win_amd64.whl
+PyMca5‑5.1.2‑cp35‑cp35m‑win32.whl
+PyMca5‑5.1.2‑cp35‑cp35m‑win_amd64.whl
+PyMca5‑5.1.2‑cp36‑cp36m‑win32.whl
+PyMca5‑5.1.2‑cp36‑cp36m‑win_amd64.whl
+PyMCMC, a Markov chain Monte Carlo.
+Requires numpy+mkl.
+pymcmc‑1.1a1‑cp27‑none‑win32.whl
+pymcmc‑1.1a1‑cp27‑none‑win_amd64.whl
+PyMCubes, is an implementation of the marching cubes algorithm to extract isosurfaces from volumetric data.
+PyMCubes‑0.0.6‑cp27‑cp27m‑win32.whl
+PyMCubes‑0.0.6‑cp27‑cp27m‑win_amd64.whl
+PyMCubes‑0.0.6‑cp34‑cp34m‑win32.whl
+PyMCubes‑0.0.6‑cp34‑cp34m‑win_amd64.whl
+PyMCubes‑0.0.6‑cp35‑cp35m‑win32.whl
+PyMCubes‑0.0.6‑cp35‑cp35m‑win_amd64.whl
+PyMCubes‑0.0.6‑cp36‑cp36m‑win32.whl
+PyMCubes‑0.0.6‑cp36‑cp36m‑win_amd64.whl
+PyMedia, a module for media files manipulations.
+pymedia‑1.3.7.3‑cp27‑none‑win32.whl
+pymedia‑1.3.7.3‑cp27‑none‑win_amd64.whl
+PyMetis, a wrapper for the METIS graph partitioning software.
+PyMetis‑2016.2‑cp27‑cp27m‑win32.whl
+PyMetis‑2016.2‑cp27‑cp27m‑win_amd64.whl
+PyMetis‑2016.2‑cp34‑cp34m‑win32.whl
+PyMetis‑2016.2‑cp34‑cp34m‑win_amd64.whl
+PyMetis‑2016.2‑cp35‑cp35m‑win32.whl
+PyMetis‑2016.2‑cp35‑cp35m‑win_amd64.whl
+PyMetis‑2016.2‑cp36‑cp36m‑win32.whl
+PyMetis‑2016.2‑cp36‑cp36m‑win_amd64.whl
+PyMinuit provides an interface to Minuit for minimizing general N-dimensional functions.
+pyMinuit‑1.2.1‑cp27‑cp27m‑win32.whl
+pyMinuit‑1.2.1‑cp27‑cp27m‑win_amd64.whl
+pyMinuit‑1.2.1‑cp34‑cp34m‑win32.whl
+pyMinuit‑1.2.1‑cp34‑cp34m‑win_amd64.whl
+pyMinuit‑1.2.1‑cp35‑cp35m‑win32.whl
+pyMinuit‑1.2.1‑cp35‑cp35m‑win_amd64.whl
+pyMinuit‑1.2.1‑cp36‑cp36m‑win32.whl
+pyMinuit‑1.2.1‑cp36‑cp36m‑win_amd64.whl
+PyMix implements algorithms and data structures for data mining applications.
+pymix‑0.8b0‑cp27‑none‑win32.whl
+pymix‑0.8b0‑cp27‑none‑win_amd64.whl
+PyMOL, a molecular visualization product for rendering and animating 3D molecular structures.
+PyMOL is a trademark of Schrodinger, LLC.
+Requires numpy+mkl and PMW. Excludes the web module.
+Conflicts with the chempy package.
+Pmw‑2.0.1‑py2‑none‑any.whl
+Pmw‑2.0.1‑py3‑none‑any.whl
+pymol‑1.9.0.0‑cp27‑cp27m‑win_amd64.whl
+pymol‑1.9.0.0‑cp35‑cp35m‑win32.whl
+pymol‑1.9.0.0‑cp35‑cp35m‑win_amd64.whl
+pymol‑1.9.0.0‑cp36‑cp36m‑win32.whl
+pymol‑1.9.0.0‑cp36‑cp36m‑win_amd64.whl
+pymol‑1.9.0.0‑cp37‑cp37m‑win32.whl
+pymol‑1.9.0.0‑cp37‑cp37m‑win_amd64.whl
+pymol_launcher‑1.0‑cp27‑cp27m‑win_amd64.whl
+pymol_launcher‑1.0‑cp35‑cp35m‑win32.whl
+pymol_launcher‑1.0‑cp35‑cp35m‑win_amd64.whl
+pymol_launcher‑1.0‑cp36‑cp36m‑win32.whl
+pymol_launcher‑1.0‑cp36‑cp36m‑win_amd64.whl
+pymol_launcher‑1.0‑cp37‑cp37m‑win32.whl
+pymol_launcher‑1.0‑cp37‑cp37m‑win_amd64.whl
+Pymongo, a driver for the Mongo database.
+pymongo‑3.6.0‑cp27‑cp27m‑win32.whl
+pymongo‑3.6.0‑cp27‑cp27m‑win_amd64.whl
+pymongo‑3.6.0‑cp34‑cp34m‑win32.whl
+pymongo‑3.6.0‑cp34‑cp34m‑win_amd64.whl
+pymongo‑3.6.0‑cp35‑cp35m‑win32.whl
+pymongo‑3.6.0‑cp35‑cp35m‑win_amd64.whl
+pymongo‑3.6.0‑cp36‑cp36m‑win32.whl
+pymongo‑3.6.0‑cp36‑cp36m‑win_amd64.whl
+Pymssql, a simple MS SQL database interface based on FreeTDS.
+pymssql‑1.0.3‑cp27‑none‑win32.whl
+pymssql‑2.1.3‑cp27‑cp27m‑win32.whl
+pymssql‑2.1.3‑cp27‑cp27m‑win_amd64.whl
+pymssql‑2.1.3‑cp34‑cp34m‑win32.whl
+pymssql‑2.1.3‑cp34‑cp34m‑win_amd64.whl
+pymssql‑2.1.3‑cp35‑cp35m‑win32.whl
+pymssql‑2.1.3‑cp35‑cp35m‑win_amd64.whl
+pymssql‑2.1.3‑cp36‑cp36m‑win32.whl
+pymssql‑2.1.3‑cp36‑cp36m‑win_amd64.whl
+Pymunk, a 2d physics library built on top of Chipmunk.
+pymunk‑4.0.0‑cp27‑none‑win32.whl
+pymunk‑4.0.0‑cp27‑none‑win_amd64.whl
+Pymutt (experimental icl build) implements a multi-taper Fourier spectral estimator.
+Requires numpy+mkl.
+pymutt‑0.82.0‑cp27‑none‑win32.whl
+pymutt‑0.82.0‑cp27‑none‑win_amd64.whl
+PyMVPA performs multivariate pattern analysis.
+pymvpa‑0.4.8‑cp27‑none‑win32.whl
+pymvpa‑0.4.8‑cp27‑none‑win_amd64.whl
+pymvpa2‑2.6.3‑cp27‑cp27m‑win32.whl
+pymvpa2‑2.6.3‑cp27‑cp27m‑win_amd64.whl
+pymvpa2‑2.6.3‑cp34‑cp34m‑win32.whl
+pymvpa2‑2.6.3‑cp34‑cp34m‑win_amd64.whl
+pymvpa2‑2.6.3‑cp35‑cp35m‑win32.whl
+pymvpa2‑2.6.3‑cp35‑cp35m‑win_amd64.whl
+pymvpa2‑2.6.3‑cp36‑cp36m‑win32.whl
+pymvpa2‑2.6.3‑cp36‑cp36m‑win_amd64.whl
+PyODBC, an Open Database Connectivity (ODBC) adapter.
+pyodbc‑4.0.21‑cp27‑cp27m‑win32.whl
+pyodbc‑4.0.21‑cp27‑cp27m‑win_amd64.whl
+pyodbc‑4.0.21‑cp34‑cp34m‑win32.whl
+pyodbc‑4.0.21‑cp34‑cp34m‑win_amd64.whl
+pyodbc‑4.0.21‑cp35‑cp35m‑win32.whl
+pyodbc‑4.0.21‑cp35‑cp35m‑win_amd64.whl
+pyodbc‑4.0.21‑cp36‑cp36m‑win32.whl
+pyodbc‑4.0.21‑cp36‑cp36m‑win_amd64.whl
+PyOpenCL gives access to the OpenCL parallel computing API.
+Requires pytools, mako, cffi and an OpenCL compatible driver (e.g. from Intel).
+pyopencl‑2017.2.2+cl12‑cp27‑cp27m‑win32.whl
+pyopencl‑2017.2.2+cl12‑cp27‑cp27m‑win_amd64.whl
+pyopencl‑2017.2.2+cl12‑cp34‑cp34m‑win32.whl
+pyopencl‑2017.2.2+cl12‑cp34‑cp34m‑win_amd64.whl
+pyopencl‑2017.2.2+cl12‑cp35‑cp35m‑win32.whl
+pyopencl‑2017.2.2+cl12‑cp35‑cp35m‑win_amd64.whl
+pyopencl‑2017.2.2+cl12‑cp36‑cp36m‑win32.whl
+pyopencl‑2017.2.2+cl12‑cp36‑cp36m‑win_amd64.whl
+pyopencl‑2017.2.2+cl12‑cp37‑cp37m‑win32.whl
+PyOpenGL provides bindings to OpenGL, GLUT, and GLE.
+PyOpenGL‑3.1.1‑cp27‑cp27m‑win32.whl
+PyOpenGL‑3.1.1‑cp27‑cp27m‑win_amd64.whl
+PyOpenGL‑3.1.1‑cp34‑cp34m‑win32.whl
+PyOpenGL‑3.1.1‑cp34‑cp34m‑win_amd64.whl
+PyOpenGL‑3.1.1‑cp35‑cp35m‑win32.whl
+PyOpenGL‑3.1.1‑cp35‑cp35m‑win_amd64.whl
+PyOpenGL‑3.1.1‑cp36‑cp36m‑win32.whl
+PyOpenGL‑3.1.1‑cp36‑cp36m‑win_amd64.whl
+PyOpenGL‑3.1.1‑cp37‑cp37m‑win32.whl
+PyOpenGL‑3.1.1‑cp37‑cp37m‑win_amd64.whl
+PyOpenGL_accelerate‑3.1.1‑cp27‑cp27m‑win32.whl
+PyOpenGL_accelerate‑3.1.1‑cp27‑cp27m‑win_amd64.whl
+PyOpenGL_accelerate‑3.1.1‑cp34‑cp34m‑win32.whl
+PyOpenGL_accelerate‑3.1.1‑cp34‑cp34m‑win_amd64.whl
+PyOpenGL_accelerate‑3.1.1‑cp35‑cp35m‑win32.whl
+PyOpenGL_accelerate‑3.1.1‑cp35‑cp35m‑win_amd64.whl
+PyOpenGL_accelerate‑3.1.1‑cp36‑cp36m‑win32.whl
+PyOpenGL_accelerate‑3.1.1‑cp36‑cp36m‑win_amd64.whl
+PyOpenGL_accelerate‑3.1.1‑cp37‑cp37m‑win32.whl
+PyOpenGL_accelerate‑3.1.1‑cp37‑cp37m‑win_amd64.whl
+Pypmc, a toolkit for adaptive importance sampling.
+pypmc‑1.1.1‑cp27‑cp27m‑win32.whl
+pypmc‑1.1.1‑cp27‑cp27m‑win_amd64.whl
+pypmc‑1.1.1‑cp34‑cp34m‑win32.whl
+pypmc‑1.1.1‑cp34‑cp34m‑win_amd64.whl
+pypmc‑1.1.1‑cp35‑cp35m‑win32.whl
+pypmc‑1.1.1‑cp35‑cp35m‑win_amd64.whl
+pypmc‑1.1.1‑cp36‑cp36m‑win32.whl
+pypmc‑1.1.1‑cp36‑cp36m‑win_amd64.whl
+Pyproj, an interface to the PROJ.4 library for cartographic transformations.
+pyproj‑1.9.5.1‑cp27‑cp27m‑win32.whl
+pyproj‑1.9.5.1‑cp27‑cp27m‑win_amd64.whl
+pyproj‑1.9.5.1‑cp34‑cp34m‑win32.whl
+pyproj‑1.9.5.1‑cp34‑cp34m‑win_amd64.whl
+pyproj‑1.9.5.1‑cp35‑cp35m‑win32.whl
+pyproj‑1.9.5.1‑cp35‑cp35m‑win_amd64.whl
+pyproj‑1.9.5.1‑cp36‑cp36m‑win32.whl
+pyproj‑1.9.5.1‑cp36‑cp36m‑win_amd64.whl
+pyproj‑1.9.5.1‑cp37‑cp37m‑win32.whl
+pyproj‑1.9.5.1‑cp37‑cp37m‑win_amd64.whl
+PyQPBO, interface to the QPBO library.
+pyqpbo‑0.1.2‑cp27‑cp27m‑win32.whl
+pyqpbo‑0.1.2‑cp27‑cp27m‑win_amd64.whl
+pyqpbo‑0.1.2‑cp34‑cp34m‑win32.whl
+pyqpbo‑0.1.2‑cp34‑cp34m‑win_amd64.whl
+pyqpbo‑0.1.2‑cp35‑cp35m‑win32.whl
+pyqpbo‑0.1.2‑cp35‑cp35m‑win_amd64.whl
+pyqpbo‑0.1.2‑cp36‑cp36m‑win32.whl
+pyqpbo‑0.1.2‑cp36‑cp36m‑win_amd64.whl
+PyQt4, a set of bindings for the Qt4 application framework.
+PyQt4‑4.11.4‑cp27‑cp27m‑win32.whl
+PyQt4‑4.11.4‑cp27‑cp27m‑win_amd64.whl
+PyQt4‑4.11.4‑cp34‑cp34m‑win32.whl
+PyQt4‑4.11.4‑cp34‑cp34m‑win_amd64.whl
+PyQt4‑4.11.4‑cp35‑cp35m‑win32.whl
+PyQt4‑4.11.4‑cp35‑cp35m‑win_amd64.whl
+PyQt4‑4.11.4‑cp36‑cp36m‑win32.whl
+PyQt4‑4.11.4‑cp36‑cp36m‑win_amd64.whl
+PyQwt plots data with Numpy and PyQt4.
+Requires pyqt4 and oldnumeric.
+PyQwt‑5.2.1‑cp27‑cp27m‑win32.whl
+PyQwt‑5.2.1‑cp27‑cp27m‑win_amd64.whl
+PyQwt‑5.2.1‑cp34‑cp34m‑win32.whl
+PyQwt‑5.2.1‑cp34‑cp34m‑win_amd64.whl
+PyQwt‑5.2.1‑cp35‑cp35m‑win32.whl
+PyQwt‑5.2.1‑cp35‑cp35m‑win_amd64.whl
+PyQwt‑5.2.1‑cp36‑cp36m‑win32.whl
+PyQwt‑5.2.1‑cp36‑cp36m‑win_amd64.whl
+Pyropes, a scalable and efficient string implementation.
+Ropes‑1.0‑cp27‑none‑win32.whl
+Ropes‑1.0‑cp27‑none‑win_amd64.whl
+pyrsistent, Persistent/Immutable/Functional data structures.
+pyrsistent‑0.14.2‑cp27‑cp27m‑win32.whl
+pyrsistent‑0.14.2‑cp27‑cp27m‑win_amd64.whl
+pyrsistent‑0.14.2‑cp34‑cp34m‑win32.whl
+pyrsistent‑0.14.2‑cp34‑cp34m‑win_amd64.whl
+pyrsistent‑0.14.2‑cp35‑cp35m‑win32.whl
+pyrsistent‑0.14.2‑cp35‑cp35m‑win_amd64.whl
+pyrsistent‑0.14.2‑cp36‑cp36m‑win32.whl
+pyrsistent‑0.14.2‑cp36‑cp36m‑win_amd64.whl
+pyRXP, a fast, validating XML Parser.
+pyRXP‑2.1.0‑cp27‑cp27m‑win32.whl
+pyRXP‑2.1.0‑cp27‑cp27m‑win_amd64.whl
+pyRXP‑2.1.0‑cp34‑cp34m‑win32.whl
+pyRXP‑2.1.0‑cp34‑cp34m‑win_amd64.whl
+pyRXP‑2.1.0‑cp35‑cp35m‑win32.whl
+pyRXP‑2.1.0‑cp35‑cp35m‑win_amd64.whl
+pyRXP‑2.1.0‑cp36‑cp36m‑win32.whl
+pyRXP‑2.1.0‑cp36‑cp36m‑win_amd64.whl
+PySFML provides bindings for SFML 2, the Simple and Fast Multimedia Library.
+pySFML‑2.2.0‑cp27‑none‑win32.whl
+pySFML‑2.2.0‑cp27‑none‑win_amd64.whl
+pySFML‑2.2.0‑cp34‑none‑win32.whl
+pySFML‑2.2.0‑cp34‑none‑win_amd64.whl
+PySide provides bindings for the Qt cross-platform application and UI framework
+Using source code by krrr for VC14 builds.
+PySide‑1.2.4‑cp27‑cp27m‑win32.whl
+PySide‑1.2.4‑cp27‑cp27m‑win_amd64.whl
+PySide‑1.2.4‑cp34‑cp34m‑win32.whl
+PySide‑1.2.4‑cp34‑cp34m‑win_amd64.whl
+PySide‑1.2.4‑cp35‑cp35m‑win32.whl
+PySide‑1.2.4‑cp35‑cp35m‑win_amd64.whl
+PySide‑1.2.4‑cp36‑cp36m‑win32.whl
+PySide‑1.2.4‑cp36‑cp36m‑win_amd64.whl
+PySide‑1.2.4‑vc14‑x64.zip
+PySparse, a fast sparse matrix library.
+Requires numpy+mkl.
+pysparse‑1.3‑cp27‑none‑win32.whl
+pysparse‑1.3‑cp27‑none‑win_amd64.whl
+Pyspharm, a spherical harmonic transform module based on SPHEREPACK.
+Requires numpy+mkl.
+pyspharm‑1.0.9‑cp27‑cp27m‑win32.whl
+pyspharm‑1.0.9‑cp27‑cp27m‑win_amd64.whl
+pyspharm‑1.0.9‑cp34‑cp34m‑win32.whl
+pyspharm‑1.0.9‑cp34‑cp34m‑win_amd64.whl
+pyspharm‑1.0.9‑cp35‑cp35m‑win32.whl
+pyspharm‑1.0.9‑cp35‑cp35m‑win_amd64.whl
+pyspharm‑1.0.9‑cp36‑cp36m‑win32.whl
+pyspharm‑1.0.9‑cp36‑cp36m‑win_amd64.whl
+Pysqlite, a DB-API 2.0 interface for SQLite databases.
+pysqlite‑2.8.3‑cp27‑cp27m‑win32.whl
+pysqlite‑2.8.3‑cp27‑cp27m‑win_amd64.whl
+PyStemmer calculates stemmed forms of words.
+PyStemmer‑1.3.0‑cp27‑cp27m‑win32.whl
+PyStemmer‑1.3.0‑cp27‑cp27m‑win_amd64.whl
+PyStemmer‑1.3.0‑cp34‑cp34m‑win32.whl
+PyStemmer‑1.3.0‑cp34‑cp34m‑win_amd64.whl
+PyStemmer‑1.3.0‑cp35‑cp35m‑win32.whl
+PyStemmer‑1.3.0‑cp35‑cp35m‑win_amd64.whl
+PyStemmer‑1.3.0‑cp36‑cp36m‑win32.whl
+PyStemmer‑1.3.0‑cp36‑cp36m‑win_amd64.whl
+PyStruct, a simple structured learning framework.
+pystruct‑0.2.5‑cp27‑cp27m‑win32.whl
+pystruct‑0.2.5‑cp27‑cp27m‑win_amd64.whl
+pystruct‑0.2.5‑cp34‑cp34m‑win32.whl
+pystruct‑0.2.5‑cp34‑cp34m‑win_amd64.whl
+pystruct‑0.2.5‑cp35‑cp35m‑win32.whl
+pystruct‑0.2.5‑cp35‑cp35m‑win_amd64.whl
+pystruct‑0.2.5‑cp36‑cp36m‑win32.whl
+pystruct‑0.2.5‑cp36‑cp36m‑win_amd64.whl
+Pyswisseph, Python extension to the Swiss Ephemeris.
+pyswisseph‑2.0.0.post2‑cp27‑cp27m‑win32.whl
+pyswisseph‑2.0.0.post2‑cp27‑cp27m‑win_amd64.whl
+pyswisseph‑2.0.0.post2‑cp34‑cp34m‑win32.whl
+pyswisseph‑2.0.0.post2‑cp34‑cp34m‑win_amd64.whl
+pyswisseph‑2.5.1.post0‑cp35‑cp35m‑win32.whl
+pyswisseph‑2.5.1.post0‑cp35‑cp35m‑win_amd64.whl
+pyswisseph‑2.5.1.post0‑cp36‑cp36m‑win32.whl
+pyswisseph‑2.5.1.post0‑cp36‑cp36m‑win_amd64.whl
+PyTables, a package for managing hierarchical datasets based on the HDF5 library.
+Requires numexpr.
+tables‑3.4.2‑cp27‑cp27m‑win32.whl
+tables‑3.4.2‑cp27‑cp27m‑win_amd64.whl
+tables‑3.4.2‑cp34‑cp34m‑win32.whl
+tables‑3.4.2‑cp34‑cp34m‑win_amd64.whl
+tables‑3.4.2‑cp35‑cp35m‑win32.whl
+tables‑3.4.2‑cp35‑cp35m‑win_amd64.whl
+tables‑3.4.2‑cp36‑cp36m‑win32.whl
+tables‑3.4.2‑cp36‑cp36m‑win_amd64.whl
+tables‑3.4.2‑cp37‑cp37m‑win32.whl
+tables‑3.4.2‑cp37‑cp37m‑win_amd64.whl
+Python-cjson implements a very fast JSON encoder/decoder.
+python_cjson‑1.2.1‑cp27‑cp27m‑win32.whl
+python_cjson‑1.2.1‑cp27‑cp27m‑win_amd64.whl
+Python-igraph, an interface to the igraph high performance graph library.
+Requires pycairo.
+python_igraph‑0.7.1.post6‑cp27‑none‑win32.whl
+python_igraph‑0.7.1.post6‑cp27‑none‑win_amd64.whl
+python_igraph‑0.7.1.post6‑cp34‑none‑win32.whl
+python_igraph‑0.7.1.post6‑cp34‑none‑win_amd64.whl
+python_igraph‑0.7.1.post6‑cp35‑none‑win32.whl
+python_igraph‑0.7.1.post6‑cp35‑none‑win_amd64.whl
+Python-ldap, provides an object-oriented API to access LDAP directory servers via OpenLDAP.
+python_ldap‑2.5.2‑cp27‑cp27m‑win32.whl
+python_ldap‑2.5.2‑cp27‑cp27m‑win_amd64.whl
+Python-Levenshtein computes string distances and similarities.
+python_Levenshtein‑0.12.0‑cp27‑cp27m‑win32.whl
+python_Levenshtein‑0.12.0‑cp27‑cp27m‑win_amd64.whl
+python_Levenshtein‑0.12.0‑cp34‑cp34m‑win32.whl
+python_Levenshtein‑0.12.0‑cp34‑cp34m‑win_amd64.whl
+python_Levenshtein‑0.12.0‑cp35‑cp35m‑win32.whl
+python_Levenshtein‑0.12.0‑cp35‑cp35m‑win_amd64.whl
+python_Levenshtein‑0.12.0‑cp36‑cp36m‑win32.whl
+python_Levenshtein‑0.12.0‑cp36‑cp36m‑win_amd64.whl
+Python-lz4, bindings for the lz4 compression library.
+lz4‑0.16.6‑cp27‑cp27m‑win32.whl
+lz4‑0.16.6‑cp27‑cp27m‑win_amd64.whl
+lz4‑0.16.6‑cp34‑cp34m‑win32.whl
+lz4‑0.16.6‑cp34‑cp34m‑win_amd64.whl
+lz4‑0.16.6‑cp35‑cp35m‑win32.whl
+lz4‑0.16.6‑cp35‑cp35m‑win_amd64.whl
+lz4‑0.16.6‑cp36‑cp36m‑win32.whl
+lz4‑0.16.6‑cp36‑cp36m‑win_amd64.whl
+lz4‑0.16.6‑cp37‑cp37m‑win32.whl
+lz4‑0.16.6‑cp37‑cp37m‑win_amd64.whl
+Python-LZO, bindings for the LZO data compression library.
+python_lzo‑1.11‑cp27‑cp27m‑win32.whl
+python_lzo‑1.11‑cp27‑cp27m‑win_amd64.whl
+python_lzo‑1.11‑cp34‑cp34m‑win32.whl
+python_lzo‑1.11‑cp34‑cp34m‑win_amd64.whl
+python_lzo‑1.11‑cp35‑cp35m‑win32.whl
+python_lzo‑1.11‑cp35‑cp35m‑win_amd64.whl
+python_lzo‑1.11‑cp36‑cp36m‑win32.whl
+python_lzo‑1.11‑cp36‑cp36m‑win_amd64.whl
+Python-snappy wraps the snappy compression library.
+python_snappy‑0.5.1‑cp27‑cp27m‑win32.whl
+python_snappy‑0.5.1‑cp27‑cp27m‑win_amd64.whl
+python_snappy‑0.5.1‑cp34‑cp34m‑win32.whl
+python_snappy‑0.5.1‑cp34‑cp34m‑win_amd64.whl
+python_snappy‑0.5.1‑cp35‑cp35m‑win32.whl
+python_snappy‑0.5.1‑cp35‑cp35m‑win_amd64.whl
+python_snappy‑0.5.1‑cp36‑cp36m‑win32.whl
+python_snappy‑0.5.1‑cp36‑cp36m‑win_amd64.whl
+Python-sundials, a Cython wrapper for the SUNDIALS solver suite.
+python_sundials‑0.5‑cp27‑none‑win32.whl
+python_sundials‑0.5‑cp27‑none‑win_amd64.whl
+python_sundials‑0.5‑cp34‑none‑win32.whl
+python_sundials‑0.5‑cp34‑none‑win_amd64.whl
+python_sundials‑0.5‑cp35‑none‑win32.whl
+python_sundials‑0.5‑cp35‑none‑win_amd64.whl
+PythonMagick provides an object-oriented interface to ImageMagick.
+PythonMagick‑0.9.10‑cp27‑none‑win32.whl
+PythonMagick‑0.9.10‑cp27‑none‑win_amd64.whl
+PythonMagick‑0.9.10‑cp34‑none‑win32.whl
+PythonMagick‑0.9.10‑cp34‑none‑win_amd64.whl
+PythonMagick‑0.9.13‑cp35‑cp35m‑win32.whl
+PythonMagick‑0.9.13‑cp35‑cp35m‑win_amd64.whl
+PythonMagick‑0.9.13‑cp36‑cp36m‑win32.whl
+PythonMagick‑0.9.13‑cp36‑cp36m‑win_amd64.whl
+PythonNET provides integration with the .NET Common Language Runtime (CLR) and an application scripting tool for .NET.
+Requires the Microsoft .NET Framework 4.0.
+pythonnet‑2.3.0‑cp27‑cp27m‑win32.whl
+pythonnet‑2.3.0‑cp27‑cp27m‑win_amd64.whl
+pythonnet‑2.3.0‑cp34‑cp34m‑win32.whl
+pythonnet‑2.3.0‑cp34‑cp34m‑win_amd64.whl
+pythonnet‑2.3.0‑cp35‑cp35m‑win32.whl
+pythonnet‑2.3.0‑cp35‑cp35m‑win_amd64.whl
+pythonnet‑2.3.0‑cp36‑cp36m‑win32.whl
+pythonnet‑2.3.0‑cp36‑cp36m‑win_amd64.whl
+Pytiff, a library for reading chunks from a TIFF file.
+pytiff‑0.1.6‑cp27‑none‑win32.whl
+pytiff‑0.7.5‑cp27‑cp27m‑win32.whl
+pytiff‑0.7.5‑cp27‑cp27m‑win_amd64.whl
+pytiff‑0.7.5‑cp34‑cp34m‑win32.whl
+pytiff‑0.7.5‑cp34‑cp34m‑win_amd64.whl
+pytiff‑0.7.5‑cp35‑cp35m‑win32.whl
+pytiff‑0.7.5‑cp35‑cp35m‑win_amd64.whl
+pytiff‑0.7.5‑cp36‑cp36m‑win32.whl
+pytiff‑0.7.5‑cp36‑cp36m‑win_amd64.whl
+PyTST, an implementation of a Ternary Search Tree.
+pytst‑1.18‑cp27‑none‑win32.whl
+pytst‑1.18‑cp27‑none‑win_amd64.whl
+PyUSB-FTDI provides an interface to the FTDI D2XX drivers.
+Linked against version 2.08.28.
+PyUSB‑1.6‑cp27‑none‑win32.whl
+PyUSB‑1.6‑cp27‑none‑win_amd64.whl
+PyViennaCL (unstable) provides bindings for the ViennaCL linear algebra and numerical computation library for GPGPU and heterogeneous systems.
+Requires an OpenCL 1.2 compatible driver (e.g. from Intel).
+pyviennacl‑1.0.3‑cp27‑cp27m‑win32.whl
+pyviennacl‑1.0.3‑cp27‑cp27m‑win_amd64.whl
+pyviennacl‑1.0.3‑cp34‑cp34m‑win32.whl
+pyviennacl‑1.0.3‑cp34‑cp34m‑win_amd64.whl
+pyviennacl‑1.0.3‑cp35‑cp35m‑win32.whl
+pyviennacl‑1.0.3‑cp35‑cp35m‑win_amd64.whl
+pyviennacl‑1.0.3‑cp36‑cp36m‑win32.whl
+pyviennacl‑1.0.3‑cp36‑cp36m‑win_amd64.whl
+PyVRML97 Scenegraph modelling objects.
+PyVRML97‑2.3.0‑py2.py3‑none‑any.whl
+PyVRML97_accelerate‑2.3.0‑cp27‑cp27m‑win32.whl
+PyVRML97_accelerate‑2.3.0‑cp27‑cp27m‑win_amd64.whl
+PyVRML97_accelerate‑2.3.0‑cp34‑cp34m‑win32.whl
+PyVRML97_accelerate‑2.3.0‑cp34‑cp34m‑win_amd64.whl
+PyVRML97_accelerate‑2.3.0‑cp35‑cp35m‑win32.whl
+PyVRML97_accelerate‑2.3.0‑cp35‑cp35m‑win_amd64.whl
+PyVRML97_accelerate‑2.3.0‑cp36‑cp36m‑win32.whl
+PyVRML97_accelerate‑2.3.0‑cp36‑cp36m‑win_amd64.whl
+PyWavelets, a package for discrete wavelet transforms.
+PyWavelets‑0.5.2‑cp27‑cp27m‑win32.whl
+PyWavelets‑0.5.2‑cp27‑cp27m‑win_amd64.whl
+PyWavelets‑0.5.2‑cp34‑cp34m‑win32.whl
+PyWavelets‑0.5.2‑cp34‑cp34m‑win_amd64.whl
+PyWavelets‑0.5.2‑cp35‑cp35m‑win32.whl
+PyWavelets‑0.5.2‑cp35‑cp35m‑win_amd64.whl
+PyWavelets‑0.5.2‑cp36‑cp36m‑win32.whl
+PyWavelets‑0.5.2‑cp36‑cp36m‑win_amd64.whl
+PyWavelets‑0.5.2‑cp37‑cp37m‑win32.whl
+PyWavelets‑0.5.2‑cp37‑cp37m‑win_amd64.whl
+PyWCS, a wrapper for the FITS World Coordinate Systems library.
+This package is now part of astropy.
+pywcs‑1.12‑cp27‑none‑win32.whl
+pywcs‑1.12‑cp27‑none‑win_amd64.whl
+pywcs‑1.12‑cp34‑none‑win32.whl
+pywcs‑1.12‑cp34‑none‑win_amd64.whl
+PyWin32 provides extensions for Windows.
+To install pywin32 system files, run `python.exe Scripts\pywin32_postinstall.py -install` from an elevated command prompt.
+pypiwin32‑221+dummy‑py2.py3‑none‑any.whl
+pywin32‑221‑cp27‑cp27m‑win32.whl
+pywin32‑221‑cp27‑cp27m‑win_amd64.whl
+pywin32‑221‑cp34‑cp34m‑win32.whl
+pywin32‑221‑cp34‑cp34m‑win_amd64.whl
+pywin32‑221‑cp35‑cp35m‑win32.whl
+pywin32‑221‑cp35‑cp35m‑win_amd64.whl
+pywin32‑221‑cp36‑cp36m‑win32.whl
+pywin32‑221‑cp36‑cp36m‑win_amd64.whl
+pywin32‑221‑cp37‑cp37m‑win32.whl
+pywin32‑221‑cp37‑cp37m‑win_amd64.whl
+PyX, a package for the generation of PostScript and PDF files.
+PyX‑0.12.1‑cp27‑cp27m‑win32.whl
+PyX‑0.12.1‑cp27‑cp27m‑win_amd64.whl
+PyX‑0.14.1‑cp34‑cp34m‑win32.whl
+PyX‑0.14.1‑cp34‑cp34m‑win_amd64.whl
+PyX‑0.14.1‑cp35‑cp35m‑win32.whl
+PyX‑0.14.1‑cp35‑cp35m‑win_amd64.whl
+PyX‑0.14.1‑cp36‑cp36m‑win32.whl
+PyX‑0.14.1‑cp36‑cp36m‑win_amd64.whl
+PyXML, XML processing.
+PyXML‑0.8.4‑cp27‑none‑win32.whl
+PyXML‑0.8.4‑cp27‑none‑win_amd64.whl
+PyYAML, a YAML parser and emitter.
+PyYAML‑3.12‑cp27‑cp27m‑win32.whl
+PyYAML‑3.12‑cp27‑cp27m‑win_amd64.whl
+PyYAML‑3.12‑cp34‑cp34m‑win32.whl
+PyYAML‑3.12‑cp34‑cp34m‑win_amd64.whl
+PyYAML‑3.12‑cp35‑cp35m‑win32.whl
+PyYAML‑3.12‑cp35‑cp35m‑win_amd64.whl
+PyYAML‑3.12‑cp36‑cp36m‑win32.whl
+PyYAML‑3.12‑cp36‑cp36m‑win_amd64.whl
+PyZMQ, a binding to the ZeroMQ messaging library.
+pyzmq‑16.0.3‑cp27‑cp27m‑win32.whl
+pyzmq‑16.0.3‑cp27‑cp27m‑win_amd64.whl
+pyzmq‑16.0.3‑cp34‑cp34m‑win32.whl
+pyzmq‑16.0.3‑cp34‑cp34m‑win_amd64.whl
+pyzmq‑16.0.3‑cp35‑cp35m‑win32.whl
+pyzmq‑16.0.3‑cp35‑cp35m‑win_amd64.whl
+pyzmq‑16.0.3‑cp36‑cp36m‑win32.whl
+pyzmq‑16.0.3‑cp36‑cp36m‑win_amd64.whl
+pyzmq‑16.0.3‑cp37‑cp37m‑win32.whl
+pyzmq‑16.0.3‑cp37‑cp37m‑win_amd64.whl
+Qimage2ndarray converts quickly between QImages and numpy.ndarrays.
+Requires pyqt4.
+qimage2ndarray‑1.3.1‑cp27‑cp27m‑win32.whl
+qimage2ndarray‑1.3.1‑cp27‑cp27m‑win_amd64.whl
+qimage2ndarray‑1.3.1‑cp34‑cp34m‑win32.whl
+qimage2ndarray‑1.3.1‑cp34‑cp34m‑win_amd64.whl
+qimage2ndarray‑1.3.1‑cp35‑cp35m‑win32.whl
+qimage2ndarray‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+qimage2ndarray‑1.3.1‑cp36‑cp36m‑win32.whl
+qimage2ndarray‑1.3.1‑cp36‑cp36m‑win_amd64.whl
+qimage2ndarray‑1.6‑py2.py3‑none‑any.whl
+Qt_graph_helpers, graph primitives for PyQt4.
+qt_graph_helpers‑0.1.3‑cp27‑cp27m‑win32.whl
+qt_graph_helpers‑0.1.3‑cp27‑cp27m‑win_amd64.whl
+qt_graph_helpers‑0.1.3‑cp34‑cp34m‑win32.whl
+qt_graph_helpers‑0.1.3‑cp34‑cp34m‑win_amd64.whl
+qt_graph_helpers‑0.1.3‑cp35‑cp35m‑win32.whl
+qt_graph_helpers‑0.1.3‑cp35‑cp35m‑win_amd64.whl
+qt_graph_helpers‑0.1.3‑cp36‑cp36m‑win32.whl
+qt_graph_helpers‑0.1.3‑cp36‑cp36m‑win_amd64.whl
+QuantLib, a library for quantitative finance.
+QuantLib_Python‑1.10‑cp27‑cp27m‑win32.whl
+QuantLib_Python‑1.10‑cp27‑cp27m‑win_amd64.whl
+QuantLib_Python‑1.10‑cp34‑cp34m‑win32.whl
+QuantLib_Python‑1.10‑cp34‑cp34m‑win_amd64.whl
+QuantLib_Python‑1.10‑cp35‑cp35m‑win32.whl
+QuantLib_Python‑1.10‑cp35‑cp35m‑win_amd64.whl
+QuantLib_Python‑1.10‑cp36‑cp36m‑win32.whl
+QuantLib_Python‑1.10‑cp36‑cp36m‑win_amd64.whl
+Quaternion, add built-in support for quaternions to numpy.
+numpy_quaternion‑2017.11.27‑cp27‑cp27m‑win32.whl
+numpy_quaternion‑2017.11.27‑cp27‑cp27m‑win_amd64.whl
+numpy_quaternion‑2017.11.27‑cp34‑cp34m‑win32.whl
+numpy_quaternion‑2017.11.27‑cp34‑cp34m‑win_amd64.whl
+numpy_quaternion‑2017.11.27‑cp35‑cp35m‑win32.whl
+numpy_quaternion‑2017.11.27‑cp35‑cp35m‑win_amd64.whl
+numpy_quaternion‑2017.11.27‑cp36‑cp36m‑win32.whl
+numpy_quaternion‑2017.11.27‑cp36‑cp36m‑win_amd64.whl
+QuickFIX, a Financial Information eXchange (FIX) protocol engine.
+quickfix‑1.14.3‑cp27‑none‑win32.whl
+quickfix‑1.14.3‑cp27‑none‑win_amd64.whl
+QuTiP simulates the dynamics of open quantum systems.
+Requires numpy+mkl.
+qutip‑4.1.0‑cp27‑cp27m‑win32.whl
+qutip‑4.1.0‑cp27‑cp27m‑win_amd64.whl
+qutip‑4.1.0‑cp34‑cp34m‑win32.whl
+qutip‑4.1.0‑cp34‑cp34m‑win_amd64.whl
+qutip‑4.2.0‑cp35‑cp35m‑win32.whl
+qutip‑4.2.0‑cp35‑cp35m‑win_amd64.whl
+qutip‑4.2.0‑cp36‑cp36m‑win32.whl
+qutip‑4.2.0‑cp36‑cp36m‑win_amd64.whl
+Rasterio provides clean and fast and geospatial raster I/O.
+Requires gdal.
+rasterio‑1.0a12‑cp27‑cp27m‑win32.whl
+rasterio‑1.0a12‑cp27‑cp27m‑win_amd64.whl
+rasterio‑1.0a12‑cp34‑cp34m‑win32.whl
+rasterio‑1.0a12‑cp34‑cp34m‑win_amd64.whl
+rasterio‑1.0a12‑cp35‑cp35m‑win32.whl
+rasterio‑1.0a12‑cp35‑cp35m‑win_amd64.whl
+rasterio‑1.0a12‑cp36‑cp36m‑win32.whl
+rasterio‑1.0a12‑cp36‑cp36m‑win_amd64.whl
+Re2, a wrapper for the RE2 regular expression library.
+re2‑0.2.22‑cp27‑none‑win32.whl
+re2‑0.2.22‑cp27‑none‑win_amd64.whl
+Recordclass, a mutable variant of collections.namedtuple, which supports assignments.
+recordclass‑0.4.3‑cp27‑cp27m‑win32.whl
+recordclass‑0.4.3‑cp27‑cp27m‑win_amd64.whl
+recordclass‑0.4.3‑cp34‑cp34m‑win32.whl
+recordclass‑0.4.3‑cp34‑cp34m‑win_amd64.whl
+recordclass‑0.4.3‑cp35‑cp35m‑win32.whl
+recordclass‑0.4.3‑cp35‑cp35m‑win_amd64.whl
+recordclass‑0.4.3‑cp36‑cp36m‑win32.whl
+recordclass‑0.4.3‑cp36‑cp36m‑win_amd64.whl
+Regex, an alternative regular expression module, to replace re.
+regex‑2017.12.12‑cp27‑cp27m‑win32.whl
+regex‑2017.12.12‑cp27‑cp27m‑win_amd64.whl
+regex‑2017.12.12‑cp34‑cp34m‑win32.whl
+regex‑2017.12.12‑cp34‑cp34m‑win_amd64.whl
+regex‑2017.12.12‑cp35‑cp35m‑win32.whl
+regex‑2017.12.12‑cp35‑cp35m‑win_amd64.whl
+regex‑2017.12.12‑cp36‑cp36m‑win32.whl
+regex‑2017.12.12‑cp36‑cp36m‑win_amd64.whl
+regex‑2017.12.12‑cp37‑cp37m‑win32.whl
+regex‑2017.12.12‑cp37‑cp37m‑win_amd64.whl
+ReportLab, a PDF generation toolkit.
+reportlab‑3.4.0‑cp27‑cp27m‑win32.whl
+reportlab‑3.4.0‑cp27‑cp27m‑win_amd64.whl
+reportlab‑3.4.0‑cp34‑cp34m‑win32.whl
+reportlab‑3.4.0‑cp34‑cp34m‑win_amd64.whl
+reportlab‑3.4.0‑cp35‑cp35m‑win32.whl
+reportlab‑3.4.0‑cp35‑cp35m‑win_amd64.whl
+reportlab‑3.4.0‑cp36‑cp36m‑win32.whl
+reportlab‑3.4.0‑cp36‑cp36m‑win_amd64.whl
+Rpy2 (unstable) provides access to the R software environment for statistical computing and graphics.
+Requires R 3.3.
+rpy2‑2.7.8‑cp27‑none‑win32.whl
+rpy2‑2.7.8‑cp27‑none‑win_amd64.whl
+rpy2‑2.7.8‑cp34‑none‑win32.whl
+rpy2‑2.7.8‑cp34‑none‑win_amd64.whl
+rpy2‑2.7.8‑cp35‑none‑win32.whl
+rpy2‑2.7.8‑cp35‑none‑win_amd64.whl
+rpy2‑2.8.6‑cp35‑cp35m‑win32.whl
+rpy2‑2.8.6‑cp35‑cp35m‑win_amd64.whl
+rpy2‑2.8.6‑cp36‑cp36m‑win32.whl
+rpy2‑2.8.6‑cp36‑cp36m‑win_amd64.whl
+Rtmidi-python, a wrapper for the RtMidi library.
+rtmidi_python‑0.2.2‑cp27‑cp27m‑win32.whl
+rtmidi_python‑0.2.2‑cp27‑cp27m‑win_amd64.whl
+rtmidi_python‑0.2.2‑cp34‑cp34m‑win32.whl
+rtmidi_python‑0.2.2‑cp34‑cp34m‑win_amd64.whl
+rtmidi_python‑0.2.2‑cp35‑cp35m‑win32.whl
+rtmidi_python‑0.2.2‑cp35‑cp35m‑win_amd64.whl
+rtmidi_python‑0.2.2‑cp36‑cp36m‑win32.whl
+rtmidi_python‑0.2.2‑cp36‑cp36m‑win_amd64.whl
+Rtree provides advanced spatial indexing features based on libspatialindex.
+Rtree‑0.8.3‑cp27‑cp27m‑win32.whl
+Rtree‑0.8.3‑cp27‑cp27m‑win_amd64.whl
+Rtree‑0.8.3‑cp34‑cp34m‑win32.whl
+Rtree‑0.8.3‑cp34‑cp34m‑win_amd64.whl
+Rtree‑0.8.3‑cp35‑cp35m‑win32.whl
+Rtree‑0.8.3‑cp35‑cp35m‑win_amd64.whl
+Rtree‑0.8.3‑cp36‑cp36m‑win32.whl
+Rtree‑0.8.3‑cp36‑cp36m‑win_amd64.whl
+Ruamel.yaml, a YAML 1.2 loader/dumper.
+ruamel.yaml‑0.15.35‑cp27‑cp27m‑win32.whl
+ruamel.yaml‑0.15.35‑cp27‑cp27m‑win_amd64.whl
+ruamel.yaml‑0.15.35‑cp34‑cp34m‑win32.whl
+ruamel.yaml‑0.15.35‑cp34‑cp34m‑win_amd64.whl
+ruamel.yaml‑0.15.35‑cp35‑cp35m‑win32.whl
+ruamel.yaml‑0.15.35‑cp35‑cp35m‑win_amd64.whl
+ruamel.yaml‑0.15.35‑cp36‑cp36m‑win32.whl
+ruamel.yaml‑0.15.35‑cp36‑cp36m‑win_amd64.whl
+ruamel.yaml‑0.15.35‑cp37‑cp37m‑win32.whl
+ruamel.yaml‑0.15.35‑cp37‑cp37m‑win_amd64.whl
+Salientdetect, slient region detector from image.
+salientdetect‑0.0.2‑cp34‑cp34m‑win32.whl
+salientdetect‑0.0.2‑cp34‑cp34m‑win_amd64.whl
+salientdetect‑0.0.2‑cp35‑cp35m‑win32.whl
+salientdetect‑0.0.2‑cp35‑cp35m‑win_amd64.whl
+salientdetect‑0.0.2‑cp36‑cp36m‑win32.whl
+salientdetect‑0.0.2‑cp36‑cp36m‑win_amd64.whl
+Sasl wraps the Cyrus SASL library.
+sasl‑0.1.3‑cp27‑none‑win32.whl
+sasl‑0.1.3‑cp27‑none‑win_amd64.whl
+sasl‑0.2.1‑cp27‑cp27m‑win32.whl
+sasl‑0.2.1‑cp27‑cp27m‑win_amd64.whl
+sasl‑0.2.1‑cp34‑cp34m‑win32.whl
+sasl‑0.2.1‑cp34‑cp34m‑win_amd64.whl
+sasl‑0.2.1‑cp35‑cp35m‑win32.whl
+sasl‑0.2.1‑cp35‑cp35m‑win_amd64.whl
+sasl‑0.2.1‑cp36‑cp36m‑win32.whl
+sasl‑0.2.1‑cp36‑cp36m‑win_amd64.whl
+Scandir, a directory iterator that returns all file info the OS provides.
+scandir‑1.6‑cp27‑cp27m‑win32.whl
+scandir‑1.6‑cp27‑cp27m‑win_amd64.whl
+scandir‑1.6‑cp34‑cp34m‑win32.whl
+scandir‑1.6‑cp34‑cp34m‑win_amd64.whl
+scandir‑1.6‑cp35‑cp35m‑win32.whl
+scandir‑1.6‑cp35‑cp35m‑win_amd64.whl
+scandir‑1.6‑cp36‑cp36m‑win32.whl
+scandir‑1.6‑cp36‑cp36m‑win_amd64.whl
+ScientificPython, a collection of modules for scientific computing.
+ScientificPython‑2.9.4‑cp27‑none‑win32.whl
+ScientificPython‑2.9.4‑cp27‑none‑win_amd64.whl
+Scikit-fmm implements the fast marching method.
+scikit_fmm‑0.0.9‑cp27‑cp27m‑win32.whl
+scikit_fmm‑0.0.9‑cp27‑cp27m‑win_amd64.whl
+scikit_fmm‑0.0.9‑cp34‑cp34m‑win32.whl
+scikit_fmm‑0.0.9‑cp34‑cp34m‑win_amd64.whl
+scikit_fmm‑0.0.9‑cp35‑cp35m‑win32.whl
+scikit_fmm‑0.0.9‑cp35‑cp35m‑win_amd64.whl
+scikit_fmm‑0.0.9‑cp36‑cp36m‑win32.whl
+scikit_fmm‑0.0.9‑cp36‑cp36m‑win_amd64.whl
+Scikit-image provides image processing routines for SciPy.
+scikit_image‑0.13.1‑cp27‑cp27m‑win32.whl
+scikit_image‑0.13.1‑cp27‑cp27m‑win_amd64.whl
+scikit_image‑0.13.1‑cp34‑cp34m‑win32.whl
+scikit_image‑0.13.1‑cp34‑cp34m‑win_amd64.whl
+scikit_image‑0.13.1‑cp35‑cp35m‑win32.whl
+scikit_image‑0.13.1‑cp35‑cp35m‑win_amd64.whl
+scikit_image‑0.13.1‑cp36‑cp36m‑win32.whl
+scikit_image‑0.13.1‑cp36‑cp36m‑win_amd64.whl
+scikit_image‑0.13.1‑cp37‑cp37m‑win32.whl
+scikit_image‑0.13.1‑cp37‑cp37m‑win_amd64.whl
+Scikit-learn integrates classic machine learning algorithms.
+Requires numpy+mkl.
+scikit_learn‑0.19.1‑cp27‑cp27m‑win32.whl
+scikit_learn‑0.19.1‑cp27‑cp27m‑win_amd64.whl
+scikit_learn‑0.19.1‑cp34‑cp34m‑win32.whl
+scikit_learn‑0.19.1‑cp34‑cp34m‑win_amd64.whl
+scikit_learn‑0.19.1‑cp35‑cp35m‑win32.whl
+scikit_learn‑0.19.1‑cp35‑cp35m‑win_amd64.whl
+scikit_learn‑0.19.1‑cp36‑cp36m‑win32.whl
+scikit_learn‑0.19.1‑cp36‑cp36m‑win_amd64.whl
+scikit_learn‑0.19.1‑cp37‑cp37m‑win32.whl
+scikit_learn‑0.19.1‑cp37‑cp37m‑win_amd64.whl
+Scikit-misc miscellaneous tools for data analysis and scientific computing.
+Requires numpy+mkl.
+scikit_misc‑0.1.1‑cp35‑cp35m‑win32.whl
+scikit_misc‑0.1.1‑cp35‑cp35m‑win_amd64.whl
+scikit_misc‑0.1.1‑cp36‑cp36m‑win32.whl
+scikit_misc‑0.1.1‑cp36‑cp36m‑win_amd64.whl
+Scikit-umfpack (unstable), an interface to the UMFPACK unsymmetric sparse linear system solver.
+Requires numpy+mkl.
+scikit_umfpack‑0.3.1‑cp27‑cp27m‑win32.whl
+scikit_umfpack‑0.3.1‑cp27‑cp27m‑win_amd64.whl
+scikit_umfpack‑0.3.1‑cp34‑cp34m‑win32.whl
+scikit_umfpack‑0.3.1‑cp34‑cp34m‑win_amd64.whl
+scikit_umfpack‑0.3.1‑cp35‑cp35m‑win32.whl
+scikit_umfpack‑0.3.1‑cp35‑cp35m‑win_amd64.whl
+scikit_umfpack‑0.3.1‑cp36‑cp36m‑win32.whl
+scikit_umfpack‑0.3.1‑cp36‑cp36m‑win_amd64.whl
+Scikits.ann, a wrapper for the Approximate Nearest Neighbor ANN library.
+Deprecated in favor of scipy.spatial.
+scikits.ann‑0.2.1‑cp27‑none‑win32.whl
+scikits.ann‑0.2.1‑cp27‑none‑win_amd64.whl
+Scikits.audiolab, a package for audio file IO using numpy arrays.
+Linked against libsndfile-1.0.25.
+scikits.audiolab‑0.11.0‑cp27‑cp27m‑win32.whl
+scikits.audiolab‑0.11.0‑cp27‑cp27m‑win_amd64.whl
+Scikits.delaunay, a triangulation and interpolation tool.
+scikits.delaunay‑0.5‑cp27‑none‑win32.whl
+scikits.delaunay‑0.5‑cp27‑none‑win_amd64.whl
+Scikits.hydroclimpy manipulates hydro-climatologic data.
+Requires numpy+mkl.
+scikits.hydroclimpy‑0.67.1‑cp27‑none‑win32.whl
+scikits.hydroclimpy‑0.67.1‑cp27‑none‑win_amd64.whl
+Scikits.odes adds ordinary differential equation (ODE) solvers to SciPy.
+Requires numpy+mkl.
+scikits.odes‑2.3.1‑cp27‑cp27m‑win32.whl
+scikits.odes‑2.3.1‑cp27‑cp27m‑win_amd64.whl
+scikits.odes‑2.3.1‑cp34‑cp34m‑win32.whl
+scikits.odes‑2.3.1‑cp34‑cp34m‑win_amd64.whl
+scikits.odes‑2.3.1‑cp35‑cp35m‑win32.whl
+scikits.odes‑2.3.1‑cp35‑cp35m‑win_amd64.whl
+scikits.odes‑2.3.1‑cp36‑cp36m‑win32.whl
+scikits.odes‑2.3.1‑cp36‑cp36m‑win_amd64.whl
+Scikits.samplerate, a module for high quality audio resampling.
+scikits.samplerate‑0.3.3‑cp27‑none‑win32.whl
+scikits.samplerate‑0.3.3‑cp27‑none‑win_amd64.whl
+Scikits.scattpy performs light scattering simulations.
+Requires numpy+mkl.
+scikits.scattpy‑0.1.2‑cp27‑none‑win32.whl
+scikits.scattpy‑0.1.2‑cp27‑none‑win_amd64.whl
+Scikits.timeseries provides classes and functions for manipulating, reporting, and plotting time series of various frequencies.
+scikits.timeseries‑0.91.3‑cp27‑none‑win32.whl
+scikits.timeseries‑0.91.3‑cp27‑none‑win_amd64.whl
+Scikits.vectorplot implements the line integral convolution algorithm to plot vector fields.
+scikits.vectorplot‑0.1.1‑cp27‑cp27m‑win32.whl
+scikits.vectorplot‑0.1.1‑cp27‑cp27m‑win_amd64.whl
+scikits.vectorplot‑0.1.1‑cp34‑cp34m‑win32.whl
+scikits.vectorplot‑0.1.1‑cp34‑cp34m‑win_amd64.whl
+scikits.vectorplot‑0.1.1‑cp35‑cp35m‑win32.whl
+scikits.vectorplot‑0.1.1‑cp35‑cp35m‑win_amd64.whl
+scikits.vectorplot‑0.1.1‑cp36‑cp36m‑win32.whl
+scikits.vectorplot‑0.1.1‑cp36‑cp36m‑win_amd64.whl
+SciPy is software for mathematics, science, and engineering.
+Install numpy+mkl before installing scipy.
+scipy‑1.0.0‑cp27‑cp27m‑win32.whl
+scipy‑1.0.0‑cp27‑cp27m‑win_amd64.whl
+scipy‑1.0.0‑cp34‑cp34m‑win32.whl
+scipy‑1.0.0‑cp34‑cp34m‑win_amd64.whl
+scipy‑1.0.0‑cp35‑cp35m‑win32.whl
+scipy‑1.0.0‑cp35‑cp35m‑win_amd64.whl
+scipy‑1.0.0‑cp36‑cp36m‑win32.whl
+scipy‑1.0.0‑cp36‑cp36m‑win_amd64.whl
+scipy‑1.0.0‑cp37‑cp37m‑win32.whl
+scipy‑1.0.0‑cp37‑cp37m‑win_amd64.whl
+Scipy-cluster provides functions for agglomerative clustering.
+hcluster‑0.2.0‑cp27‑none‑win32.whl
+hcluster‑0.2.0‑cp27‑none‑win_amd64.whl
+SCS (unstable), a C package for solving large-scale convex cone problems.
+Requires numpy+mkl.
+scs‑1.2.7‑cp27‑cp27m‑win32.whl
+scs‑1.2.7‑cp27‑cp27m‑win_amd64.whl
+scs‑1.2.7‑cp34‑cp34m‑win32.whl
+scs‑1.2.7‑cp34‑cp34m‑win_amd64.whl
+scs‑1.2.7‑cp35‑cp35m‑win32.whl
+scs‑1.2.7‑cp35‑cp35m‑win_amd64.whl
+scs‑1.2.7‑cp36‑cp36m‑win32.whl
+scs‑1.2.7‑cp36‑cp36m‑win_amd64.whl
+SendKeys can be used to send keystrokes to the active window.
+SendKeys‑0.3‑cp27‑none‑win32.whl
+SendKeys‑0.3‑cp27‑none‑win_amd64.whl
+Seqlearn, sequence learning toolkit.
+seqlearn‑0.2‑cp27‑cp27m‑win32.whl
+seqlearn‑0.2‑cp27‑cp27m‑win_amd64.whl
+seqlearn‑0.2‑cp34‑cp34m‑win32.whl
+seqlearn‑0.2‑cp34‑cp34m‑win_amd64.whl
+seqlearn‑0.2‑cp35‑cp35m‑win32.whl
+seqlearn‑0.2‑cp35‑cp35m‑win_amd64.whl
+seqlearn‑0.2‑cp36‑cp36m‑win32.whl
+seqlearn‑0.2‑cp36‑cp36m‑win_amd64.whl
+Setproctitle allows customization of the process title.
+setproctitle‑1.1.10‑cp27‑cp27m‑win32.whl
+setproctitle‑1.1.10‑cp27‑cp27m‑win_amd64.whl
+setproctitle‑1.1.10‑cp34‑cp34m‑win32.whl
+setproctitle‑1.1.10‑cp34‑cp34m‑win_amd64.whl
+setproctitle‑1.1.10‑cp35‑cp35m‑win32.whl
+setproctitle‑1.1.10‑cp35‑cp35m‑win_amd64.whl
+setproctitle‑1.1.10‑cp36‑cp36m‑win32.whl
+setproctitle‑1.1.10‑cp36‑cp36m‑win_amd64.whl
+SfePy, simple finite elements in Python.
+sfepy‑2017.3‑cp27‑cp27m‑win32.whl
+sfepy‑2017.3‑cp27‑cp27m‑win_amd64.whl
+sfepy‑2017.3‑cp34‑cp34m‑win32.whl
+sfepy‑2017.3‑cp34‑cp34m‑win_amd64.whl
+sfepy‑2017.3‑cp35‑cp35m‑win32.whl
+sfepy‑2017.3‑cp35‑cp35m‑win_amd64.whl
+sfepy‑2017.3‑cp36‑cp36m‑win32.whl
+sfepy‑2017.3‑cp36‑cp36m‑win_amd64.whl
+Shapely, a package for creation, manipulation, and analysis of planar geometry objects based on GEOS.
+Shapely‑1.6.3‑cp27‑cp27m‑win32.whl
+Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl
+Shapely‑1.6.3‑cp34‑cp34m‑win32.whl
+Shapely‑1.6.3‑cp34‑cp34m‑win_amd64.whl
+Shapely‑1.6.3‑cp35‑cp35m‑win32.whl
+Shapely‑1.6.3‑cp35‑cp35m‑win_amd64.whl
+Shapely‑1.6.3‑cp36‑cp36m‑win32.whl
+Shapely‑1.6.3‑cp36‑cp36m‑win_amd64.whl
+Shapely‑1.6.3‑cp37‑cp37m‑win32.whl
+Shapely‑1.6.3‑cp37‑cp37m‑win_amd64.whl
+SilverCity, a lexing package based on Scintilla.
+SilverCity‑0.9.7‑cp27‑none‑win32.whl
+SilverCity‑0.9.7‑cp27‑none‑win_amd64.whl
+Sima, sequential image analysis.
+sima‑1.3.2‑cp27‑cp27m‑win32.whl
+sima‑1.3.2‑cp27‑cp27m‑win_amd64.whl
+sima‑1.3.2‑cp34‑cp34m‑win32.whl
+sima‑1.3.2‑cp34‑cp34m‑win_amd64.whl
+sima‑1.3.2‑cp35‑cp35m‑win32.whl
+sima‑1.3.2‑cp35‑cp35m‑win_amd64.whl
+sima‑1.3.2‑cp36‑cp36m‑win32.whl
+sima‑1.3.2‑cp36‑cp36m‑win_amd64.whl
+Simpleaudio, simple audio playback.
+simpleaudio‑1.0.1‑cp34‑cp34m‑win32.whl
+simpleaudio‑1.0.1‑cp34‑cp34m‑win_amd64.whl
+simpleaudio‑1.0.1‑cp35‑cp35m‑win32.whl
+simpleaudio‑1.0.1‑cp35‑cp35m‑win_amd64.whl
+simpleaudio‑1.0.1‑cp36‑cp36m‑win32.whl
+simpleaudio‑1.0.1‑cp36‑cp36m‑win_amd64.whl
+SimpleITK provides an easy-access layer to the Insight Segmentation and Registration Toolkit.
+SimpleITK‑1.0.0‑cp27‑cp27m‑win_amd64.whl
+SimpleITK‑1.0.0‑cp34‑cp34m‑win_amd64.whl
+SimpleITK‑1.0.0‑cp35‑cp35m‑win_amd64.whl
+SimpleITK‑1.0.0‑cp36‑cp36m‑win_amd64.whl
+Simplejson, a simple, fast, extensible JSON encoder/decoder.
+simplejson‑3.13.2‑cp27‑cp27m‑win32.whl
+simplejson‑3.13.2‑cp27‑cp27m‑win_amd64.whl
+simplejson‑3.13.2‑cp34‑cp34m‑win32.whl
+simplejson‑3.13.2‑cp34‑cp34m‑win_amd64.whl
+simplejson‑3.13.2‑cp35‑cp35m‑win32.whl
+simplejson‑3.13.2‑cp35‑cp35m‑win_amd64.whl
+simplejson‑3.13.2‑cp36‑cp36m‑win32.whl
+simplejson‑3.13.2‑cp36‑cp36m‑win_amd64.whl
+SimpleParse, a parser generator.
+SimpleParse‑2.2.0‑cp27‑cp27m‑win32.whl
+SimpleParse‑2.2.0‑cp27‑cp27m‑win_amd64.whl
+SimpleParse‑2.2.0‑cp34‑cp34m‑win32.whl
+SimpleParse‑2.2.0‑cp34‑cp34m‑win_amd64.whl
+SimpleParse‑2.2.0‑cp35‑cp35m‑win32.whl
+SimpleParse‑2.2.0‑cp35‑cp35m‑win_amd64.whl
+SimpleParse‑2.2.0‑cp36‑cp36m‑win32.whl
+SimpleParse‑2.2.0‑cp36‑cp36m‑win_amd64.whl
+Slycot, a wrapper for selected SLICOT routines.
+Requires numpy+mkl.
+slycot‑0.2.0‑cp27‑cp27m‑win32.whl
+slycot‑0.2.0‑cp27‑cp27m‑win_amd64.whl
+slycot‑0.2.0‑cp34‑cp34m‑win32.whl
+slycot‑0.2.0‑cp34‑cp34m‑win_amd64.whl
+slycot‑0.2.0‑cp35‑cp35m‑win32.whl
+slycot‑0.2.0‑cp35‑cp35m‑win_amd64.whl
+slycot‑0.2.0‑cp36‑cp36m‑win32.whl
+slycot‑0.2.0‑cp36‑cp36m‑win_amd64.whl
+Sounddevice, play and record NumPy arrays using the PortAudio library.
+Includes ASIO, DS, WMME, WASAPI, WDMKS support.
+sounddevice‑0.3.10‑cp27‑cp27m‑win32.whl
+sounddevice‑0.3.10‑cp27‑cp27m‑win_amd64.whl
+sounddevice‑0.3.10‑cp34‑cp34m‑win32.whl
+sounddevice‑0.3.10‑cp34‑cp34m‑win_amd64.whl
+sounddevice‑0.3.10‑cp35‑cp35m‑win32.whl
+sounddevice‑0.3.10‑cp35‑cp35m‑win_amd64.whl
+sounddevice‑0.3.10‑cp36‑cp36m‑win32.whl
+sounddevice‑0.3.10‑cp36‑cp36m‑win_amd64.whl
+sounddevice‑0.3.10‑cp37‑cp37m‑win32.whl
+sounddevice‑0.3.10‑cp37‑cp37m‑win_amd64.whl
+spaCy, industrial-strength Natural Language Processing.
+cymem‑1.31.2‑cp27‑cp27m‑win32.whl
+cymem‑1.31.2‑cp27‑cp27m‑win_amd64.whl
+cymem‑1.31.2‑cp34‑cp34m‑win32.whl
+cymem‑1.31.2‑cp34‑cp34m‑win_amd64.whl
+cymem‑1.31.2‑cp35‑cp35m‑win32.whl
+cymem‑1.31.2‑cp35‑cp35m‑win_amd64.whl
+cymem‑1.31.2‑cp36‑cp36m‑win32.whl
+cymem‑1.31.2‑cp36‑cp36m‑win_amd64.whl
+murmurhash‑0.28.0‑cp27‑cp27m‑win32.whl
+murmurhash‑0.28.0‑cp27‑cp27m‑win_amd64.whl
+murmurhash‑0.28.0‑cp34‑cp34m‑win32.whl
+murmurhash‑0.28.0‑cp34‑cp34m‑win_amd64.whl
+murmurhash‑0.28.0‑cp35‑cp35m‑win32.whl
+murmurhash‑0.28.0‑cp35‑cp35m‑win_amd64.whl
+murmurhash‑0.28.0‑cp36‑cp36m‑win32.whl
+murmurhash‑0.28.0‑cp36‑cp36m‑win_amd64.whl
+preshed‑0.46.4‑cp36‑cp36m‑win32.whl
+preshed‑0.46.4‑cp36‑cp36m‑win_amd64.whl
+preshed‑1.0.0‑cp27‑cp27m‑win32.whl
+preshed‑1.0.0‑cp27‑cp27m‑win_amd64.whl
+preshed‑1.0.0‑cp34‑cp34m‑win32.whl
+preshed‑1.0.0‑cp34‑cp34m‑win_amd64.whl
+preshed‑1.0.0‑cp35‑cp35m‑win32.whl
+preshed‑1.0.0‑cp35‑cp35m‑win_amd64.whl
+preshed‑1.0.0‑cp36‑cp36m‑win32.whl
+preshed‑1.0.0‑cp36‑cp36m‑win_amd64.whl
+spacy‑2.0.5‑cp27‑cp27m‑win32.whl
+spacy‑2.0.5‑cp27‑cp27m‑win_amd64.whl
+spacy‑2.0.5‑cp34‑cp34m‑win32.whl
+spacy‑2.0.5‑cp34‑cp34m‑win_amd64.whl
+spacy‑2.0.5‑cp35‑cp35m‑win32.whl
+spacy‑2.0.5‑cp35‑cp35m‑win_amd64.whl
+spacy‑2.0.5‑cp36‑cp36m‑win32.whl
+spacy‑2.0.5‑cp36‑cp36m‑win_amd64.whl
+thinc‑6.10.2+cuda9185‑cp35‑cp35m‑win_amd64.whl
+thinc‑6.10.2+cuda9185‑cp36‑cp36m‑win_amd64.whl
+thinc‑6.10.2+cuda9185‑cp37‑cp37m‑win_amd64.whl
+thinc‑6.10.2‑cp27‑cp27m‑win32.whl
+thinc‑6.10.2‑cp27‑cp27m‑win_amd64.whl
+thinc‑6.10.2‑cp34‑cp34m‑win32.whl
+thinc‑6.10.2‑cp34‑cp34m‑win_amd64.whl
+thinc‑6.10.2‑cp35‑cp35m‑win32.whl
+thinc‑6.10.2‑cp35‑cp35m‑win_amd64.whl
+thinc‑6.10.2‑cp36‑cp36m‑win32.whl
+thinc‑6.10.2‑cp36‑cp36m‑win_amd64.whl
+Sparsesvd wraps SVDLIBC, a library for computing Singular Value Decompositions.
+sparsesvd‑0.2.2‑cp27‑cp27m‑win32.whl
+sparsesvd‑0.2.2‑cp27‑cp27m‑win_amd64.whl
+sparsesvd‑0.2.2‑cp34‑cp34m‑win32.whl
+sparsesvd‑0.2.2‑cp34‑cp34m‑win_amd64.whl
+sparsesvd‑0.2.2‑cp35‑cp35m‑win32.whl
+sparsesvd‑0.2.2‑cp35‑cp35m‑win_amd64.whl
+sparsesvd‑0.2.2‑cp36‑cp36m‑win32.whl
+sparsesvd‑0.2.2‑cp36‑cp36m‑win_amd64.whl
+Spectrum, spectral analysis.
+spectrum‑0.7.2‑cp27‑cp27m‑win32.whl
+spectrum‑0.7.2‑cp27‑cp27m‑win_amd64.whl
+spectrum‑0.7.2‑cp34‑cp34m‑win32.whl
+spectrum‑0.7.2‑cp34‑cp34m‑win_amd64.whl
+spectrum‑0.7.2‑cp35‑cp35m‑win32.whl
+spectrum‑0.7.2‑cp35‑cp35m‑win_amd64.whl
+spectrum‑0.7.2‑cp36‑cp36m‑win32.whl
+spectrum‑0.7.2‑cp36‑cp36m‑win_amd64.whl
+Spglib, a library for finding and handling crystal symmetries.
+spglib‑1.10.2.4‑cp27‑cp27m‑win32.whl
+spglib‑1.10.2.4‑cp27‑cp27m‑win_amd64.whl
+spglib‑1.10.2.4‑cp34‑cp34m‑win32.whl
+spglib‑1.10.2.4‑cp34‑cp34m‑win_amd64.whl
+spglib‑1.10.2.4‑cp35‑cp35m‑win32.whl
+spglib‑1.10.2.4‑cp35‑cp35m‑win_amd64.whl
+spglib‑1.10.2.4‑cp36‑cp36m‑win32.whl
+spglib‑1.10.2.4‑cp36‑cp36m‑win_amd64.whl
+spglib‑1.10.2.4‑cp37‑cp37m‑win32.whl
+spglib‑1.10.2.4‑cp37‑cp37m‑win_amd64.whl
+Spyder, the Scientific PYthon Development EnviRonment.
+Requires guiqwt and other dependencies.
+spyder‑3.2.5‑py2‑none‑any.whl
+spyder‑3.2.5‑py3‑none‑any.whl
+SQLAlchemy, a SQL toolkit and Object Relational Mapper.
+SQLAlchemy‑1.1.15‑cp27‑cp27m‑win32.whl
+SQLAlchemy‑1.1.15‑cp27‑cp27m‑win_amd64.whl
+SQLAlchemy‑1.1.15‑cp34‑cp34m‑win32.whl
+SQLAlchemy‑1.1.15‑cp34‑cp34m‑win_amd64.whl
+SQLAlchemy‑1.1.15‑cp35‑cp35m‑win32.whl
+SQLAlchemy‑1.1.15‑cp35‑cp35m‑win_amd64.whl
+SQLAlchemy‑1.1.15‑cp36‑cp36m‑win32.whl
+SQLAlchemy‑1.1.15‑cp36‑cp36m‑win_amd64.whl
+SQLAlchemy‑1.1.15‑cp37‑cp37m‑win32.whl
+SQLAlchemy‑1.1.15‑cp37‑cp37m‑win_amd64.whl
+Statsmodels provides classes and functions for the estimation of statistical models.
+Requires pandas, scipy and patsy.
+statsmodels‑0.8.0‑cp27‑cp27m‑win32.whl
+statsmodels‑0.8.0‑cp27‑cp27m‑win_amd64.whl
+statsmodels‑0.8.0‑cp34‑cp34m‑win32.whl
+statsmodels‑0.8.0‑cp34‑cp34m‑win_amd64.whl
+statsmodels‑0.8.0‑cp35‑cp35m‑win32.whl
+statsmodels‑0.8.0‑cp35‑cp35m‑win_amd64.whl
+statsmodels‑0.8.0‑cp36‑cp36m‑win32.whl
+statsmodels‑0.8.0‑cp36‑cp36m‑win_amd64.whl
+STEPS, a stochastic engine for pathway simulation.
+STEPS‑2.2.0‑cp27‑none‑win32.whl
+STEPS‑2.2.0‑cp27‑none‑win_amd64.whl
+Swiglpk, SWIG bindings for the GNU Linear Programming Kit (GLPK).
+swiglpk‑1.4.4‑cp27‑cp27m‑win32.whl
+swiglpk‑1.4.4‑cp27‑cp27m‑win_amd64.whl
+swiglpk‑1.4.4‑cp34‑cp34m‑win32.whl
+swiglpk‑1.4.4‑cp34‑cp34m‑win_amd64.whl
+swiglpk‑1.4.4‑cp35‑cp35m‑win32.whl
+swiglpk‑1.4.4‑cp35‑cp35m‑win_amd64.whl
+swiglpk‑1.4.4‑cp36‑cp36m‑win32.whl
+swiglpk‑1.4.4‑cp36‑cp36m‑win_amd64.whl
+swiglpk‑1.4.4‑cp37‑cp37m‑win32.whl
+swiglpk‑1.4.4‑cp37‑cp37m‑win_amd64.whl
+Sympy, a library for symbolic mathematics.
+sympy‑1.1.1‑py2.py3‑none‑any.whl
+TA-Lib, a wrapper for the TA-LIB Technical Analysis Library.
+TA_Lib‑0.4.10‑cp27‑cp27m‑win32.whl
+TA_Lib‑0.4.10‑cp27‑cp27m‑win_amd64.whl
+TA_Lib‑0.4.10‑cp34‑cp34m‑win32.whl
+TA_Lib‑0.4.10‑cp34‑cp34m‑win_amd64.whl
+TA_Lib‑0.4.10‑cp35‑cp35m‑win32.whl
+TA_Lib‑0.4.10‑cp35‑cp35m‑win_amd64.whl
+TA_Lib‑0.4.10‑cp36‑cp36m‑win32.whl
+TA_Lib‑0.4.10‑cp36‑cp36m‑win_amd64.whl
+TatSu takes a grammar in a variation of EBNF as input, and outputs a memoizing PEG/Packrat parser in Python.
+TatSu‑4.2.5‑cp27‑cp27m‑win32.whl
+TatSu‑4.2.5‑cp27‑cp27m‑win_amd64.whl
+TatSu‑4.2.5‑cp34‑cp34m‑win32.whl
+TatSu‑4.2.5‑cp34‑cp34m‑win_amd64.whl
+TatSu‑4.2.5‑cp35‑cp35m‑win32.whl
+TatSu‑4.2.5‑cp35‑cp35m‑win_amd64.whl
+TatSu‑4.2.5‑cp36‑cp36m‑win32.whl
+TatSu‑4.2.5‑cp36‑cp36m‑win_amd64.whl
+TensorFlow, computation using data flow graphs for scalable machine learning.
+The CUDA builds require CUDA 8 and CUDNN 6.
+protobuf‑3.5.0‑py2‑none‑any.whl
+protobuf‑3.5.0‑py3‑none‑any.whl
+tensorflow‑1.4.0‑cp35‑cp35m‑win_amd64.whl
+tensorflow‑1.4.0‑cp36‑cp36m‑win_amd64.whl
+Thrift, a software framework for scalable cross-language services development.
+thrift‑0.10.0‑cp27‑cp27m‑win32.whl
+thrift‑0.10.0‑cp27‑cp27m‑win_amd64.whl
+thrift‑0.10.0‑cp34‑cp34m‑win32.whl
+thrift‑0.10.0‑cp34‑cp34m‑win_amd64.whl
+thrift‑0.10.0‑cp35‑cp35m‑win32.whl
+thrift‑0.10.0‑cp35‑cp35m‑win_amd64.whl
+thrift‑0.10.0‑cp36‑cp36m‑win32.whl
+thrift‑0.10.0‑cp36‑cp36m‑win_amd64.whl
+ThriftPy, a implementation of Apache Thrift.
+thriftpy‑0.3.9‑cp27‑cp27m‑win32.whl
+thriftpy‑0.3.9‑cp27‑cp27m‑win_amd64.whl
+thriftpy‑0.3.9‑cp34‑cp34m‑win32.whl
+thriftpy‑0.3.9‑cp34‑cp34m‑win_amd64.whl
+thriftpy‑0.3.9‑cp35‑cp35m‑win32.whl
+thriftpy‑0.3.9‑cp35‑cp35m‑win_amd64.whl
+thriftpy‑0.3.9‑cp36‑cp36m‑win32.whl
+thriftpy‑0.3.9‑cp36‑cp36m‑win_amd64.whl
+thriftpy‑0.3.9‑py2.py3‑none‑any.whl
+Tifffile, read image and meta data from (bio)TIFF files.
+tifffile‑2017.5.23‑cp27‑cp27m‑win32.whl
+tifffile‑2017.5.23‑cp27‑cp27m‑win_amd64.whl
+tifffile‑2017.5.23‑cp34‑cp34m‑win32.whl
+tifffile‑2017.5.23‑cp34‑cp34m‑win_amd64.whl
+tifffile‑2017.5.23‑cp35‑cp35m‑win32.whl
+tifffile‑2017.5.23‑cp35‑cp35m‑win_amd64.whl
+tifffile‑2017.5.23‑cp36‑cp36m‑win32.whl
+tifffile‑2017.5.23‑cp36‑cp36m‑win_amd64.whl
+tifffile‑2017.9.29‑cp27‑cp27m‑win32.whl
+tifffile‑2017.9.29‑cp27‑cp27m‑win_amd64.whl
+tifffile‑2017.9.29‑cp34‑cp34m‑win32.whl
+tifffile‑2017.9.29‑cp34‑cp34m‑win_amd64.whl
+tifffile‑2017.9.29‑cp35‑cp35m‑win32.whl
+tifffile‑2017.9.29‑cp35‑cp35m‑win_amd64.whl
+tifffile‑2017.9.29‑cp36‑cp36m‑win32.whl
+tifffile‑2017.9.29‑cp36‑cp36m‑win_amd64.whl
+Tinyarray, arrays of numbers optimized for small sizes.
+tinyarray‑1.0.5‑cp27‑none‑win32.whl
+tinyarray‑1.0.5‑cp27‑none‑win_amd64.whl
+tinyarray‑1.2.0‑cp27‑cp27m‑win32.whl
+tinyarray‑1.2.0‑cp27‑cp27m‑win_amd64.whl
+tinyarray‑1.2.0‑cp34‑cp34m‑win32.whl
+tinyarray‑1.2.0‑cp34‑cp34m‑win_amd64.whl
+tinyarray‑1.2.0‑cp35‑cp35m‑win32.whl
+tinyarray‑1.2.0‑cp35‑cp35m‑win_amd64.whl
+tinyarray‑1.2.0‑cp36‑cp36m‑win32.whl
+tinyarray‑1.2.0‑cp36‑cp36m‑win_amd64.whl
+Tornado, a scalable, non-blocking web server.
+Requires certifi and backports.ssl_match_hostname.
+tornado‑4.5.2‑cp27‑cp27m‑win32.whl
+tornado‑4.5.2‑cp27‑cp27m‑win_amd64.whl
+tornado‑4.5.2‑cp34‑cp34m‑win32.whl
+tornado‑4.5.2‑cp34‑cp34m‑win_amd64.whl
+tornado‑4.5.2‑cp35‑cp35m‑win32.whl
+tornado‑4.5.2‑cp35‑cp35m‑win_amd64.whl
+tornado‑4.5.2‑cp36‑cp36m‑win32.whl
+tornado‑4.5.2‑cp36‑cp36m‑win_amd64.whl
+tornado‑4.5.2‑cp37‑cp37m‑win32.whl
+tornado‑4.5.2‑cp37‑cp37m‑win_amd64.whl
+Traits, optional type-checking, data dependencies, and event notifications.
+Part of the Enthought Tool Suite.
+traits‑4.6.0‑cp27‑cp27m‑win32.whl
+traits‑4.6.0‑cp27‑cp27m‑win_amd64.whl
+traits‑4.6.0‑cp34‑cp34m‑win32.whl
+traits‑4.6.0‑cp34‑cp34m‑win_amd64.whl
+traits‑4.6.0‑cp35‑cp35m‑win32.whl
+traits‑4.6.0‑cp35‑cp35m‑win_amd64.whl
+traits‑4.6.0‑cp36‑cp36m‑win32.whl
+traits‑4.6.0‑cp36‑cp36m‑win_amd64.whl
+Transformations, homogeneous transformation matrices and Quaternions.
+transformations‑2017.2.17‑cp27‑cp27m‑win32.whl
+transformations‑2017.2.17‑cp27‑cp27m‑win_amd64.whl
+transformations‑2017.2.17‑cp34‑cp34m‑win32.whl
+transformations‑2017.2.17‑cp34‑cp34m‑win_amd64.whl
+transformations‑2017.2.17‑cp35‑cp35m‑win32.whl
+transformations‑2017.2.17‑cp35‑cp35m‑win_amd64.whl
+transformations‑2017.2.17‑cp36‑cp36m‑win32.whl
+transformations‑2017.2.17‑cp36‑cp36m‑win_amd64.whl
+Triangle, a wrapper for Triangle, a two-dimensional quality mesh generator and delaunay triangulator library.
+triangle‑20170429‑cp27‑cp27m‑win32.whl
+triangle‑20170429‑cp27‑cp27m‑win_amd64.whl
+triangle‑20170429‑cp34‑cp34m‑win32.whl
+triangle‑20170429‑cp34‑cp34m‑win_amd64.whl
+triangle‑20170429‑cp35‑cp35m‑win32.whl
+triangle‑20170429‑cp35‑cp35m‑win_amd64.whl
+triangle‑20170429‑cp36‑cp36m‑win32.whl
+triangle‑20170429‑cp36‑cp36m‑win_amd64.whl
+Trollius, a port of the asyncio project to Python 2.7.
+trollius‑2.1‑cp27‑cp27m‑win32.whl
+trollius‑2.1‑cp27‑cp27m‑win_amd64.whl
+trollius‑2.1‑cp34‑cp34m‑win32.whl
+trollius‑2.1‑cp34‑cp34m‑win_amd64.whl
+trollius‑2.1‑cp35‑cp35m‑win32.whl
+trollius‑2.1‑cp35‑cp35m‑win_amd64.whl
+trollius‑2.1‑cp36‑cp36m‑win32.whl
+trollius‑2.1‑cp36‑cp36m‑win_amd64.whl
+TWAINmodule provides an interface to TWAIN image acquisition devices.
+twain‑1.0.4‑cp27‑cp27m‑win32.whl
+twain‑1.0.4‑cp27‑cp27m‑win_amd64.whl
+twain‑1.0.4‑cp34‑cp34m‑win32.whl
+twain‑1.0.4‑cp34‑cp34m‑win_amd64.whl
+twain‑1.0.4‑cp35‑cp35m‑win32.whl
+twain‑1.0.4‑cp35‑cp35m‑win_amd64.whl
+twain‑1.0.4‑cp36‑cp36m‑win32.whl
+twain‑1.0.4‑cp36‑cp36m‑win_amd64.whl
+twain‑1.0.4‑py3‑source.zip
+Twisted, an event-driven networking engine.
+Twisted‑17.9.0‑cp27‑cp27m‑win32.whl
+Twisted‑17.9.0‑cp27‑cp27m‑win_amd64.whl
+Twisted‑17.9.0‑cp34‑cp34m‑win32.whl
+Twisted‑17.9.0‑cp34‑cp34m‑win_amd64.whl
+Twisted‑17.9.0‑cp35‑cp35m‑win32.whl
+Twisted‑17.9.0‑cp35‑cp35m‑win_amd64.whl
+Twisted‑17.9.0‑cp36‑cp36m‑win32.whl
+Twisted‑17.9.0‑cp36‑cp36m‑win_amd64.whl
+UDUNITS supports units of physical quantities.
+The udunits2.dll is installed to `sys.prefix\share\udunits`.
+udunits2‑2.2.25‑cp27‑cp27m‑win32.whl
+udunits2‑2.2.25‑cp27‑cp27m‑win_amd64.whl
+udunits2‑2.2.25‑cp34‑cp34m‑win32.whl
+udunits2‑2.2.25‑cp34‑cp34m‑win_amd64.whl
+udunits2‑2.2.25‑cp35‑cp35m‑win32.whl
+udunits2‑2.2.25‑cp35‑cp35m‑win_amd64.whl
+udunits2‑2.2.25‑cp36‑cp36m‑win32.whl
+udunits2‑2.2.25‑cp36‑cp36m‑win_amd64.whl
+Ujson, an ultra-fast JSON encoder and decoder.
+ujson‑1.35‑cp27‑cp27m‑win32.whl
+ujson‑1.35‑cp27‑cp27m‑win_amd64.whl
+ujson‑1.35‑cp34‑cp34m‑win32.whl
+ujson‑1.35‑cp34‑cp34m‑win_amd64.whl
+ujson‑1.35‑cp35‑cp35m‑win32.whl
+ujson‑1.35‑cp35‑cp35m‑win_amd64.whl
+ujson‑1.35‑cp36‑cp36m‑win32.whl
+ujson‑1.35‑cp36‑cp36m‑win_amd64.whl
+Umysql, a ultra fast MySQL driver.
+umysql‑2.61‑cp27‑none‑win32.whl
+umysql‑2.61‑cp27‑none‑win_amd64.whl
+Veusz, a GUI scientific plotting and graphing package.
+Requires pyqt4.
+veusz‑1.27‑cp27‑cp27m‑win32.whl
+veusz‑1.27‑cp27‑cp27m‑win_amd64.whl
+veusz‑1.27‑cp34‑cp34m‑win32.whl
+veusz‑1.27‑cp34‑cp34m‑win_amd64.whl
+veusz‑1.27‑cp35‑cp35m‑win32.whl
+veusz‑1.27‑cp35‑cp35m‑win_amd64.whl
+veusz‑1.27‑cp36‑cp36m‑win32.whl
+veusz‑1.27‑cp36‑cp36m‑win_amd64.whl
+VideoCapture, an extension for accessing video devices.
+VideoCapture‑0.9.5‑cp27‑none‑win32.whl
+VideoCapture‑0.9.5‑cp27‑none‑win_amd64.whl
+VideoCapture‑0.9.5‑cp34‑none‑win32.whl
+VideoCapture‑0.9.5‑cp34‑none‑win_amd64.whl
+VideoCapture‑0.9.5‑cp35‑none‑win32.whl
+VideoCapture‑0.9.5‑cp35‑none‑win_amd64.whl
+VideoCapture‑0.9.5‑cp36‑cp36m‑win32.whl
+VideoCapture‑0.9.5‑cp36‑cp36m‑win_amd64.whl
+VideoCapture‑0.9.5‑cp37‑cp37m‑win32.whl
+VideoCapture‑0.9.5‑cp37‑cp37m‑win_amd64.whl
+Vidsrc, read frames from video files as numpy arrays.
+vidsrc‑2015.7.26‑cp27‑cp27m‑win32.whl
+vidsrc‑2015.7.26‑cp27‑cp27m‑win_amd64.whl
+vidsrc‑2015.7.26‑cp34‑cp34m‑win32.whl
+vidsrc‑2015.7.26‑cp34‑cp34m‑win_amd64.whl
+vidsrc‑2015.7.26‑cp35‑cp35m‑win32.whl
+vidsrc‑2015.7.26‑cp35‑cp35m‑win_amd64.whl
+vidsrc‑2015.7.26‑cp36‑cp36m‑win32.whl
+vidsrc‑2015.7.26‑cp36‑cp36m‑win_amd64.whl
+VIGRA (Vision with Generic Algorithms), a computer vision library.
+Requires numpy+mkl.
+vigranumpy‑1.10.0‑cp27‑cp27m‑win32.whl
+vigranumpy‑1.10.0‑cp27‑cp27m‑win_amd64.whl
+vigranumpy‑1.11.1‑cp35‑cp35m‑win32.whl
+vigranumpy‑1.11.1‑cp35‑cp35m‑win_amd64.whl
+vigranumpy‑1.11.1‑cp36‑cp36m‑win32.whl
+vigranumpy‑1.11.1‑cp36‑cp36m‑win_amd64.whl
+ViTables, a GUI for browsing and editing files in PyTables and HDF5 formats.
+ViTables‑3.0.0‑py2.py3‑none‑any.whl
+vLFD, modules developed by Christoph Gohlke.
+See also tifffile, czifile, lfdfiles, transformations, akima, psf, chebyfit, vidsrc.
+cmapfile‑2014.10.10‑py2.py3‑none‑any.whl
+dnacurve‑2015.1.29‑py2.py3‑none‑any.whl
+fcsfiles‑2014.10.10‑py2.py3‑none‑any.whl
+fmkr‑2014.10.10‑py2.py3‑none‑any.whl
+imreg‑2014.10.10‑py2.py3‑none‑any.whl
+lucam‑2014.10.10‑py2.py3‑none‑any.whl
+molmass‑2016.2.25‑py2.py3‑none‑any.whl
+netpbmfile‑2017.10.18‑py2.py3‑none‑any.whl
+oiffile‑2015.8.17‑py2.py3‑none‑any.whl
+qdafile‑2014.10.10‑py2.py3‑none‑any.whl
+sdtfile‑2017.10.18‑py2.py3‑none‑any.whl
+VPython, 3D programming for ordinary mortals.
+Requires TTFQuery, FontTools, and Polygon.
+TTFQuery‑1.0.5‑py2‑none‑any.whl
+TTFQuery‑1.0.5‑py3‑none‑any.whl
+VPython‑5.74‑cp27‑none‑win32.whl
+VPython‑5.74‑cp27‑none‑win_amd64.whl
+VPython‑5.74‑cp34‑none‑win32.whl
+VPython‑5.74‑cp34‑none‑win_amd64.whl
+VTK (Visualization Toolkit), a software system for 3D computer graphics, image processing, and visualization.
+VTK+qt4 requires pyqt4.
+VTK‑5.10.1+qt486‑cp27‑none‑win32.whl
+VTK‑5.10.1+qt486‑cp27‑none‑win_amd64.whl
+VTK‑6.3.0‑cp27‑cp27m‑win32.whl
+VTK‑6.3.0‑cp27‑cp27m‑win_amd64.whl
+VTK‑7.1.1‑cp27‑cp27m‑win32.whl
+VTK‑7.1.1‑cp27‑cp27m‑win_amd64.whl
+VTK‑7.1.1‑cp34‑cp34m‑win32.whl
+VTK‑7.1.1‑cp34‑cp34m‑win_amd64.whl
+VTK‑7.1.1‑cp35‑cp35m‑win32.whl
+VTK‑7.1.1‑cp35‑cp35m‑win_amd64.whl
+VTK‑7.1.1‑cp36‑cp36m‑win32.whl
+VTK‑7.1.1‑cp36‑cp36m‑win_amd64.whl
+VTK‑8.0.1‑cp35‑cp35m‑win32.whl
+VTK‑8.0.1‑cp35‑cp35m‑win_amd64.whl
+VTK‑8.0.1‑cp36‑cp36m‑win32.whl
+VTK‑8.0.1‑cp36‑cp36m‑win_amd64.whl
+Winrandom gives direct access to Windows CryptGetRandom function.
+winrandom‑1.2‑cp27‑cp27m‑win32.whl
+winrandom‑1.2‑cp27‑cp27m‑win_amd64.whl
+winrandom‑1.2.1‑cp34‑cp34m‑win32.whl
+winrandom‑1.2.1‑cp34‑cp34m‑win_amd64.whl
+winrandom‑1.2.1‑cp35‑cp35m‑win32.whl
+winrandom‑1.2.1‑cp35‑cp35m‑win_amd64.whl
+winrandom‑1.2.1‑cp36‑cp36m‑win32.whl
+winrandom‑1.2.1‑cp36‑cp36m‑win_amd64.whl
+Wordcloud, a little word cloud generator.
+wordcloud‑1.3.2‑cp27‑cp27m‑win32.whl
+wordcloud‑1.3.2‑cp27‑cp27m‑win_amd64.whl
+wordcloud‑1.3.2‑cp34‑cp34m‑win32.whl
+wordcloud‑1.3.2‑cp34‑cp34m‑win_amd64.whl
+wordcloud‑1.3.2‑cp35‑cp35m‑win32.whl
+wordcloud‑1.3.2‑cp35‑cp35m‑win_amd64.whl
+wordcloud‑1.3.2‑cp36‑cp36m‑win32.whl
+wordcloud‑1.3.2‑cp36‑cp36m‑win_amd64.whl
+Wrapt, a module for decorators, wrappers and monkey patching.
+wrapt‑1.10.11‑cp27‑cp27m‑win32.whl
+wrapt‑1.10.11‑cp27‑cp27m‑win_amd64.whl
+wrapt‑1.10.11‑cp34‑cp34m‑win32.whl
+wrapt‑1.10.11‑cp34‑cp34m‑win_amd64.whl
+wrapt‑1.10.11‑cp35‑cp35m‑win32.whl
+wrapt‑1.10.11‑cp35‑cp35m‑win_amd64.whl
+wrapt‑1.10.11‑cp36‑cp36m‑win32.whl
+wrapt‑1.10.11‑cp36‑cp36m‑win_amd64.whl
+wrapt‑1.10.11‑cp37‑cp37m‑win32.whl
+wrapt‑1.10.11‑cp37‑cp37m‑win_amd64.whl
+wxPython provides bindings to the wxWidgets cross-platform toolkit.
+The wxPython-common package is required.
+wxPython‑3.0.2.0‑cp27‑none‑win32.whl
+wxPython‑3.0.2.0‑cp27‑none‑win_amd64.whl
+wxPython_common‑3.0.2.0‑py2‑none‑any.whl
+x86cpu, get information about CPU.
+x86cpu‑0.4‑cp27‑cp27m‑win32.whl
+x86cpu‑0.4‑cp27‑cp27m‑win_amd64.whl
+x86cpu‑0.4‑cp34‑cp34m‑win32.whl
+x86cpu‑0.4‑cp34‑cp34m‑win_amd64.whl
+x86cpu‑0.4‑cp35‑cp35m‑win32.whl
+x86cpu‑0.4‑cp35‑cp35m‑win_amd64.whl
+x86cpu‑0.4‑cp36‑cp36m‑win32.whl
+x86cpu‑0.4‑cp36‑cp36m‑win_amd64.whl
+Xgboost, a distributed gradient boosting (GBDT, GBRT or GBM) library.
+xgboost‑0.6+20171121‑cp35‑cp35m‑win32.whl
+xgboost‑0.6+20171121‑cp35‑cp35m‑win_amd64.whl
+xgboost‑0.6+20171121‑cp36‑cp36m‑win32.whl
+xgboost‑0.6+20171121‑cp36‑cp36m‑win_amd64.whl
+Xxhash, a fast non-cryptographic hash algorithm.
+xxhash‑1.0.1‑cp27‑cp27m‑win32.whl
+xxhash‑1.0.1‑cp27‑cp27m‑win_amd64.whl
+xxhash‑1.0.1‑cp34‑cp34m‑win32.whl
+xxhash‑1.0.1‑cp34‑cp34m‑win_amd64.whl
+xxhash‑1.0.1‑cp35‑cp35m‑win32.whl
+xxhash‑1.0.1‑cp35‑cp35m‑win_amd64.whl
+xxhash‑1.0.1‑cp36‑cp36m‑win32.whl
+xxhash‑1.0.1‑cp36‑cp36m‑win_amd64.whl
+Yappi, Yet Another Python Profiler, supports Multithread/CPU time profiling.
+yappi‑0.98‑cp27‑cp27m‑win32.whl
+yappi‑0.98‑cp27‑cp27m‑win_amd64.whl
+yappi‑0.98‑cp34‑cp34m‑win32.whl
+yappi‑0.98‑cp34‑cp34m‑win_amd64.whl
+yappi‑0.98‑cp35‑cp35m‑win32.whl
+yappi‑0.98‑cp35‑cp35m‑win_amd64.whl
+yappi‑0.98‑cp36‑cp36m‑win32.whl
+yappi‑0.98‑cp36‑cp36m‑win_amd64.whl
+Yarl, yet another URL library.
+yarl‑0.16.0‑cp34‑cp34m‑win32.whl
+yarl‑0.16.0‑cp34‑cp34m‑win_amd64.whl
+yarl‑0.16.0‑cp35‑cp35m‑win32.whl
+yarl‑0.16.0‑cp35‑cp35m‑win_amd64.whl
+yarl‑0.16.0‑cp36‑cp36m‑win32.whl
+yarl‑0.16.0‑cp36‑cp36m‑win_amd64.whl
+Yt, analysis and visualization of volumetric, multi-resolution data.
+yt‑3.4.0‑cp27‑cp27m‑win32.whl
+yt‑3.4.0‑cp27‑cp27m‑win_amd64.whl
+yt‑3.4.0‑cp34‑cp34m‑win32.whl
+yt‑3.4.0‑cp34‑cp34m‑win_amd64.whl
+yt‑3.4.0‑cp35‑cp35m‑win32.whl
+yt‑3.4.0‑cp35‑cp35m‑win_amd64.whl
+yt‑3.4.0‑cp36‑cp36m‑win32.whl
+yt‑3.4.0‑cp36‑cp36m‑win_amd64.whl
+Zarr, a minimal implementation of chunked, compressed, N-dimensional arrays.
+zarr‑2.1.4‑cp27‑cp27m‑win32.whl
+zarr‑2.1.4‑cp27‑cp27m‑win_amd64.whl
+zarr‑2.1.4‑cp34‑cp34m‑win32.whl
+zarr‑2.1.4‑cp34‑cp34m‑win_amd64.whl
+zarr‑2.1.4‑cp35‑cp35m‑win32.whl
+zarr‑2.1.4‑cp35‑cp35m‑win_amd64.whl
+zarr‑2.1.4‑cp36‑cp36m‑win32.whl
+zarr‑2.1.4‑cp36‑cp36m‑win_amd64.whl
+Zfec implements an "erasure code", or "forward error correction code" .
+zfec‑1.4.24‑cp27‑none‑win32.whl
+zfec‑1.4.24‑cp27‑none‑win_amd64.whl
+Zipline, a backtester for financial algorithms.
+zipline‑1.1.1‑cp27‑cp27m‑win32.whl
+zipline‑1.1.1‑cp27‑cp27m‑win_amd64.whl
+zipline‑1.1.1‑cp34‑cp34m‑win32.whl
+zipline‑1.1.1‑cp34‑cp34m‑win_amd64.whl
+zipline‑1.1.1‑cp35‑cp35m‑win32.whl
+zipline‑1.1.1‑cp35‑cp35m‑win_amd64.whl
+zipline‑1.1.1‑cp36‑cp36m‑win32.whl
+zipline‑1.1.1‑cp36‑cp36m‑win_amd64.whl
+Zodbpickle presents a uniform pickling interface for ZODB.
+zodbpickle‑0.7.0‑cp27‑cp27m‑win32.whl
+zodbpickle‑0.7.0‑cp27‑cp27m‑win_amd64.whl
+zodbpickle‑0.7.0‑cp34‑cp34m‑win32.whl
+zodbpickle‑0.7.0‑cp34‑cp34m‑win_amd64.whl
+zodbpickle‑0.7.0‑cp35‑cp35m‑win32.whl
+zodbpickle‑0.7.0‑cp35‑cp35m‑win_amd64.whl
+zodbpickle‑0.7.0‑cp36‑cp36m‑win32.whl
+zodbpickle‑0.7.0‑cp36‑cp36m‑win_amd64.whl
+zodbpickle‑0.7.0‑cp37‑cp37m‑win32.whl
+zodbpickle‑0.7.0‑cp37‑cp37m‑win_amd64.whl
+Zope.interface provides an implementation of object interfaces for Python.
+zope.interface‑4.4.3‑cp27‑cp27m‑win32.whl
+zope.interface‑4.4.3‑cp27‑cp27m‑win_amd64.whl
+zope.interface‑4.4.3‑cp34‑cp34m‑win32.whl
+zope.interface‑4.4.3‑cp34‑cp34m‑win_amd64.whl
+zope.interface‑4.4.3‑cp35‑cp35m‑win32.whl
+zope.interface‑4.4.3‑cp35‑cp35m‑win_amd64.whl
+zope.interface‑4.4.3‑cp36‑cp36m‑win32.whl
+zope.interface‑4.4.3‑cp36‑cp36m‑win_amd64.whl
+zope.interface‑4.4.3‑cp37‑cp37m‑win32.whl
+zope.interface‑4.4.3‑cp37‑cp37m‑win_amd64.whl
+Zs, a compressed, read-only file format for efficiently distributing, querying, and archiving arbitrarily large record-oriented datasets.
+zs‑0.10.0‑cp27‑cp27m‑win32.whl
+zs‑0.10.0‑cp27‑cp27m‑win_amd64.whl
+zs‑0.10.0‑cp34‑cp34m‑win32.whl
+zs‑0.10.0‑cp34‑cp34m‑win_amd64.whl
+zs‑0.10.0‑cp35‑cp35m‑win32.whl
+zs‑0.10.0‑cp35‑cp35m‑win_amd64.whl
+zs‑0.10.0‑cp36‑cp36m‑win32.whl
+zs‑0.10.0‑cp36‑cp36m‑win_amd64.whl
+Zstd, bindings to the Zstandard compression library.
+zstd‑1.3.1‑cp34‑cp34m‑win32.whl
+zstd‑1.3.1‑cp34‑cp34m‑win_amd64.whl
+zstd‑1.3.1‑cp35‑cp35m‑win32.whl
+zstd‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+zstd‑1.3.1‑cp36‑cp36m‑win32.whl
+zstd‑1.3.1‑cp36‑cp36m‑win_amd64.whl
+zstd‑1.3.1‑cp37‑cp37m‑win32.whl
+zstd‑1.3.1‑cp37‑cp37m‑win_amd64.whl
+Misc
+3to2‑1.1.1‑py2.py3‑none‑any.whl
+aafigure‑0.5‑py2‑none‑any.whl
+aafigure‑0.6‑py2.py3‑none‑any.whl
+active_directory‑0.8.dev0‑py2.py3‑none‑any.whl
+adal‑0.4.5‑py2.py3‑none‑any.whl
+addressbook‑1.0.1‑py2.py3‑none‑any.whl
+adodbapi‑2.6.1.3‑py2‑none‑any.whl
+adodbapi‑2.6.1.3‑py3‑none‑any.whl
+aenum‑2.0.9‑py2‑none‑any.whl
+aenum‑2.0.9‑py3‑none‑any.whl
+affine‑2.1.0‑py2.py3‑none‑any.whl
+agate‑1.6.0‑py2.py3‑none‑any.whl
+agate_sql‑0.5.1‑py2.py3‑none‑any.whl
+alabaster‑0.7.10‑py2.py3‑none‑any.whl
+alembic‑0.9.6‑py2.py3‑none‑any.whl
+algopy‑0.5.5‑py2.py3‑none‑any.whl
+altair‑1.2.1‑py2.py3‑none‑any.whl
+altgraph‑0.15‑py2.py3‑none‑any.whl
+amqp‑2.2.2‑py2.py3‑none‑any.whl
+anuga‑2.0‑cp27‑none‑win32.whl
+anyjson‑0.3.3‑py2‑none‑any.whl
+anyjson‑0.3.3‑py3‑none‑any.whl
+AnyQt‑0.0.8‑py2.py3‑none‑any.whl
+apipkg‑1.4‑py2.py3‑none‑any.whl
+appdirs‑1.4.3‑py2.py3‑none‑any.whl
+argh‑0.26.2‑py2.py3‑none‑any.whl
+argparse‑1.4.0‑py2.py3‑none‑any.whl
+args‑0.1.0‑py2.py3‑none‑any.whl
+ase‑3.15.0‑py2‑none‑any.whl
+ase‑3.15.0‑py3‑none‑any.whl
+astrodendro‑0.2.0‑py2.py3‑none‑any.whl
+astroid‑1.6.0‑py2.py3‑none‑any.whl
+astropy_helpers‑2.0.2‑py2.py3‑none‑any.whl
+async_timeout‑2.0.0‑py3‑none‑any.whl
+attrs‑17.3.0‑py2.py3‑none‑any.whl
+Automat‑0.6.0‑py2.py3‑none‑any.whl
+autopep8‑1.3.3‑py2.py3‑none‑any.whl
+aws_xray_sdk‑0.93‑py2.py3‑none‑any.whl
+azure‑0.11.1‑py27‑none‑any.whl
+azure‑0.11.1‑py3‑none‑any.whl
+backports.datetime_timestamp‑1.1‑py2.py3‑none‑any.whl
+backports.functools_lru_cache‑1.4‑py2.py3‑none‑any.whl
+backports.method_request‑1.2‑py2.py3‑none‑any.whl
+backports.shutil_get_terminal_size‑1.0.0‑py2.py3‑none‑any.whl
+backports.ssl‑0.0.9‑py2‑none‑any.whl
+backports.ssl‑0.0.9‑py2.py3‑none‑any.whl
+backports.ssl_match_hostname‑3.5.0.1‑py2‑none‑any.whl
+backports.unittest_mock‑1.3‑py2.py3‑none‑any.whl
+backports.weakref‑1.0.post1‑py2‑none‑any.whl
+backports.weakref‑1.0.post1‑py3‑none‑any.whl
+backports_abc‑0.5‑py2.py3‑none‑any.whl
+BeautifulSoup‑3.2.1‑py2‑none‑any.whl
+beautifulsoup4‑4.6.0‑py2‑none‑any.whl
+beautifulsoup4‑4.6.0‑py3‑none‑any.whl
+BicycleParameters‑0.2.0‑py27‑none‑any.whl
+Biggus‑0.14.0‑py2‑none‑any.whl
+Biggus‑0.14.0‑py3‑none‑any.whl
+billiard‑3.5.0.3‑cp27‑cp27m‑win32.whl
+billiard‑3.5.0.3‑cp27‑cp27m‑win_amd64.whl
+billiard‑3.5.0.3‑py3‑none‑any.whl
+Bio_Eutils‑1.65‑py2.py3‑none‑any.whl
+BitVector‑3.4.7‑py2.py3‑none‑any.whl
+bkcharts‑0.2‑py2.py3‑none‑any.whl
+bleach‑2.1.2‑py2.py3‑none‑any.whl
+blinker‑1.4‑py2.py3‑none‑any.whl
+blockdiag‑1.5.3‑py2.py3‑none‑any.whl
+blpapi‑3.5.2‑cp27‑none‑win32.whl
+blpapi‑3.5.2‑cp27‑none‑win_amd64.whl
+bolt_python‑0.7.1‑py2.py3‑none‑any.whl
+boto‑2.48.0‑py2.py3‑none‑any.whl
+boto3‑1.5.3‑py2.py3‑none‑any.whl
+botocore‑1.8.17‑py2.py3‑none‑any.whl
+bottle‑0.12.13‑py2.py3‑none‑any.whl
+bqplot‑0.10.2‑py2.py3‑none‑any.whl
+brewer2mpl‑1.4.1‑py2.py3‑none‑any.whl
+brian‑1.4.1‑cp27‑none‑win32.whl
+Brotli‑1.0.2‑cp27‑cp27m‑win32.whl
+Brotli‑1.0.2‑cp27‑cp27m‑win_amd64.whl
+Brotli‑1.0.2‑cp34‑cp34m‑win32.whl
+Brotli‑1.0.2‑cp34‑cp34m‑win_amd64.whl
+Brotli‑1.0.2‑cp35‑cp35m‑win32.whl
+Brotli‑1.0.2‑cp35‑cp35m‑win_amd64.whl
+Brotli‑1.0.2‑cp36‑cp36m‑win32.whl
+Brotli‑1.0.2‑cp36‑cp36m‑win_amd64.whl
+Brotli‑1.0.2‑cp37‑cp37m‑win32.whl
+Brotli‑1.0.2‑cp37‑cp37m‑win_amd64.whl
+bson‑0.5.0‑py2.py3‑none‑any.whl
+bz2file‑0.98‑py2.py3‑none‑any.whl
+CacheControl‑0.12.3‑py2.py3‑none‑any.whl
+cachetools‑2.0.1‑py2.py3‑none‑any.whl
+celery‑4.1.0‑py2.py3‑none‑any.whl
+centrosome‑1.0.8‑cp27‑cp27m‑win32.whl
+centrosome‑1.0.8‑cp27‑cp27m‑win_amd64.whl
+certifi‑2017.11.5‑py2.py3‑none‑any.whl
+cgen‑2017.1‑py2.py3‑none‑any.whl
+chainer‑1.24.0‑cp27‑cp27m‑win_amd64.whl
+chainer‑3.2.0‑py3‑none‑any.whl
+Chameleon‑3.2‑py2.py3‑none‑any.whl
+characteristic‑14.3.0‑py2.py3‑none‑any.whl
+charade‑1.0.3‑py2.py3‑none‑any.whl
+chardet‑3.0.4‑py2.py3‑none‑any.whl
+chemfp‑1.0‑cp27‑none‑win32.whl
+chemfp‑1.0‑cp27‑none‑win_amd64.whl
+chempy‑0.5.7‑py2.py3‑none‑any.whl
+cheroot‑6.0.0‑py2.py3‑none‑any.whl
+CherryPy‑13.1.0‑py2.py3‑none‑any.whl
+chest‑0.2.3‑py2.py3‑none‑any.whl
+Chiplotle‑0.4.1‑py2‑none‑any.whl
+circuits‑3.2‑py2.py3‑none‑any.whl
+Circuitscape‑4.0.5‑py2‑none‑any.whl
+click‑6.7‑py2.py3‑none‑any.whl
+click_plugins‑1.0.3‑py2.py3‑none‑any.whl
+cligj‑0.4.0‑py2.py3‑none‑any.whl
+clint‑0.5.1‑py2.py3‑none‑any.whl
+cloudpickle‑0.5.2‑py2.py3‑none‑any.whl
+clyent‑1.2.1‑py2.py3‑none‑any.whl
+codepy‑2017.2‑py2‑none‑any.whl
+codepy‑2017.2‑py3‑none‑any.whl
+colorama‑0.3.9‑py2.py3‑none‑any.whl
+colormath‑2.1.1‑py2.py3‑none‑any.whl
+colorspacious‑1.1.0‑py2.py3‑none‑any.whl
+colour_science‑0.3.10‑py2.py3‑none‑any.whl
+CommonMark‑0.7.4‑py2.py3‑none‑any.whl
+comtypes‑1.1.3‑py2‑none‑any.whl
+comtypes‑1.1.3‑py3‑none‑any.whl
+configobj‑5.0.6‑py2.py3‑none‑any.whl
+ConfigObject‑1.2.2‑py2.py3‑none‑any.whl
+configparser‑3.5.0‑py2‑none‑any.whl
+configparser‑3.5.0‑py3‑none‑any.whl
+console‑1.1a2‑cp27‑none‑win32.whl
+console‑1.1a2‑cp27‑none‑win_amd64.whl
+constantly‑15.1.0‑py2.py3‑none‑any.whl
+contextlib2‑0.5.5‑py2.py3‑none‑any.whl
+control‑0.7.0‑py2.py3‑none‑any.whl
+cookies‑2.2.1‑py2.py3‑none‑any.whl
+cov_core‑1.15.0‑py2.py3‑none‑any.whl
+cssselect‑1.0.1‑py2.py3‑none‑any.whl
+csvkit‑1.0.2‑py2‑none‑any.whl
+csvkit‑1.0.2‑py3‑none‑any.whl
+cubes‑1.1‑py2.py3‑none‑any.whl
+cycler‑0.10.0‑py2.py3‑none‑any.whl
+cylemon‑0.0.1‑cp27‑none‑win32.whl
+cylemon‑0.0.1‑cp27‑none‑win_amd64.whl
+d2to1‑0.2.12.post1‑py2.py3‑none‑any.whl
+dask‑0.16.0‑py2.py3‑none‑any.whl
+db.py‑0.5.3‑py2.py3‑none‑any.whl
+dbfpy‑2.3.0‑py27‑none‑any.whl
+dbfread‑2.0.7‑py2.py3‑none‑any.whl
+decorator‑4.1.2‑py2.py3‑none‑any.whl
+defusedxml‑0.5.0‑py2.py3‑none‑any.whl
+descartes‑1.1.0‑py2.py3‑none‑any.whl
+dill‑0.2.7.1‑py2.py3‑none‑any.whl
+distlib‑0.2.6‑py2.py3‑none‑any.whl
+distributed‑1.20.2‑py2.py3‑none‑any.whl
+Django‑1.11.8‑py2.py3‑none‑any.whl
+Django‑2.0‑py3‑none‑any.whl
+dnslib‑0.9.7‑py2.py3‑none‑any.whl
+docker‑2.7.0‑py2.py3‑none‑any.whl
+docker_pycreds‑0.2.1‑py2.py3‑none‑any.whl
+docopt‑0.6.2‑py2.py3‑none‑any.whl
+doctest_tools‑1.0a3‑py2‑none‑any.whl
+docutils‑0.14‑py2‑none‑any.whl
+docutils‑0.14‑py3‑none‑any.whl
+doit‑0.30.3‑py2.py3‑none‑any.whl
+dominate‑2.3.1‑py2.py3‑none‑any.whl
+drmaa‑0.7.7‑py2.py3‑none‑any.whl
+DynamicistToolKit‑0.3.5‑py27‑none‑any.whl
+easydev‑0.9.35‑py2.py3‑none‑any.whl
+easygui‑0.98.1‑py2.py3‑none‑any.whl
+ecdsa‑0.13‑py2.py3‑none‑any.whl
+empyrical‑0.3.2‑py2.py3‑none‑any.whl
+empyrical‑0.3.3‑py2.py3‑none‑any.whl
+entrypoints‑0.2.3‑py2.py3‑none‑any.whl
+enum34‑1.1.6‑py2.py3‑none‑any.whl
+enum_compat‑0.0.2‑py2.py3‑none‑any.whl
+epydoc‑3.0.1‑py2‑none‑any.whl
+errorhandler‑2.0.1‑py2.py3‑none‑any.whl
+et_xmlfile‑1.0.1‑py2.py3‑none‑any.whl
+ete3‑3.1.1‑py2.py3‑none‑any.whl
+euclid‑0.1‑py2‑none‑any.whl
+eventlet‑0.21.0‑py2.py3‑none‑any.whl
+execnet‑1.5.0‑py2.py3‑none‑any.whl
+expressions‑0.2.3‑py2.py3‑none‑any.whl
+extras‑1.0.0‑py2.py3‑none‑any.whl
+Fabric‑1.14.0‑py2‑none‑any.whl
+fake_factory‑9999.9.9‑py2.py3‑none‑any.whl
+fasteners‑0.14.1‑py2.py3‑none‑any.whl
+fbpca‑1.0‑py2.py3‑none‑any.whl
+feedparser‑5.2.1‑py2‑none‑any.whl
+feedparser‑5.2.1‑py3‑none‑any.whl
+filelock‑2.0.13‑py2.py3‑none‑any.whl
+FiPy‑3.1.3‑py2‑none‑any.whl
+fixtures‑3.0.0‑py2.py3‑none‑any.whl
+flake8‑3.5.0‑py2.py3‑none‑any.whl
+Flask‑0.12.2‑py2.py3‑none‑any.whl
+Flask_Admin‑1.5.0‑py2.py3‑none‑any.whl
+Flask_Babel‑0.11.2‑py2.py3‑none‑any.whl
+Flask_Bootstrap‑3.3.7.1‑py2.py3‑none‑any.whl
+Flask_Cache‑0.13.1‑py2.py3‑none‑any.whl
+Flask_Compress‑1.4.0‑py2.py3‑none‑any.whl
+Flask_Cors‑3.0.3‑py2.py3‑none‑any.whl
+Flask_DebugToolbar‑0.10.1‑py2.py3‑none‑any.whl
+Flask_FlatPages‑0.6‑py2.py3‑none‑any.whl
+Flask_Login‑0.4.1‑py2.py3‑none‑any.whl
+Flask_Mail‑0.9.1‑py2.py3‑none‑any.whl
+Flask_Migrate‑2.1.0‑py2.py3‑none‑any.whl
+Flask_Moment‑0.5.1‑py2.py3‑none‑any.whl
+Flask_Script‑2.0.6‑py2.py3‑none‑any.whl
+Flask_SQLAlchemy‑2.3.2‑py2.py3‑none‑any.whl
+Flask_User‑0.6.13‑py2.py3‑none‑any.whl
+Flask_User‑0.6.19‑py2.py3‑none‑any.whl
+Flask_WTF‑0.14.2‑py2.py3‑none‑any.whl
+flika‑0.2.24‑py3‑none‑any.whl
+flit‑0.12.3‑py3‑none‑any.whl
+flit‑0.13‑py3‑none‑any.whl
+flotilla‑0.2.4‑py27‑none‑any.whl
+fonttools‑3.21.0‑py2.py3‑none‑any.whl
+foolscap‑0.12.7‑py2‑none‑any.whl
+FormEncode‑1.3.1‑py2‑none‑any.whl
+FormEncode‑1.3.1‑py3‑none‑any.whl
+formlayout‑1.1.0‑py2.py3‑none‑any.whl
+fpconst‑0.7.2‑py2‑none‑any.whl
+fs‑2.0.17‑py2.py3‑none‑any.whl
+ftfy‑4.4.1‑py2‑none‑any.whl
+ftfy‑5.2.0‑py3‑none‑any.whl
+ftputil‑3.3.1‑py2.py3‑none‑any.whl
+ftputil‑3.4‑py2.py3‑none‑any.whl
+funcparserlib‑0.3.6‑py2.py3‑none‑any.whl
+funcsigs‑1.0.2‑py2.py3‑none‑any.whl
+functools32‑3.2.3.post2‑py27‑none‑any.whl
+furl‑1.0.1‑py2.py3‑none‑any.whl
+future‑0.16.0‑py2‑none‑any.whl
+future‑0.16.0‑py3‑none‑any.whl
+futures‑3.1.1‑py2‑none‑any.whl
+fwrap‑0.1.1‑py2‑none‑any.whl
+gatspy‑0.3‑py2.py3‑none‑any.whl
+gaussfitter‑2015.11.29‑py2.py3‑none‑any.whl
+geojson‑2.3.0‑py2.py3‑none‑any.whl
+geopandas‑0.3.0‑py2.py3‑none‑any.whl
+geopy‑1.11.0‑py2.py3‑none‑any.whl
+gevent_websocket‑0.10.1‑py2.py3‑none‑any.whl
+ggplot‑0.11.5‑py2.py3‑none‑any.whl
+gitless‑0.8.5‑py2.py3‑none‑any.whl
+gletools‑0.1.0‑py2‑none‑any.whl
+glue_core‑0.12.3‑py2.py3‑none‑any.whl
+glue_vispy_viewers‑0.9‑py2.py3‑none‑any.whl
+glueviz‑0.12.2‑py2.py3‑none‑any.whl
+gnuplot_py‑1.8‑py2‑none‑any.whl
+google_api_python_client‑1.6.4‑py2.py3‑none‑any.whl
+googlemaps‑2.5.0‑py2.py3‑none‑any.whl
+grabscreen‑1.0.20010426‑cp27‑none‑win32.whl
+grabscreen‑1.0.20010426‑cp27‑none‑win_amd64.whl
+grapefruit‑0.1a3‑py2.py3‑none‑any.whl
+graphviz‑0.8.1‑py2.py3‑none‑any.whl
+grin‑1.2.1‑py2.py3‑none‑any.whl
+gspread‑0.6.2‑py2.py3‑none‑any.whl
+guppy‑0.1.10‑cp27‑none‑win32.whl
+guppy‑0.1.10‑cp27‑none‑win_amd64.whl
+h5netcdf‑0.5.0‑py2.py3‑none‑any.whl
+hachoir_core‑1.3.3‑py2‑none‑any.whl
+hachoir_metadata‑1.3.3‑py2‑none‑any.whl
+hachoir_parser‑1.3.4‑py2‑none‑any.whl
+hachoir_regex‑1.0.5‑py2‑none‑any.whl
+hachoir_subfile‑0.5.3‑py2‑none‑any.whl
+hachoir_wx‑0.3‑py2‑none‑any.whl
+HeapDict‑1.0.0‑py2.py3‑none‑any.whl
+holoviews‑1.9.2‑py2.py3‑none‑any.whl
+html5lib‑1.0.1‑py2.py3‑none‑any.whl
+htmltemplate‑2.2.0‑py3‑none‑any.whl
+httpie‑0.9.9‑py2.py3‑none‑any.whl
+httplib2‑0.10.3‑py2‑none‑any.whl
+httplib2‑0.10.3‑py3‑none‑any.whl
+husl‑4.0.3‑py2.py3‑none‑any.whl
+hyperlink‑17.3.1‑py2.py3‑none‑any.whl
+hyperopt‑0.1‑py2.py3‑none‑any.whl
+idna‑2.6‑py2.py3‑none‑any.whl
+ijson‑2.3‑py2.py3‑none‑any.whl
+imageio‑2.2.0‑py2.py3‑none‑any.whl
+imagen‑2.1.0‑py2.py3‑none‑any.whl
+imagesize‑0.7.1‑py2.py3‑none‑any.whl
+IMAPClient‑1.0.2‑py2.py3‑none‑any.whl
+IMAPClient‑1.1.0‑py2.py3‑none‑any.whl
+import_profiler‑0.0.3‑py2.py3‑none‑any.whl
+importlib‑1.0.3‑py26‑none‑any.whl
+impyla‑0.13.8‑py2.py3‑none‑any.whl
+imreg_dft‑2.0.0‑py2.py3‑none‑any.whl
+incremental‑17.5.0‑py2.py3‑none‑any.whl
+inflect‑0.2.5‑py2.py3‑none‑any.whl
+interlude‑1.3.1‑py2.py3‑none‑any.whl
+intervaltree‑2.1.0‑py2.py3‑none‑any.whl
+into‑0.2.2‑py2.py3‑none‑any.whl
+invoke‑0.21.0‑py3‑none‑any.whl
+invoke‑0.22.0‑py2.py3‑none‑any.whl
+ipaddr‑2.2.0‑py2.py3‑none‑any.whl
+ipaddress‑1.0.17‑py2‑none‑any.whl
+ipaddress‑1.0.19‑py2‑none‑any.whl
+ipdb‑0.10.3‑py2‑none‑any.whl
+ipdb‑0.10.3‑py3‑none‑any.whl
+ipyleaflet‑0.5.3‑py2.py3‑none‑any.whl
+ipympl‑0.1.0‑py2.py3‑none‑any.whl
+ipython_sql‑0.3.8‑py2.py3‑none‑any.whl
+iris_sample_data‑2.0.0‑py2.py3‑none‑any.whl
+isapi_wsgi‑0.4.2‑py2‑none‑any.whl
+iso8601‑0.1.12‑py2.py3‑none‑any.whl
+isodate‑0.6.0‑py2.py3‑none‑any.whl
+isort‑4.2.15‑py2.py3‑none‑any.whl
+itsdangerous‑0.24‑py2.py3‑none‑any.whl
+IVisual‑0.1.90‑py27‑none‑any.whl
+jaraco.packaging‑4.1‑py2.py3‑none‑any.whl
+jarn.viewdoc‑2.1‑py2.py3‑none‑any.whl
+jdcal‑1.3‑py2.py3‑none‑any.whl
+jedi‑0.11.1‑py2.py3‑none‑any.whl
+Jinja‑1.2‑cp27‑none‑win32.whl
+Jinja‑1.2‑cp27‑none‑win_amd64.whl
+Jinja2‑2.10‑py2.py3‑none‑any.whl
+jmespath‑0.9.3‑py2.py3‑none‑any.whl
+jnius‑1.1.dev0‑cp27‑none‑win32.whl
+jnius‑1.1.dev0‑cp27‑none‑win_amd64.whl
+joblib‑0.11‑py2.py3‑none‑any.whl
+jplephem‑2.6‑py2.py3‑none‑any.whl
+jsonpickle‑0.9.5‑py2.py3‑none‑any.whl
+jsonschema‑2.6.0‑py2.py3‑none‑any.whl
+Jug‑1.6.4‑py2.py3‑none‑any.whl
+kabuki‑0.6.2‑py2.py3‑none‑any.whl
+Keras‑2.1.2‑py2.py3‑none‑any.whl
+kernmagic‑0.2.0‑py2‑none‑any.whl
+kid‑0.9.6‑py2‑none‑any.whl
+Kivy_Garden‑0.1.4‑py2.py3‑none‑any.whl
+kombu‑4.1.0‑py2.py3‑none‑any.whl
+ldap3‑2.4‑py2.py3‑none‑any.whl
+leather‑0.3.3‑py2.py3‑none‑any.whl
+linecache2‑1.0.0‑py2.py3‑none‑any.whl
+lmfit‑0.9.7‑py2‑none‑any.whl
+lmfit‑0.9.7‑py3‑none‑any.whl
+locket‑0.2.0‑py2.py3‑none‑any.whl
+lockfile‑0.12.2‑py2.py3‑none‑any.whl
+logilab_common‑1.4.1‑py2.py3‑none‑any.whl
+logilab_database‑1.15.0‑py2.py3‑none‑any.whl
+logutils‑0.3.5‑py2.py3‑none‑any.whl
+m2r‑0.1.12‑py2.py3‑none‑any.whl
+macholib‑1.9‑py2.py3‑none‑any.whl
+Mako‑1.0.7‑py2.py3‑none‑any.whl
+Markdown‑2.6.10‑py2‑none‑any.whl
+Markdown‑2.6.10‑py3‑none‑any.whl
+mccabe‑0.6.1‑py2.py3‑none‑any.whl
+MDP‑3.5‑py2.py3‑none‑any.whl
+MechanicalSoup‑0.8.0‑py2.py3‑none‑any.whl
+meliae‑0.4.0‑cp27‑none‑win32.whl
+meliae‑0.4.0‑cp27‑none‑win_amd64.whl
+metakernel‑0.18.2‑py2.py3‑none‑any.whl
+mizani‑0.4.4‑py2.py3‑none‑any.whl
+mmseg‑1.2.4‑cp27‑none‑win32.whl
+mmseg‑1.2.4‑cp27‑none‑win_amd64.whl
+mock‑2.0.0‑py2.py3‑none‑any.whl
+modulegraph‑0.16‑py2.py3‑none‑any.whl
+molmod‑1.1‑cp27‑none‑win32.whl
+molmod‑1.1‑cp27‑none‑win_amd64.whl
+monotonic‑1.4‑py2.py3‑none‑any.whl
+monty‑1.0.2‑py2.py3‑none‑any.whl
+more_itertools‑4.0.1‑py2‑none‑any.whl
+more_itertools‑4.0.1‑py3‑none‑any.whl
+Morfessor‑2.0.3‑py2.py3‑none‑any.whl
+moto‑1.1.25‑py2.py3‑none‑any.whl
+moviepy‑0.2.3.2‑py2.py3‑none‑any.whl
+mpld3‑0.3‑py2.py3‑none‑any.whl
+mplh5canvas‑0.7‑py2‑none‑any.whl
+mpmath‑1.0.0‑py2.py3‑none‑any.whl
+mrcz‑0.3.1‑py2.py3‑none‑any.whl
+mrcz‑0.3.2‑py2.py3‑none‑any.whl
+msgpack_numpy‑0.4.2‑py2.py3‑none‑any.whl
+msrest‑0.4.8‑py2.py3‑none‑any.whl
+multipledispatch‑0.4.9‑py2.py3‑none‑any.whl
+munch‑2.2.0‑py2.py3‑none‑any.whl
+mutagen‑1.39‑py2.py3‑none‑any.whl
+mysql_connector_python‑2.0.4‑py2.py3‑none‑any.whl
+natsort‑5.1.1‑py2.py3‑none‑any.whl
+ncreduce‑0.2‑cp27‑none‑win32.whl
+ncreduce‑0.2‑cp27‑none‑win_amd64.whl
+nd2reader‑3.0.6‑py2‑none‑any.whl
+nd2reader‑3.0.6‑py3‑none‑any.whl
+netaddr‑0.7.19‑py2.py3‑none‑any.whl
+networkx‑1.11‑py2.py3‑none‑any.whl
+networkx‑2.0‑py2.py3‑none‑any.whl
+nibabel‑2.2.1‑py2.py3‑none‑any.whl
+Nikola‑7.7.5‑py2.py3‑none‑any.whl
+nipype‑0.14.0‑py2.py3‑none‑any.whl
+nltk‑3.2.5‑py2.py3‑none‑any.whl
+nose‑1.3.7‑py2‑none‑any.whl
+nose‑1.3.7‑py3‑none‑any.whl
+numdifftools‑0.9.20‑py2.py3‑none‑any.whl
+numpydoc‑0.7.0‑py2.py3‑none‑any.whl
+numscons‑0.12.0‑py2‑none‑any.whl
+oauth2client‑4.1.2‑py2.py3‑none‑any.whl
+oauthlib‑2.0.6‑py2.py3‑none‑any.whl
+objgraph‑3.2.0‑py2.py3‑none‑any.whl
+odfpy‑1.3.6‑py2.py3‑none‑any.whl
+odict‑1.6.2‑py2.py3‑none‑any.whl
+oldnumeric‑1.8.2‑py2.py3‑none‑any.whl
+olefile‑0.44‑py2.py3‑none‑any.whl
+oletools‑0.51‑py2‑none‑any.whl
+oletools‑0.51‑py3‑none‑any.whl
+OpenGLContext‑2.3.0‑py2.py3‑none‑any.whl
+openpyxl‑2.4.9‑py2.py3‑none‑any.whl
+opticspy‑0.2.1‑py2.py3‑none‑any.whl
+optlang‑1.3.0‑py2.py3‑none‑any.whl
+orderedmultidict‑0.7.11‑py2.py3‑none‑any.whl
+OWSLib‑0.16.0‑py2.py3‑none‑any.whl
+packaging‑16.8‑py2.py3‑none‑any.whl
+palettable‑3.1.0‑py2.py3‑none‑any.whl
+palladium‑1.1.0.1‑py3‑none‑any.whl
+pandas_datareader‑0.5.0‑py2.py3‑none‑any.whl
+pandasql‑0.7.3‑py2.py3‑none‑any.whl
+pandocfilters‑1.4.2‑py2.py3‑none‑any.whl
+paramaiko‑1.15.2‑py2.py3‑none‑any.whl
+paramz‑0.8.5‑py2.py3‑none‑any.whl
+parsedatetime‑2.4‑py2.py3‑none‑any.whl
+parsel‑1.2.0‑py2.py3‑none‑any.whl
+parso‑0.1.1‑py2.py3‑none‑any.whl
+partd‑0.3.8‑py2.py3‑none‑any.whl
+passlib‑1.7.1‑py2.py3‑none‑any.whl
+Paste‑2.0.3‑py2.py3‑none‑any.whl
+PasteDeploy‑1.5.2‑py2.py3‑none‑any.whl
+PasteScript‑2.0.2‑py2.py3‑none‑any.whl
+patch‑1.16‑py2.py3‑none‑any.whl
+path.py‑10.5‑py2.py3‑none‑any.whl
+pathlib‑1.0.1‑py2.py3‑none‑any.whl
+pathlib2‑2.3.0‑py2.py3‑none‑any.whl
+pathtools‑0.1.2‑py2.py3‑none‑any.whl
+patsy‑0.4.1‑py2.py3‑none‑any.whl
+pattern3‑3.0.0‑py2.py3‑none‑any.whl
+Paver‑1.2.4‑py2.py3‑none‑any.whl
+pbkdf2‑1.3‑py2.py3‑none‑any.whl
+pbr‑3.1.1‑py2.py3‑none‑any.whl
+pbs‑0.110‑py2‑none‑any.whl
+pbs‑0.110‑py3‑none‑any.whl
+pdfrw‑0.4‑py2.py3‑none‑any.whl
+pefile‑2017.11.5‑py2.py3‑none‑any.whl
+pep257‑0.7.0‑py2.py3‑none‑any.whl
+pep8‑1.7.1‑py2.py3‑none‑any.whl
+periodictable‑1.5.0‑py2.py3‑none‑any.whl
+pgmpy‑0.1.0‑py3‑none‑any.whl
+phconvert‑0.8‑py2.py3‑none‑any.whl
+Phidgets‑2.1.8‑py2.py3‑none‑any.whl
+pickleshare‑0.7.4‑py2.py3‑none‑any.whl
+PICOS‑1.1.2‑py2.py3‑none‑any.whl
+PIMS‑0.4.1‑py2.py3‑none‑any.whl
+Pint‑0.8.1‑py2.py3‑none‑any.whl
+pip2pi‑0.7.0‑py2.py3‑none‑any.whl
+pkgconfig‑1.2.2‑py2.py3‑none‑any.whl
+pkginfo‑1.4.1‑py2.py3‑none‑any.whl
+plac‑0.9.6‑py2.py3‑none‑any.whl
+plotnine‑0.3.0‑py2.py3‑none‑any.whl
+pluggy‑0.6.0‑py2.py3‑none‑any.whl
+plumbum‑1.6.4‑py2.py3‑none‑any.whl
+ply‑3.10‑py2.py3‑none‑any.whl
+plyer‑1.3.0‑py2.py3‑none‑any.whl
+pokereval‑1.38‑cp27‑none‑win32.whl
+portend‑2.2‑py2.py3‑none‑any.whl
+pp‑1.6.5‑py2‑none‑any.whl
+pretend‑1.0.8‑py2.py3‑none‑any.whl
+prettytable‑0.7.2‑py2.py3‑none‑any.whl
+progress‑1.3‑py2.py3‑none‑any.whl
+progressbar‑2.3‑py2.py3‑none‑any.whl
+prokaryote‑2.3.2‑py2.py3‑none‑any.whl
+prompt_toolkit‑1.0.15‑py2.py3‑none‑any.whl
+properties‑0.3.5‑py2.py3‑none‑any.whl
+prov‑1.5.0‑py2.py3‑none‑any.whl
+PsychoPy‑1.84.2‑py2‑none‑any.whl
+ptyprocess‑0.5.2‑py2.py3‑none‑any.whl
+py‑1.5.2‑py2.py3‑none‑any.whl
+py4j‑0.10.6‑py2.py3‑none‑any.whl
+py_cpuinfo‑3.3.0‑py2.py3‑none‑any.whl
+py_postgresql‑1.1.0‑cp34‑none‑win32.whl
+py_postgresql‑1.1.0‑cp34‑none‑win_amd64.whl
+pyADtools‑0.1.2‑py2‑none‑any.whl
+pyasn1‑0.4.2‑py2.py3‑none‑any.whl
+pyasn1_modules‑0.2.1‑py2.py3‑none‑any.whl
+PyAVM‑0.9.4‑py2.py3‑none‑any.whl
+pybars3‑0.9.3‑py2.py3‑none‑any.whl
+pybind11‑2.2.1‑py2.py3‑none‑any.whl
+pychecker‑0.8.19‑py2‑none‑any.whl
+pycmd‑1.1‑py2‑none‑any.whl
+pycodeexport‑0.1.1‑py2.py3‑none‑any.whl
+pycodestyle‑2.3.1‑py2.py3‑none‑any.whl
+pycollada‑0.6‑py2.py3‑none‑any.whl
+pycompilation‑0.4.3‑py2.py3‑none‑any.whl
+pycparser‑2.17‑py2.py3‑none‑any.whl
+pyculib‑1.0.2‑py2.py3‑none‑any.whl
+Pydap‑3.2.2‑py2.py3‑none‑any.whl
+PyDAQmx‑1.4.1‑py2‑none‑any.whl
+PyDAQmx‑1.4.1‑py3‑none‑any.whl
+pydicom‑0.9.9‑py2‑none‑any.whl
+pydicom‑0.9.9‑py3‑none‑any.whl
+PyDispatcher‑2.0.5‑py2.py3‑none‑any.whl
+pydot‑1.2.4‑py2.py3‑none‑any.whl
+pydot_ng‑1.0.0‑py2.py3‑none‑any.whl
+pydotplus‑2.0.2‑py2.py3‑none‑any.whl
+pydy‑0.4.0‑py2‑none‑any.whl
+pydy‑0.4.0‑py3‑none‑any.whl
+pyemf‑2.0.0‑py2‑none‑any.whl
+pyepsg‑0.3.2‑py2.py3‑none‑any.whl
+PyFileMaker‑2.6‑py2‑none‑any.whl
+PyFileMaker‑3.3‑py2‑none‑any.whl
+pyflakes‑1.6.0‑py2.py3‑none‑any.whl
+pygarrayimage‑1.0‑py2‑none‑any.whl
+Pygments‑2.2.0‑py2.py3‑none‑any.whl
+pyhs2‑0.6.0‑py2.py3‑none‑any.whl
+pyimgur‑0.6.0‑py2.py3‑none‑any.whl
+PyInstaller‑3.3.1‑py2.py3‑none‑any.whl
+PyJWT‑1.5.3‑py2.py3‑none‑any.whl
+pylint‑1.8.1‑py2.py3‑none‑any.whl
+pylsm‑0.1.34‑py2‑none‑any.whl
+pymatlab‑0.2.4‑py2‑none‑any.whl
+pymatsolver‑0.1.2‑py2.py3‑none‑any.whl
+pymbolic‑2017.1‑py2.py3‑none‑any.whl
+pymc3‑3.2‑py2‑none‑any.whl
+pymc3‑3.2‑py3‑none‑any.whl
+pymeshio‑2.8.1‑py2.py3‑none‑any.whl
+PyMeta3‑0.5.1‑py2.py3‑none‑any.whl
+pyMKL‑0.0.3‑py2.py3‑none‑any.whl
+pyneqsys‑0.4.4‑py2.py3‑none‑any.whl
+pyodesys‑0.11.5‑py2.py3‑none‑any.whl
+pyparsing‑2.2.0‑py2.py3‑none‑any.whl
+pyPdf‑1.13‑py2‑none‑any.whl
+PyPDF2‑1.26.0‑py2.py3‑none‑any.whl
+pypng‑0.0.18‑py2‑none‑any.whl
+pypng‑0.0.18‑py3‑none‑any.whl
+PyQtdesignerplugins‑1.1‑py2.py3‑none‑any.whl
+pyqtgraph‑0.10.0‑py2.py3‑none‑any.whl
+Pyrex‑0.9.9‑py2‑none‑any.whl
+Pyro‑3.16‑py2‑none‑any.whl
+Pyro4‑4.63‑py2.py3‑none‑any.whl
+pyroma‑2.3‑py2.py3‑none‑any.whl
+PyRSS2Gen‑1.1‑py2.py3‑none‑any.whl
+PyRTF‑0.45‑py2‑none‑any.whl
+PySAL‑1.14.3‑py2‑none‑any.whl
+PySAL‑1.14.3‑py3‑none‑any.whl
+pysandbox‑1.5.1‑cp27‑none‑win32.whl
+pysandbox‑1.5.1‑cp27‑none‑win_amd64.whl
+pyserial‑2.7‑py2‑none‑any.whl
+pyserial‑2.7‑py3‑none‑any.whl
+pyserial‑3.4‑py2.py3‑none‑any.whl
+pyshp‑1.2.12‑py2.py3‑none‑any.whl
+pyspec‑0.2.post0‑cp27‑none‑win32.whl
+pyspec‑0.2.post0‑cp27‑none‑win_amd64.whl
+pystache‑0.5.4‑py2.py3‑none‑any.whl
+pysurfer‑0.6‑py27‑none‑any.whl
+pyteomics‑3.4.2‑py2.py3‑none‑any.whl
+pytest‑3.3.1‑py2.py3‑none‑any.whl
+pytest_cache‑1.0‑py2.py3‑none‑any.whl
+pytest_cov‑2.5.1‑py2.py3‑none‑any.whl
+pytest_faulthandler‑1.3.1‑py2.py3‑none‑any.whl
+pytest_pep8‑1.0.6‑py2.py3‑none‑any.whl
+pytest_timeout‑1.2.0‑py2.py3‑none‑any.whl
+python_bioformats‑1.3.2‑py2.py3‑none‑any.whl
+python_bogus_project_honeypot‑1450687928.709678‑py2.py3‑none‑any.whl
+python_brisa‑0.10.1‑py2‑none‑any.whl
+python_constraint‑1.3.1‑py2.py3‑none‑any.whl
+python_dateutil‑2.6.1‑py2.py3‑none‑any.whl
+python_docx‑0.8.6‑py2.py3‑none‑any.whl
+python_editor‑1.0.3‑py2.py3‑none‑any.whl
+python_gflags‑3.1.2‑py2.py3‑none‑any.whl
+python_keyczar‑0.716‑py2.py3‑none‑any.whl
+python_mimeparse‑1.6.0‑py2.py3‑none‑any.whl
+python_ntlm‑1.1.0‑py2‑none‑any.whl
+python_slugify‑1.2.4‑py2.py3‑none‑any.whl
+PythonQwt‑0.5.5‑py2.py3‑none‑any.whl
+pytimeparse‑1.1.7‑py2.py3‑none‑any.whl
+pytoml‑0.1.14‑py2.py3‑none‑any.whl
+pytools‑2017.6‑py2.py3‑none‑any.whl
+PyTransit‑1.0‑cp27‑none‑win32.whl
+PyTransit‑1.0‑cp27‑none‑win_amd64.whl
+pyttsx‑1.1‑py2‑none‑any.whl
+pytz‑2017.3‑py2.py3‑none‑any.whl
+pyutil‑2.0.0‑py2‑none‑any.whl
+PyVISA‑1.8‑py2.py3‑none‑any.whl
+PyVTK‑0.5.18‑py2.py3‑none‑any.whl
+pywebhdfs‑0.4.1‑py2.py3‑none‑any.whl
+pywin32_ctypes‑0.1.2‑py2‑none‑any.whl
+pywin32_ctypes‑0.1.2‑py3‑none‑any.whl
+pywinauto‑0.5.4‑py2‑none‑any.whl
+pywinauto‑0.6.2‑py2.py3‑none‑any.whl
+pywinusb‑0.4.2‑py2.py3‑none‑any.whl
+Qt.py‑1.0.0b4‑py2.py3‑none‑any.whl
+QtAwesome‑0.4.4‑py2.py3‑none‑any.whl
+QtPy‑1.3.1‑py2.py3‑none‑any.whl
+quantities‑0.12.1‑py2.py3‑none‑any.whl
+queuelib‑1.4.2‑py2.py3‑none‑any.whl
+radio_beam‑0.2‑py2.py3‑none‑any.whl
+rarfile‑3.0‑py2.py3‑none‑any.whl
+raven‑6.4.0‑py2.py3‑none‑any.whl
+rdflib‑4.2.2‑py2.py3‑none‑any.whl
+recommonmark‑0.2.0‑py2.py3‑none‑any.whl
+redis‑2.10.6‑py2.py3‑none‑any.whl
+ref_index‑1.0‑py2.py3‑none‑any.whl
+regional‑1.1.2‑py2.py3‑none‑any.whl
+repoze.lru‑0.7‑py2‑none‑any.whl
+requests‑2.18.4‑py2.py3‑none‑any.whl
+requests_download‑0.1.2‑py2.py3‑none‑any.whl
+requests_file‑1.4.2‑py2.py3‑none‑any.whl
+requests_ftp‑0.3.1‑py2.py3‑none‑any.whl
+requests_oauthlib‑0.8.0‑py2.py3‑none‑any.whl
+requests_toolbelt‑0.8.0‑py2.py3‑none‑any.whl
+responses‑0.8.1‑py2.py3‑none‑any.whl
+rfc3987‑1.3.7‑py2.py3‑none‑any.whl
+rfoo‑1.3.0‑cp27‑none‑win32.whl
+rfoo‑1.3.0‑cp27‑none‑win_amd64.whl
+robobrowser‑0.5.3‑py2.py3‑none‑any.whl
+rope‑0.10.5‑py2‑none‑any.whl
+rope_py3k‑0.9.4.post1‑py3‑none‑any.whl
+rpncalc‑2.7‑py2‑none‑any.whl
+rpyc‑3.4.4‑py2‑none‑any.whl
+rpyc‑3.4.4‑py3‑none‑any.whl
+rsa‑3.4.2‑py2.py3‑none‑any.whl
+rst.linker‑1.9‑py2.py3‑none‑any.whl
+rst2pdf‑0.93‑py2‑none‑any.whl
+runipy‑0.1.3‑py2.py3‑none‑any.whl
+RunSnakeRun‑2.0.4‑py2‑none‑any.whl
+s3fs‑0.1.2‑py2.py3‑none‑any.whl
+s3transfer‑0.1.12‑py2.py3‑none‑any.whl
+sas7bdat‑2.0.7‑py2.py3‑none‑any.whl
+scikit_build‑0.6.1‑py2.py3‑none‑any.whl
+scikit_nano‑0.3.9‑py34‑none‑any.whl
+scikit_rf‑0.14.5‑py2‑none‑any.whl
+scikit_rf‑0.14.5‑py3‑none‑any.whl
+scikits.talkbox‑0.2.5‑cp27‑none‑win32.whl
+scikits.talkbox‑0.2.5‑cp27‑none‑win_amd64.whl
+SciTools‑0.9.0‑py2‑none‑any.whl
+scons‑2.5.1‑py2‑none‑any.whl
+scons‑3.0.1‑py2.py3‑none‑any.whl
+Scrapy‑1.4.0‑py2.py3‑none‑any.whl
+seaborn‑0.8.1‑py2.py3‑none‑any.whl
+selectors34‑1.2‑py2‑none‑any.whl
+semantic_version‑2.6.0‑py2.py3‑none‑any.whl
+semver‑2.7.9‑py2.py3‑none‑any.whl
+serpent‑1.22‑py2.py3‑none‑any.whl
+serverfiles‑0.2.1‑py2.py3‑none‑any.whl
+service_identity‑17.0.0‑py2.py3‑none‑any.whl
+setuptools‑38.2.5‑py2.py3‑none‑any.whl
+shortuuid‑0.5.0‑py2.py3‑none‑any.whl
+SimPEG‑0.6.5‑py2.py3‑none‑any.whl
+simplegeneric‑0.8.1‑py2.py3‑none‑any.whl
+simpy‑3.0.10‑py2.py3‑none‑any.whl
+singledispatch‑3.4.0.3‑py2.py3‑none‑any.whl
+six‑1.11.0‑py2.py3‑none‑any.whl
+slicerator‑0.9.8‑py2.py3‑none‑any.whl
+SLOTH‑0.0.8‑py2‑none‑any.whl
+smart_open‑1.5.5‑py2.py3‑none‑any.whl
+snakeviz‑0.4.2‑py2.py3‑none‑any.whl
+snowballstemmer‑1.2.1‑py2.py3‑none‑any.whl
+snuggs‑1.4.1‑py2‑none‑any.whl
+snuggs‑1.4.1‑py3‑none‑any.whl
+sockjs_tornado‑1.0.2‑py2.py3‑none‑any.whl
+sortedcollections‑0.5.3‑py2.py3‑none‑any.whl
+sortedcontainers‑1.5.9‑py2.py3‑none‑any.whl
+speaklater‑1.3‑py2‑none‑any.whl
+spectral_cube‑0.4.1‑py2.py3‑none‑any.whl
+Sphinx‑1.6.5‑py2.py3‑none‑any.whl
+sphinx_gallery‑0.1.13‑py2.py3‑none‑any.whl
+sphinx_rtd_theme‑0.2.4‑py2.py3‑none‑any.whl
+sphinxcontrib_websupport‑1.0.1‑py2.py3‑none‑any.whl
+sporco‑0.1.7‑py2.py3‑none‑any.whl
+sputnik‑0.9.3‑py2.py3‑none‑any.whl
+SQLObject‑2.2.1‑py2‑none‑any.whl
+SQLObject‑3.5.0‑py2.py3‑none‑any.whl
+sqlparse‑0.2.4‑py2.py3‑none‑any.whl
+SquareMap‑1.0.4‑py2‑none‑any.whl
+stevedore‑1.28.0‑py2.py3‑none‑any.whl
+strict_rfc3339‑0.7‑py2.py3‑none‑any.whl
+supersmoother‑0.4‑py2.py3‑none‑any.whl
+svg2rlg‑0.3‑py2‑none‑any.whl
+sym‑0.3.0‑py2.py3‑none‑any.whl
+tablib‑0.12.1‑py2.py3‑none‑any.whl
+tabulate‑0.8.2‑py2.py3‑none‑any.whl
+tblib‑1.3.2‑py2.py3‑none‑any.whl
+tempora‑1.10‑py2.py3‑none‑any.whl
+termcolor‑1.1.0‑py2.py3‑none‑any.whl
+terminado‑0.8.1‑py2.py3‑none‑any.whl
+testpath‑0.3.1‑py2.py3‑none‑any.whl
+testtools‑2.3.0‑py2.py3‑none‑any.whl
+textile‑3.0.0‑py2.py3‑none‑any.whl
+tflearn‑0.3.2‑py2.py3‑none‑any.whl
+Theano‑1.0.1‑py2.py3‑none‑any.whl
+thrift_sasl‑0.2.1‑py2.py3‑none‑any.whl
+thunder_extraction‑1.2.1‑py2.py3‑none‑any.whl
+thunder_factorization‑1.0.0‑py2.py3‑none‑any.whl
+thunder_python‑1.4.2‑py2.py3‑none‑any.whl
+thunder_registration‑1.0.1‑py2.py3‑none‑any.whl
+thunder_regression‑1.0.0‑py2.py3‑none‑any.whl
+tkinter3000‑1.1.1‑cp27‑cp27m‑win32.whl
+tkinter3000‑1.1.1‑cp27‑cp27m‑win_amd64.whl
+toolz‑0.9.0‑py2.py3‑none‑any.whl
+tox‑2.9.1‑py2.py3‑none‑any.whl
+tqdm‑4.19.4‑py2.py3‑none‑any.whl
+tqdm‑4.19.5‑py2.py3‑none‑any.whl
+traceback2‑1.4.0‑py2.py3‑none‑any.whl
+trackpy‑0.3.3‑py2.py3‑none‑any.whl
+traittypes‑0.0.6‑py2.py3‑none‑any.whl
+transaction‑2.1.2‑py2.py3‑none‑any.whl
+transforms3d‑0.3.1‑py2.py3‑none‑any.whl
+translationstring‑1.3‑py2.py3‑none‑any.whl
+trfit‑1.1‑py2‑none‑any.whl
+twine‑1.9.1‑py2.py3‑none‑any.whl
+typing‑3.6.2‑py2‑none‑any.whl
+typing‑3.6.2‑py3‑none‑any.whl
+uciwebauth‑2015.11.22‑py2.py3‑none‑any.whl
+uncertainties‑3.0.1‑py2‑none‑any.whl
+uncertainties‑3.0.1‑py3‑none‑any.whl
+unicodecsv‑0.14.1‑py2.py3‑none‑any.whl
+Unidecode‑0.4.21‑py2.py3‑none‑any.whl
+unittest2‑1.0.1‑py2.py3‑none‑any.whl
+Unum‑4.1.3‑py2.py3‑none‑any.whl
+uritemplate‑0.6‑py2.py3‑none‑any.whl
+urllib3‑1.21.1‑py2.py3‑none‑any.whl
+vectormath‑0.1.4‑py2.py3‑none‑any.whl
+vega‑0.5.0‑py2.py3‑none‑any.whl
+venusian‑1.1.0‑py2.py3‑none‑any.whl
+vine‑1.1.4‑py2.py3‑none‑any.whl
+virtualenv‑15.1.0‑py2.py3‑none‑any.whl
+viscm‑0.7‑py2.py3‑none‑any.whl
+visitor‑0.1.3‑py2.py3‑none‑any.whl
+vispy‑0.5.2‑py2.py3‑none‑any.whl
+visvis‑1.10.0‑py2.py3‑none‑any.whl
+volumina‑0.6a0‑py2‑none‑any.whl
+w3lib‑1.18.0‑py2.py3‑none‑any.whl
+waitress‑1.1.0‑py2.py3‑none‑any.whl
+watchdog‑0.8.3‑py2.py3‑none‑any.whl
+wcwidth‑0.1.5‑py2.py3‑none‑any.whl
+weave‑0.16.0‑py2‑none‑any.whl
+webcolors‑1.7‑py2.py3‑none‑any.whl
+webencodings‑0.5.1‑py2.py3‑none‑any.whl
+WebOb‑1.7.4‑py2.py3‑none‑any.whl
+websocket‑0.2.1‑py2‑none‑any.whl
+websocket‑0.2.1‑py2.py3‑none‑any.whl
+WebTest‑2.0.29‑py2.py3‑none‑any.whl
+Werkzeug‑0.13‑py2.py3‑none‑any.whl
+wfastcgi‑3.0.0‑py2.py3‑none‑any.whl
+wheel‑0.26.0‑py2.py3‑none‑any.whl
+wheel‑0.30.0‑py2.py3‑none‑any.whl
+Whoosh‑2.7.4‑py2.py3‑none‑any.whl
+WhooshDoc‑1.0‑py2‑none‑any.whl
+win_unicode_console‑0.5‑py2.py3‑none‑any.whl
+wincertstore‑0.2‑py2.py3‑none‑any.whl
+winpdb‑1.4.8‑py2.py3‑none‑any.whl
+winshell‑0.6.4‑py2.py3‑none‑any.whl
+WinSys‑1.0b1‑py2.py3‑none‑any.whl
+WMI‑1.4.9‑py2‑none‑any.whl
+wordaxe‑1.0.1‑py2‑none‑any.whl
+wsgiref‑0.1.2‑py2‑none‑any.whl
+WTForms‑2.1‑py2.py3‑none‑any.whl
+xarray‑0.10.0‑py2.py3‑none‑any.whl
+xlrd‑1.1.0‑py2.py3‑none‑any.whl
+XlsxWriter‑1.0.2‑py2.py3‑none‑any.whl
+xlutils‑2.0.0‑py2.py3‑none‑any.whl
+xlwt‑1.3.0‑py2.py3‑none‑any.whl
+XML2Dict‑0.2.2‑py2.py3‑none‑any.whl
+xmltodict‑0.11.0‑py2.py3‑none‑any.whl
+xray‑0.7.0‑py2.py3‑none‑any.whl
+yapf‑0.20.0‑py2.py3‑none‑any.whl
+Yapps2‑2.2.0‑py2.py3‑none‑any.whl
+Yapsy‑1.11.223‑py2‑none‑any.whl
+Yapsy‑1.11.223‑py3‑none‑any.whl
+yeadon‑1.2.1‑py27‑none‑any.whl
+zbase32‑1.1.5‑py2‑none‑any.whl
+zc.lockfile‑1.2.1‑py2.py3‑none‑any.whl
+ZConfig‑3.2.0‑py2.py3‑none‑any.whl
+zdaemon‑4.2.0‑py2.py3‑none‑any.whl
+ZEO‑5.1.1‑py2.py3‑none‑any.whl
+zict‑0.1.3‑py2.py3‑none‑any.whl
+ZODB‑5.3.0‑py2‑none‑any.whl
+ZODB‑5.3.0‑py3‑none‑any.whl
+zope.exceptions‑4.2.0‑py2.py3‑none‑any.whl
+zope.testing‑4.6.2‑py2.py3‑none‑any.whl
+Other useful packages and applications not currently available on this page
+
+AIDA implements the Adaptive Image Deconvolution Algorithm.
+Alglib, a cross-platform numerical analysis and data processing library.
+BALLView, a molecular modeling and visualization application.
+Biogeme performs estimation of discrete choice models.
+BioImageXD is software for analysis and visualization of multidimensional biomedical images.
+BisQue (Bio-Image Semantic Query User Environment), store, visualize, organize and analyze images in the cloud.
+CasADi implements automatic differentiation in forward and adjoint modes.
+CGAL-Python, bindings for the Computational Geometry Algorithms Library.
+Coloc_utils computes colocalization coefficients from confocal images.
+Cryptography exposes cryptographic primitives and recipes.
+DeVIDE, a dataflow application builder for the rapid prototyping of medical visualization and image processing techniques.
+Dlib, a toolkit for making real world machine learning and data analysis applications.
+Dpmix, a library for fitting massive mixture models.
+EMAN2, a greyscale scientific image processing suite with a focus on transmission electron microscopy. Supports many image formats.
+FARSIGHT, a toolkit for microscopy image analysis based using Bio-Formats.
+Gexiv2, a GObject-based wrapper around the exiv2 library for image metadata.
+GHMM, the General Hidden Markov Model library.
+Graph-tool, an efficient module for manipulation and statistical analysis of graphs.
+ITK (Insight Segmentation and Registration Toolkit), a software system for image analysis.
+M2Crypto, a complete wrapper for OpenSSL.
+Mantid, a framework that supports high-performance computing and visualization of scientific data.
+MathGL, a library for scientific data visualization.
+mMass, an mass spectrometry tool.
+MMCorePy allows to control microscope hardware via Micro-Manager.
+Msim, superresolution fluorescence microscopy of multicellular organisms.
+Ncrypt is yet another OpenSSL wrapper.
+Nodebox-GL, a library for generating 2D animations.
+Numeric is deprecated, superseded by Numpy.
+OpenKinect provides access to the Xbox Kinect device.
+Requires LibUSB 1.2.6.
+OpenMDAO, a Multidisciplinary Design Analysis and Optimization (MDAO) framework.
+OpenSlide reads whole-slide images, high resolution images exceeding RAM sizes.
+Panda3D, a framework for 3D rendering and game development.
+ParticleStats performs analysis of intracellular particle motility and cytoskeletal polarity.
+Peak_detection implements the Gaussian peak detection described in Segré et al.
+PolyVox, a library for the storage and processing of volumetric environments.
+Priithon, a platform for image analysis and algorithm development.
+Includes HIS, SDT, SIF, and SPE file readers.
+Py-bcrypt, a wrapper of OpenBSD's Blowfish password hashing code.
+PyAudiere, a high-level audio interface using the Audiere sound library.
+pyCGNS provides an interface to the CGNS/SIDS data model.
+PyCrypto provides cryptographic modules.
+PyCryptodome provides low-level cryptographic primitives.
+PyDAAL, the Intel® Data Analytics Acceleration Library.
+PyDSTool, a dynamical systems modeling, simulation and analysis environment.
+Pyffmpeg, a wrapper for FFmpeg, a solution to record, convert and stream audio and video.
+PyFFTW3 are bindings to the FFTW C library.
+Pygrib, a module for reading GRIB meteorological files.
+PyGSL provides an interface for the GNU Scientific Library (GSL).
+PyGst, bindings for the GStreamer multimedia framework.
+Pykit, a backend compiler for high-level typed code.
+PyME, the Python Microscopy Environment, provides image acquisition and data analysis functionality for widefield microscopy applications.
+Pymex embeds Python in a MATLAB(tm) 2011b extension module.
+PyNaCl, bindings to the libsodium library.
+pyNFFT, a wrapper around the NFFT library.
+PyNIfTI provides access to NIfTI and ANALYZE files.
+Pyo, a digital signal processing module.
+PyODE, a set of bindings for the Open Dynamics Engine.
+pyOpenSSL, an interface to the OpenSSL library.
+PyQt5, a set of bindings for the Qt5 application framework.
+PyReadline (unstable, deprecated), a ctypes-based readline for Windows.
+Pysam, a module for reading and manipulating SAM nucleotide sequence alignment files.
+Pysifreader reads Andor SIF multi-channel image files.
+PySoundFile, an audio library based on libsndfile.
+PySUNDIALS provides bindings for the SUNDIALS suite of solvers.
+PySVN interfaces the Subversion version control system.
+Python-Ogre, an interface to the Ogre 3D graphics library.
+Pythonisosurfaces, a marching cubes iso-surface implementation.
+PythonOCC, a 3D CAD/CAE/PLM development framework.
+RootPy provides an interface with the ROOT data analysis framework on top of PyROOT.
+Scikit-bio (unstable) provides data structures, algorithms, and educational resources for bioinformatics.
+Scikit-tracker, objects detection and robust tracking for cell biology.
+Sherpa, a modeling and fitting application.
+SimpleCV, a framework for building computer vision applications.
+SMC.FreeImage, a wrapper for the FreeImage library.
+SpacePy tools for the space science community.
+Stdic computes a deformation function between images (image registration).
+STScI_python provides a general astronomical data analysis infrastructure.
+VIPS, an image processing library with no image size limits.
+VisionEgg produces stimuli for vision research experiments.
+Xmlsec, bindings for the XML Security Library.
+Build Environment
+
+Libraries (built from source): Alembic AMD ANGLE ANN ASIO Aspell Assimp AVbin BerkeleyDB BLAS Blosc Boost Box2D bsd-xdr bzip2 C-ares Cairo Cassowary CFitsIO CGAL Chipmunk2D EasyBMP Eigen Expat FFTW FLAC FLANN FLTK FMILibrary Freeglut FreeImage FreeTDS FreeType FreeXL GDAL GEOS GeoTIFF GLEW GLFW GLPK GLUT GraphicsMagick Graphviz GSL HDF4 HDF5 iconv ICU igraph ImageMagick ITK JasPer jsoncpp Jxrlib Kerberos KissFFT Klib LAME LAPACK LEMON lib3ds libcurl libevent Libffi libGD libgit2 Libidn libInChI libjpeg libjpeg-turbo LibKML LIBLINEAR liblzma libmng libpng LibRaw libsamplerate libSBML libsodium libspatialindex libssh2 LIBSVM LibTIFF libusb Libxml2 Libxslt LibYAML Little CMS LLVM lp_solve lz4 LZMA LZO Mesa METIS Minizip MPC MPEG_Encode MPFR MPIR MUMPS Muparser MySQL Connector/C NetCDF Netpbm ODE Ogg onig OpenAL OpenBabel OpenColorIO OpenCV OpenEXR OpenImageIO OpenJPEG OpenLDAP OpenMPI OpenNI OpenPGM OpenSSL PDCurses Pixman PortAudio PortMidi PostgreSQL PROJ.4 Ptex Pthreads-w32 Qhull Qt QuickFIX RE2 RtMidi SASL SDL SDL_gfx SDL_image SDL_mixer SDL_ttf SFML2 Silo SLICOT Smpeg Snappy sparsehash SPHEREPACK SQLite SuiteSparse SUNDIALS SuperLU SZip TCL/TK UDUNITS UMFPACK Uriparser ViennaCL Vorbis VTK WebP wxWidgets Xerces Xmlsec YAML ZeroMQ zlib
+SDKs and libraries (prebuilt): Apache HTTP Server ASIO SDK Bio-Formats ESRI File Geodatabase API GTK2 Intel Integrated Performance Primitives Intel Math Kernel Library Intel SDK for OpenCL Applications Intel Threading Building Blocks libsndfile MATLAB(tm) Microsoft DirectX SDK (June 2010) Microsoft MPI v6 Microsoft Platform SDK for Windows Server 2003 R2 Microsoft SQL Server Microsoft Windows SDK v6.1 Windows Server 2008 and .NET Framework 3.5 Microsoft Windows SDK v7.0 for Windows 7 and .NET Framework 3.5 Service Pack 1 Microsoft Windows SDK v7.1 for Windows 7 and .NET Framework 4 NVidia CG Toolkit NVidia CUDA Toolkit Oracle Instant Client Oracle Java SE Development Kit Python R
+Compilers: Clang Intel Composer XE 2013 SP1 Intel Parallel Studio XE 2016 Composer Lazarus Microsoft Platform SDK for Windows Server 2003 R2 Microsoft Visual C++ 2008 Feature Pack Microsoft Visual C++ Compiler for Python 2.7 Microsoft Visual Studio .NET 2003 Microsoft Visual Studio 2008 Pro Microsoft Visual Studio 2010 Pro Microsoft Visual Studio 2015 Community MinGW MinGW-w64 Mingw-w64-for-python NASM Rtools Yasm
+Build tools: ActivePerl Ant Bazaar Bento BJam CMake CVS Cygwin Cython doxygen Epydoc Git JCC Jom M4 Mercurial MSYS MSYS2 Node.js Nose NSIS PyPy Python SCons SIP Sphinx Subversion SWIG Waf
+Other software: 7-Zip Avconv com0com Dependency Walker FFmpeg GhostScript GnuWin32 Info-ZIP Inkscape InpOutx64 MEncoder MiKTeX Notepad++ Pandoc PTVS Redis Spyder Sysinternals Suite Ubuntu Windows 10 WingIDE WinMerge
+Other CPython distributions: ActivePython Anaconda Python(x,y) Pyzo WinPython
+Christoph Gohlke, Laboratory for Fluorescence Dynamics
