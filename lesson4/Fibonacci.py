@@ -16,6 +16,7 @@ def Fibona_02(level,lst=[1,1]):
 
 #这个循环方式
 print(Fibona(10))
+#这是递归方式
 lst=[1,1]
 Fibona_02(10,lst)
 print(lst)
